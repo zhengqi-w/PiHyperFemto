@@ -1,0 +1,72 @@
+2026-09-27 17:45:19,509 INFO Start stage: prepared
+2026-09-27 17:45:19,866 INFO femto: read 200000 rows; retained 99947
+2026-09-27 17:45:22,536 INFO femto: read 2066429 rows; retained 965562
+2026-09-27 17:45:25,322 INFO femto: read 3902203 rows; retained 1847191
+2026-09-27 17:45:27,884 INFO femto: read 5692062 rows; retained 2660009
+2026-09-27 17:45:30,481 INFO femto: read 7465798 rows; retained 3476778
+2026-09-27 17:45:33,151 INFO femto: read 9209426 rows; retained 4295892
+2026-09-27 17:45:35,708 INFO femto: read 10967254 rows; retained 5156803
+2026-09-27 17:45:38,353 INFO femto: read 12803104 rows; retained 6028966
+2026-09-27 17:45:40,886 INFO femto: read 14542311 rows; retained 6840899
+2026-09-27 17:45:42,439 INFO background: read 10088 rows; retained 9877
+2026-09-27 17:45:42,736 INFO signal: read 200000 rows; retained 4555
+2026-09-27 17:45:44,087 INFO signal: read 1988120 rows; retained 44721
+2026-09-27 17:45:45,255 INFO signal: read 3812830 rows; retained 85317
+2026-09-27 17:45:46,510 INFO signal: read 5439948 rows; retained 120803
+2026-09-27 17:45:47,896 INFO signal: read 7225287 rows; retained 159779
+2026-09-27 17:45:49,207 INFO signal: read 8957733 rows; retained 197674
+2026-09-27 17:45:50,390 INFO signal: read 10645100 rows; retained 235331
+2026-09-27 17:45:51,680 INFO signal: read 12543381 rows; retained 277005
+2026-09-27 17:45:52,515 INFO Finished prepared in 33.0 s
+2026-09-27 17:45:52,518 INFO Start stage: training
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+2026-09-27 17:45:58,953 INFO Finished training in 6.4 s
+2026-09-27 17:45:58,955 INFO Start stage: scored
+2026-09-27 17:45:59,408 INFO Scored femto: 99947 pair rows
+2026-09-27 17:46:02,892 INFO Scored femto: 965562 pair rows
+2026-09-27 17:46:06,527 INFO Scored femto: 1847191 pair rows
+2026-09-27 17:46:09,827 INFO Scored femto: 2660009 pair rows
+2026-09-27 17:46:13,194 INFO Scored femto: 3476778 pair rows
+2026-09-27 17:46:16,558 INFO Scored femto: 4295892 pair rows
+2026-09-27 17:46:20,103 INFO Scored femto: 5156803 pair rows
+2026-09-27 17:46:23,745 INFO Scored femto: 6028966 pair rows
+2026-09-27 17:46:27,204 INFO Scored femto: 6840899 pair rows
+2026-09-27 17:46:29,525 INFO Finished scored in 30.6 s
+2026-09-27 17:46:29,526 INFO Start stage: nominal
+2026-09-27 17:46:31,853 INFO Finished nominal in 2.3 s
+2026-09-27 17:46:31,854 INFO Start stage: systematics
+2026-09-27 17:46:31,859 INFO Systematic variation: bdt_loose
+2026-09-27 17:46:34,183 INFO Systematic variation: bdt_tight
+2026-09-27 17:46:36,475 INFO Systematic variation: norm_low
+2026-09-27 17:46:38,749 INFO Systematic variation: norm_high
+2026-09-27 17:46:41,013 INFO Systematic variation: cospa_tight
+2026-09-27 17:46:43,275 INFO Systematic variation: pion_pid_tight
+2026-09-27 17:46:45,574 INFO Systematic variation: occupancy_low
+2026-09-27 17:46:47,885 INFO Systematic variation: mass_narrow
+2026-09-27 17:46:50,172 INFO Systematic variation: mass_background_constant
+2026-09-27 17:46:52,437 INFO Systematic variation: sideband_shift
+2026-09-27 17:46:54,699 INFO Systematic variation: pion_dca_tight
+2026-09-27 17:46:57,058 INFO Systematic variation: close_pair_strict
+2026-09-27 17:46:59,657 INFO Finished systematics in 27.8 s
+2026-09-27 17:46:59,658 INFO Start stage: mc_qa
+2026-09-27 17:46:59,665 INFO Finished mc_qa in 0.0 s
+2026-09-27 17:46:59,666 INFO Start stage: report
+Info in <TCanvas::Print>: png file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-4e1b430d98114bb29124fc8e0f994f8e.tmp/bdt_validation.png has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-4e1b430d98114bb29124fc8e0f994f8e.tmp/bdt_validation.pdf has been created
+Info in <TCanvas::Print>: png file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-4e1b430d98114bb29124fc8e0f994f8e.tmp/correlations_cent0.png has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-4e1b430d98114bb29124fc8e0f994f8e.tmp/correlations_cent0.pdf has been created
+Info in <TCanvas::Print>: png file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-4e1b430d98114bb29124fc8e0f994f8e.tmp/pair_spectra_cent0.png has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-4e1b430d98114bb29124fc8e0f994f8e.tmp/pair_spectra_cent0.pdf has been created
+Info in <TCanvas::Print>: png file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-4e1b430d98114bb29124fc8e0f994f8e.tmp/correlations_cent1.png has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-4e1b430d98114bb29124fc8e0f994f8e.tmp/correlations_cent1.pdf has been created
+Info in <TCanvas::Print>: png file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-4e1b430d98114bb29124fc8e0f994f8e.tmp/pair_spectra_cent1.png has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-4e1b430d98114bb29124fc8e0f994f8e.tmp/pair_spectra_cent1.pdf has been created
+Info in <TCanvas::Print>: png file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-4e1b430d98114bb29124fc8e0f994f8e.tmp/mass_purity.png has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-4e1b430d98114bb29124fc8e0f994f8e.tmp/mass_purity.pdf has been created
+Info in <TCanvas::Print>: png file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-4e1b430d98114bb29124fc8e0f994f8e.tmp/mixing_qa.png has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-4e1b430d98114bb29124fc8e0f994f8e.tmp/mixing_qa.pdf has been created
+2026-09-27 17:47:04,946 INFO Finished report in 5.3 s
+/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/report

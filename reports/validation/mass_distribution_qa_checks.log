@@ -1,0 +1,400 @@
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:440: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(data):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:440: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(data):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:440: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(data):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:440: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(data):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/shap/plots/colors/_colorconv.py:819: DeprecationWarning: Converting `np.inexact` or `np.floating` to a dtype is deprecated. The current result is `float64` which is not strictly correct.
+  if np.issubdtype(dtype_in, np.dtype(dtype).type):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+test_canonical_files_and_index_cover_every_requested_qa (test_training_qa_contract.TrainingQAContractTests) ... ok
+test_official_api_calls_preserve_raw_margin_and_label_semantics (test_training_qa_contract.TrainingQAContractTests) ... ok
+test_root_archive_contains_indexed_numerical_objects_without_canvases (test_training_qa_contract.TrainingQAContractTests) ... ok
+test_compact_summary_preserves_class_split_and_undefined_correlations (test_stage_qa.StageQATests) ... ok
+test_failed_wp_still_emits_all_fit_qa_and_optional_scan_frames (test_stage_qa.StageQATests) ... Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpear04sb6/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpear04sb6/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpear04sb6/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpear04sb6/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpear04sb6/qa/mean_sigma_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpear04sb6/qa/fit_stability.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpear04sb6/qa/mass_fit_0000.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpear04sb6/qa/mass_fit_0001.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpear04sb6/qa/mass_fit_0002.pdf has been created
+ok
+test_standalone_ml_qa_initializes_root_before_shap_runtime (test_stage_qa.StageQATests) ... ok
+test_training_root_pdf_standalone_outputs_and_optuna_helper (test_stage_qa.StageQATests) ... /opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/hipe4ml_dev_pkg/hipe4ml/hipe4ml/plot_utils.py:292: MatplotlibDeprecationWarning: Getting the array from a PolyQuadMesh will return the full array in the future (uncompressed). To get this behavior now set the PolyQuadMesh with a 2D array .set_array(data2d).
+  plt.colorbar(heatmap, axs.cax)
+/opt/anaconda3/envs/MLenv/hipe4ml_dev_pkg/hipe4ml/hipe4ml/plot_utils.py:292: MatplotlibDeprecationWarning: Getting the array from a PolyQuadMesh will return the full array in the future (uncompressed). To get this behavior now set the PolyQuadMesh with a 2D array .set_array(data2d).
+  plt.colorbar(heatmap, axs.cax)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+ok
+test_wp_root_retains_rejected_fit_and_correct_pol0_denominator (test_stage_qa.StageQATests) ... Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpt4fafpru/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpt4fafpru/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpt4fafpru/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpt4fafpru/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpt4fafpru/qa/mean_sigma_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpt4fafpru/qa/fit_stability.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpt4fafpru/qa/best_mass_fit.pdf has been created
+ok
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+test_actual_five_features_drive_qa_despite_extra_mass_and_topology_columns (test_wp_validation_contract.RawMarginAcceptanceTests) ... /opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+ok
+test_efficiency_one_endpoint_does_not_claim_unrestricted_application_acceptance (test_wp_validation_contract.RawMarginAcceptanceTests) ... ok
+test_handler_matches_native_margin_and_probability_closure (test_wp_validation_contract.RawMarginAcceptanceTests) ... /opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+ok
+test_margin_histogram_accepts_full_range_and_rejects_probability_clipping (test_wp_validation_contract.RawMarginAcceptanceTests) ... ok
+test_null_storage_floor_preserves_negative_scores_and_zero_is_not_unbounded (test_wp_validation_contract.RawMarginAcceptanceTests) ... ok
+test_probability_wrapper_cannot_pass_as_raw_margin (test_wp_validation_contract.RawMarginAcceptanceTests) ... /opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+ok
+test_raw_margin_npz_requires_explicit_domain_without_probability_bounds (test_wp_validation_contract.RawMarginAcceptanceTests) ... ok
+test_strict_mass_sampler_rejects_both_boundary_values_for_both_roles (test_wp_validation_contract.RawMarginAcceptanceTests) ... /Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+ok
+test_bounded_roofit_reported_error_differs_from_local_covariance (test_wp_validation_contract.WorkingPointAcceptanceOracleTests)
+Bounded Minuit parameter errors are not sqrt(covariance diagonal). ... [#0] WARNING:InputArguments -- The parameter 'acceptance_bounded_c20ede37ee524a40b3729355de9613fd_sigma' with range [-inf, inf] of the RooGaussian 'acceptance_bounded_c20ede37ee524a40b3729355de9613fd_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(acceptance_bounded_c20ede37ee524a40b3729355de9613fd_model) fixing normalization set for coefficient determination to observables in data
+[#1] INFO:Fitting -- using generic CPU library compiled with no vectorizations
+[#1] INFO:Fitting -- Creation of NLL object took 15.4454 ms
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_acceptance_bounded_c20ede37ee524a40b3729355de9613fd_model_acceptance_bounded_c20ede37ee524a40b3729355de9613fd_data) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: activating const optimization
+[#1] INFO:Minimization -- [fitFCN] No discrete parameters, performing continuous minimization only
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: deactivating const optimization
+ok
+test_canvas_contract_rejects_a_second_residual_panel (test_wp_validation_contract.WorkingPointAcceptanceOracleTests) ... ok
+test_canvas_payload_detects_modified_graph_after_clone (test_wp_validation_contract.WorkingPointAcceptanceOracleTests) ... ok
+test_independent_quadrature_matches_roofit_dscb_and_chebyshev_integrals (test_wp_validation_contract.WorkingPointAcceptanceOracleTests) ... [#0] WARNING:InputArguments -- The parameter 'acceptance_5d6c23722bb54aeea59294d38e204a2a_sigma' with range [-inf, inf] of the RooCrystalBall 'acceptance_5d6c23722bb54aeea59294d38e204a2a_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_5d6c23722bb54aeea59294d38e204a2a_alpha_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_5d6c23722bb54aeea59294d38e204a2a_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_5d6c23722bb54aeea59294d38e204a2a_alpha_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_5d6c23722bb54aeea59294d38e204a2a_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_5d6c23722bb54aeea59294d38e204a2a_n_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_5d6c23722bb54aeea59294d38e204a2a_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_5d6c23722bb54aeea59294d38e204a2a_n_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_5d6c23722bb54aeea59294d38e204a2a_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#1] INFO:Eval -- RooRealVar::setRange(acceptance_5d6c23722bb54aeea59294d38e204a2a_mass) new range named 'window' created with bounds [2.986,2.997]
+[#0] WARNING:InputArguments -- The parameter 'acceptance_481c8d674f814a1fb365983c95d19fd4_sigma' with range [-inf, inf] of the RooCrystalBall 'acceptance_481c8d674f814a1fb365983c95d19fd4_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_481c8d674f814a1fb365983c95d19fd4_alpha_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_481c8d674f814a1fb365983c95d19fd4_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_481c8d674f814a1fb365983c95d19fd4_alpha_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_481c8d674f814a1fb365983c95d19fd4_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_481c8d674f814a1fb365983c95d19fd4_n_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_481c8d674f814a1fb365983c95d19fd4_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_481c8d674f814a1fb365983c95d19fd4_n_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_481c8d674f814a1fb365983c95d19fd4_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#1] INFO:Eval -- RooRealVar::setRange(acceptance_481c8d674f814a1fb365983c95d19fd4_mass) new range named 'window' created with bounds [2.96,2.99]
+[#0] WARNING:InputArguments -- The parameter 'acceptance_7c944d076bd84a5398d217f970666555_sigma' with range [-inf, inf] of the RooCrystalBall 'acceptance_7c944d076bd84a5398d217f970666555_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_7c944d076bd84a5398d217f970666555_alpha_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_7c944d076bd84a5398d217f970666555_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_7c944d076bd84a5398d217f970666555_alpha_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_7c944d076bd84a5398d217f970666555_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_7c944d076bd84a5398d217f970666555_n_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_7c944d076bd84a5398d217f970666555_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_7c944d076bd84a5398d217f970666555_n_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_7c944d076bd84a5398d217f970666555_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#1] INFO:Eval -- RooRealVar::setRange(acceptance_7c944d076bd84a5398d217f970666555_mass) new range named 'window' created with bounds [2.96,3.04]
+[#0] WARNING:InputArguments -- The parameter 'acceptance_4f353dee73ca4e1b908ad5290c3e0b57_sigma' with range [-inf, inf] of the RooCrystalBall 'acceptance_4f353dee73ca4e1b908ad5290c3e0b57_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_4f353dee73ca4e1b908ad5290c3e0b57_alpha_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_4f353dee73ca4e1b908ad5290c3e0b57_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_4f353dee73ca4e1b908ad5290c3e0b57_alpha_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_4f353dee73ca4e1b908ad5290c3e0b57_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_4f353dee73ca4e1b908ad5290c3e0b57_n_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_4f353dee73ca4e1b908ad5290c3e0b57_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_4f353dee73ca4e1b908ad5290c3e0b57_n_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_4f353dee73ca4e1b908ad5290c3e0b57_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#1] INFO:Eval -- RooRealVar::setRange(acceptance_4f353dee73ca4e1b908ad5290c3e0b57_mass) new range named 'window' created with bounds [2.986,2.997]
+[#0] WARNING:InputArguments -- The parameter 'acceptance_eb58ebeac3e54d8e9aa6aab97c46578d_sigma' with range [-inf, inf] of the RooCrystalBall 'acceptance_eb58ebeac3e54d8e9aa6aab97c46578d_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_eb58ebeac3e54d8e9aa6aab97c46578d_alpha_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_eb58ebeac3e54d8e9aa6aab97c46578d_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_eb58ebeac3e54d8e9aa6aab97c46578d_alpha_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_eb58ebeac3e54d8e9aa6aab97c46578d_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_eb58ebeac3e54d8e9aa6aab97c46578d_n_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_eb58ebeac3e54d8e9aa6aab97c46578d_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_eb58ebeac3e54d8e9aa6aab97c46578d_n_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_eb58ebeac3e54d8e9aa6aab97c46578d_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#1] INFO:Eval -- RooRealVar::setRange(acceptance_eb58ebeac3e54d8e9aa6aab97c46578d_mass) new range named 'window' created with bounds [2.96,2.99]
+[#0] WARNING:InputArguments -- The parameter 'acceptance_a8ca4010b3e84fde8a25dd12a331cb69_sigma' with range [-inf, inf] of the RooCrystalBall 'acceptance_a8ca4010b3e84fde8a25dd12a331cb69_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_a8ca4010b3e84fde8a25dd12a331cb69_alpha_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_a8ca4010b3e84fde8a25dd12a331cb69_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_a8ca4010b3e84fde8a25dd12a331cb69_alpha_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_a8ca4010b3e84fde8a25dd12a331cb69_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_a8ca4010b3e84fde8a25dd12a331cb69_n_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_a8ca4010b3e84fde8a25dd12a331cb69_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_a8ca4010b3e84fde8a25dd12a331cb69_n_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_a8ca4010b3e84fde8a25dd12a331cb69_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#1] INFO:Eval -- RooRealVar::setRange(acceptance_a8ca4010b3e84fde8a25dd12a331cb69_mass) new range named 'window' created with bounds [2.96,3.04]
+ok
+test_pol0_oracle_uses_s3_over_efficiency_and_ignores_fixed_window_signal (test_wp_validation_contract.WorkingPointAcceptanceOracleTests) ... ok
+test_scope_exclusions_are_distinct_from_invalid_in_scope_scores (test_wp_validation_contract.WorkingPointAcceptanceOracleTests) ... ok
+test_component_totals_not_equal_to_physical_yields_are_rejected (test_wp_validation_contract.WorkingPointArtifactContractTests) ... ok
+test_fixed_window_pol0_cannot_replace_s3_normalization (test_wp_validation_contract.WorkingPointArtifactContractTests) ... ok
+test_independent_physical_fixture_passes_acceptance (test_wp_validation_contract.WorkingPointArtifactContractTests) ... ok
+test_nonmaximum_selected_point_is_rejected (test_wp_validation_contract.WorkingPointArtifactContractTests) ... ok
+test_normalized_yield_covariance_mislabeled_as_physical_is_rejected (test_wp_validation_contract.WorkingPointArtifactContractTests) ... ok
+test_wrong_dscb_tail_integral_is_rejected (test_wp_validation_contract.WorkingPointArtifactContractTests) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 15.767s
+
+OK

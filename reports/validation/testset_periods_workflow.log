@@ -1,0 +1,859 @@
+2026-10-14 11:51:59,537 INFO Period test_period_1: raw_qa
+2026-10-14 11:51:59,537 INFO Start stage: raw_qa
+2026-10-14 11:51:59,579 INFO Raw QA: femto chunk 0
+2026-10-14 11:52:00,410 INFO Raw QA: femto chunk 10
+2026-10-14 11:52:01,216 INFO Raw QA: femto chunk 20
+2026-10-14 11:52:01,981 INFO Raw QA: femto chunk 30
+2026-10-14 11:52:02,750 INFO Raw QA: femto chunk 40
+2026-10-14 11:52:03,546 INFO Raw QA: femto chunk 50
+2026-10-14 11:52:04,262 INFO Raw QA: femto chunk 60
+2026-10-14 11:52:05,047 INFO Raw QA: femto chunk 70
+2026-10-14 11:52:05,763 INFO Raw QA: femto chunk 80
+2026-10-14 11:52:06,520 INFO Raw QA: femto chunk 90
+2026-10-14 11:52:07,297 INFO Raw QA: femto chunk 100
+2026-10-14 11:52:08,051 INFO Raw QA: femto chunk 110
+2026-10-14 11:52:08,828 INFO Raw QA: femto chunk 120
+2026-10-14 11:52:09,602 INFO Raw QA: femto chunk 130
+2026-10-14 11:52:10,398 INFO Raw QA: femto chunk 140
+2026-10-14 11:52:11,174 INFO Raw QA: femto chunk 150
+2026-10-14 11:52:11,913 INFO Raw QA: femto chunk 160
+2026-10-14 11:52:12,196 INFO Raw QA: background chunk 0
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.raw_qa-e89be3f981c54173acdb51e8e084e483.tmp/raw_kstar_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.raw_qa-e89be3f981c54173acdb51e8e084e483.tmp/raw_kstar_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.raw_qa-e89be3f981c54173acdb51e8e084e483.tmp/raw_hyper_mass.pdf has been created
+2026-10-14 11:52:12,810 INFO Finished raw_qa in 13.3 s
+2026-10-14 11:52:12,810 INFO Period test_period_2: raw_qa
+2026-10-14 11:52:12,811 INFO Start stage: raw_qa
+2026-10-14 11:52:12,847 INFO Raw QA: femto chunk 0
+2026-10-14 11:52:13,601 INFO Raw QA: femto chunk 10
+2026-10-14 11:52:14,372 INFO Raw QA: femto chunk 20
+2026-10-14 11:52:15,140 INFO Raw QA: femto chunk 30
+2026-10-14 11:52:15,911 INFO Raw QA: femto chunk 40
+2026-10-14 11:52:16,732 INFO Raw QA: femto chunk 50
+2026-10-14 11:52:17,458 INFO Raw QA: femto chunk 60
+2026-10-14 11:52:18,230 INFO Raw QA: femto chunk 70
+2026-10-14 11:52:18,926 INFO Raw QA: femto chunk 80
+2026-10-14 11:52:19,702 INFO Raw QA: femto chunk 90
+2026-10-14 11:52:20,479 INFO Raw QA: femto chunk 100
+2026-10-14 11:52:21,269 INFO Raw QA: femto chunk 110
+2026-10-14 11:52:22,077 INFO Raw QA: femto chunk 120
+2026-10-14 11:52:22,907 INFO Raw QA: femto chunk 130
+2026-10-14 11:52:23,716 INFO Raw QA: femto chunk 140
+2026-10-14 11:52:24,488 INFO Raw QA: femto chunk 150
+2026-10-14 11:52:25,268 INFO Raw QA: femto chunk 160
+2026-10-14 11:52:25,566 INFO Raw QA: background chunk 0
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.raw_qa-63e84cb5fbe14e10aa83a37e884c3c6e.tmp/raw_kstar_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.raw_qa-63e84cb5fbe14e10aa83a37e884c3c6e.tmp/raw_kstar_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.raw_qa-63e84cb5fbe14e10aa83a37e884c3c6e.tmp/raw_hyper_mass.pdf has been created
+2026-10-14 11:52:25,929 INFO Finished raw_qa in 13.1 s
+2026-10-14 11:52:25,929 INFO Period test_period_3: raw_qa
+2026-10-14 11:52:25,930 INFO Start stage: raw_qa
+2026-10-14 11:52:25,965 INFO Raw QA: femto chunk 0
+2026-10-14 11:52:26,823 INFO Raw QA: femto chunk 10
+2026-10-14 11:52:27,624 INFO Raw QA: femto chunk 20
+2026-10-14 11:52:28,457 INFO Raw QA: femto chunk 30
+2026-10-14 11:52:29,230 INFO Raw QA: femto chunk 40
+2026-10-14 11:52:30,008 INFO Raw QA: femto chunk 50
+2026-10-14 11:52:30,746 INFO Raw QA: femto chunk 60
+2026-10-14 11:52:31,560 INFO Raw QA: femto chunk 70
+2026-10-14 11:52:32,269 INFO Raw QA: femto chunk 80
+2026-10-14 11:52:33,070 INFO Raw QA: femto chunk 90
+2026-10-14 11:52:33,847 INFO Raw QA: femto chunk 100
+2026-10-14 11:52:34,652 INFO Raw QA: femto chunk 110
+2026-10-14 11:52:35,452 INFO Raw QA: femto chunk 120
+2026-10-14 11:52:36,238 INFO Raw QA: femto chunk 130
+2026-10-14 11:52:37,055 INFO Raw QA: femto chunk 140
+2026-10-14 11:52:37,896 INFO Raw QA: femto chunk 150
+2026-10-14 11:52:38,678 INFO Raw QA: femto chunk 160
+2026-10-14 11:52:38,973 INFO Raw QA: background chunk 0
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.raw_qa-eb645cd07c7e4ab5b949a2b3ed5c5a16.tmp/raw_kstar_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.raw_qa-eb645cd07c7e4ab5b949a2b3ed5c5a16.tmp/raw_kstar_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.raw_qa-eb645cd07c7e4ab5b949a2b3ed5c5a16.tmp/raw_hyper_mass.pdf has been created
+2026-10-14 11:52:39,282 INFO Finished raw_qa in 13.4 s
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.raw_qa-periods-2370cab2316649eba493eec5a81e3b78.tmp/raw_kstar_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.raw_qa-periods-2370cab2316649eba493eec5a81e3b78.tmp/raw_kstar_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.raw_qa-periods-2370cab2316649eba493eec5a81e3b78.tmp/raw_hyper_mass.pdf has been created
+2026-10-14 11:52:39,342 INFO Finished aggregate raw_qa in 0.1 s
+2026-10-14 11:52:39,342 INFO Period test_period_1: prepared
+2026-10-14 11:52:39,343 INFO Start stage: prepared
+2026-10-14 11:52:39,352 INFO Finished prepared in 0.0 s
+2026-10-14 11:52:39,352 INFO Period test_period_2: prepared
+2026-10-14 11:52:39,353 INFO Start stage: prepared
+2026-10-14 11:52:39,362 INFO Finished prepared in 0.0 s
+2026-10-14 11:52:39,362 INFO Period test_period_3: prepared
+2026-10-14 11:52:39,363 INFO Start stage: prepared
+2026-10-14 11:52:39,371 INFO Finished prepared in 0.0 s
+2026-10-14 11:52:39,381 INFO Finished aggregate prepared in 0.0 s
+2026-10-14 11:52:39,381 INFO Period test_period_1: training
+2026-10-14 11:52:40,300 INFO Start stage: training
+2026-10-14 11:52:51,007 INFO Finished training in 11.6 s
+2026-10-14 11:52:51,008 INFO Period test_period_2: training
+2026-10-14 11:52:51,011 INFO Start stage: training
+2026-10-14 11:53:01,238 INFO Finished training in 10.2 s
+2026-10-14 11:53:01,239 INFO Period test_period_3: training
+2026-10-14 11:53:01,241 INFO Start stage: training
+2026-10-14 11:53:11,525 INFO Finished training in 10.3 s
+2026-10-14 11:53:11,725 INFO Finished aggregate training in 0.2 s
+2026-10-14 11:53:11,726 INFO Period test_period_1: working_point
+2026-10-14 11:53:11,729 INFO Start stage: working_point
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.working_point-415d94c8e1684a8dae750eaa0e111c8e.tmp/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.working_point-415d94c8e1684a8dae750eaa0e111c8e.tmp/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.working_point-415d94c8e1684a8dae750eaa0e111c8e.tmp/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.working_point-415d94c8e1684a8dae750eaa0e111c8e.tmp/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.working_point-415d94c8e1684a8dae750eaa0e111c8e.tmp/qa/mean_sigma_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.working_point-415d94c8e1684a8dae750eaa0e111c8e.tmp/qa/fit_stability.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.working_point-415d94c8e1684a8dae750eaa0e111c8e.tmp/qa/best_mass_fit.pdf has been created
+2026-10-14 11:53:36,236 INFO Finished working_point in 24.5 s
+2026-10-14 11:53:36,237 INFO Period test_period_2: working_point
+2026-10-14 11:53:36,240 INFO Start stage: working_point
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.working_point-9ceec0fae9a848a493d5abc8ddff10fd.tmp/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.working_point-9ceec0fae9a848a493d5abc8ddff10fd.tmp/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.working_point-9ceec0fae9a848a493d5abc8ddff10fd.tmp/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.working_point-9ceec0fae9a848a493d5abc8ddff10fd.tmp/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.working_point-9ceec0fae9a848a493d5abc8ddff10fd.tmp/qa/mean_sigma_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.working_point-9ceec0fae9a848a493d5abc8ddff10fd.tmp/qa/fit_stability.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.working_point-9ceec0fae9a848a493d5abc8ddff10fd.tmp/qa/best_mass_fit.pdf has been created
+2026-10-14 11:54:00,049 INFO Finished working_point in 23.8 s
+2026-10-14 11:54:00,049 INFO Period test_period_3: working_point
+2026-10-14 11:54:00,053 INFO Start stage: working_point
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.working_point-2aebbb88865b440591a416f5d94adbb8.tmp/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.working_point-2aebbb88865b440591a416f5d94adbb8.tmp/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.working_point-2aebbb88865b440591a416f5d94adbb8.tmp/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.working_point-2aebbb88865b440591a416f5d94adbb8.tmp/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.working_point-2aebbb88865b440591a416f5d94adbb8.tmp/qa/mean_sigma_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.working_point-2aebbb88865b440591a416f5d94adbb8.tmp/qa/fit_stability.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.working_point-2aebbb88865b440591a416f5d94adbb8.tmp/qa/best_mass_fit.pdf has been created
+2026-10-14 11:54:23,734 INFO Finished working_point in 23.7 s
+2026-10-14 11:54:23,943 INFO Finished aggregate working_point in 0.2 s
+2026-10-14 11:54:23,944 INFO Period test_period_1: scored
+2026-10-14 11:54:23,954 INFO Start stage: scored
+2026-10-14 11:54:24,160 INFO Scored femto: input=49746 retained=14159
+2026-10-14 11:54:25,522 INFO Scored femto: input=511765 retained=123410
+2026-10-14 11:54:26,766 INFO Scored femto: input=965562 retained=194444
+2026-10-14 11:54:28,101 INFO Scored femto: input=1426658 retained=278571
+2026-10-14 11:54:29,420 INFO Scored femto: input=1893538 retained=400933
+2026-10-14 11:54:30,682 INFO Scored femto: input=2330538 retained=490784
+2026-10-14 11:54:31,868 INFO Scored femto: input=2731107 retained=563517
+2026-10-14 11:54:33,221 INFO Scored femto: input=3192949 retained=665226
+2026-10-14 11:54:34,347 INFO Scored femto: input=3580097 retained=757775
+2026-10-14 11:54:35,607 INFO Scored femto: input=4027218 retained=879419
+2026-10-14 11:54:36,863 INFO Scored femto: input=4480914 retained=975689
+2026-10-14 11:54:38,226 INFO Scored femto: input=4966971 retained=1082166
+2026-10-14 11:54:39,483 INFO Scored femto: input=5411897 retained=1173278
+2026-10-14 11:54:40,811 INFO Scored femto: input=5889676 retained=1300261
+2026-10-14 11:54:42,101 INFO Scored femto: input=6346389 retained=1407717
+2026-10-14 11:54:43,402 INFO Scored femto: input=6790438 retained=1508355
+2026-10-14 11:54:44,678 INFO Scored femto: input=7226887 retained=1608135
+2026-10-14 11:54:45,157 INFO Finished scored in 21.2 s
+2026-10-14 11:54:45,157 INFO Period test_period_2: scored
+2026-10-14 11:54:45,168 INFO Start stage: scored
+2026-10-14 11:54:45,364 INFO Scored femto: input=49746 retained=14159
+2026-10-14 11:54:46,667 INFO Scored femto: input=511765 retained=123410
+2026-10-14 11:54:47,879 INFO Scored femto: input=965562 retained=194444
+2026-10-14 11:54:49,215 INFO Scored femto: input=1426658 retained=278571
+2026-10-14 11:54:50,478 INFO Scored femto: input=1893538 retained=400933
+2026-10-14 11:54:51,706 INFO Scored femto: input=2330538 retained=490784
+2026-10-14 11:54:52,823 INFO Scored femto: input=2731107 retained=563517
+2026-10-14 11:54:54,156 INFO Scored femto: input=3192949 retained=665226
+2026-10-14 11:54:55,273 INFO Scored femto: input=3580097 retained=757775
+2026-10-14 11:54:56,531 INFO Scored femto: input=4027218 retained=879419
+2026-10-14 11:54:57,757 INFO Scored femto: input=4480914 retained=975689
+2026-10-14 11:54:59,038 INFO Scored femto: input=4966971 retained=1082166
+2026-10-14 11:55:00,361 INFO Scored femto: input=5411897 retained=1173278
+2026-10-14 11:55:01,702 INFO Scored femto: input=5889676 retained=1300261
+2026-10-14 11:55:02,992 INFO Scored femto: input=6346389 retained=1407717
+2026-10-14 11:55:04,246 INFO Scored femto: input=6790438 retained=1508355
+2026-10-14 11:55:05,571 INFO Scored femto: input=7226887 retained=1608135
+2026-10-14 11:55:06,020 INFO Finished scored in 20.9 s
+2026-10-14 11:55:06,021 INFO Period test_period_3: scored
+2026-10-14 11:55:06,032 INFO Start stage: scored
+2026-10-14 11:55:06,228 INFO Scored femto: input=49746 retained=14159
+2026-10-14 11:55:07,521 INFO Scored femto: input=511765 retained=123410
+2026-10-14 11:55:08,749 INFO Scored femto: input=965562 retained=194444
+2026-10-14 11:55:10,071 INFO Scored femto: input=1426658 retained=278571
+2026-10-14 11:55:11,350 INFO Scored femto: input=1893538 retained=400933
+2026-10-14 11:55:12,602 INFO Scored femto: input=2330538 retained=490784
+2026-10-14 11:55:13,731 INFO Scored femto: input=2731107 retained=563517
+2026-10-14 11:55:15,067 INFO Scored femto: input=3192949 retained=665226
+2026-10-14 11:55:16,189 INFO Scored femto: input=3580097 retained=757775
+2026-10-14 11:55:17,452 INFO Scored femto: input=4027218 retained=879419
+2026-10-14 11:55:18,689 INFO Scored femto: input=4480914 retained=975689
+2026-10-14 11:55:20,027 INFO Scored femto: input=4966971 retained=1082166
+2026-10-14 11:55:21,295 INFO Scored femto: input=5411897 retained=1173278
+2026-10-14 11:55:22,669 INFO Scored femto: input=5889676 retained=1300261
+2026-10-14 11:55:23,948 INFO Scored femto: input=6346389 retained=1407717
+2026-10-14 11:55:25,191 INFO Scored femto: input=6790438 retained=1508355
+2026-10-14 11:55:26,556 INFO Scored femto: input=7226887 retained=1608135
+2026-10-14 11:55:27,057 INFO Finished scored in 21.0 s
+2026-10-14 11:55:27,066 INFO Finished aggregate scored in 0.0 s
+2026-10-14 11:55:27,067 INFO Period test_period_1: nominal
+2026-10-14 11:55:27,068 INFO Start stage: nominal
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+2026-10-14 11:55:27,802 INFO Finished nominal in 0.7 s
+2026-10-14 11:55:27,802 INFO Period test_period_2: nominal
+2026-10-14 11:55:27,804 INFO Start stage: nominal
+2026-10-14 11:55:28,543 INFO Finished nominal in 0.7 s
+2026-10-14 11:55:28,544 INFO Period test_period_3: nominal
+2026-10-14 11:55:28,546 INFO Start stage: nominal
+2026-10-14 11:55:29,206 INFO Finished nominal in 0.7 s
+2026-10-14 11:55:29,326 INFO Finished aggregate nominal in 0.1 s
+2026-10-14 11:55:29,327 INFO Period test_period_1: systematics
+2026-10-14 11:55:29,330 INFO Start stage: systematics
+2026-10-14 11:55:29,374 INFO Systematic variation: bdt_loose
+2026-10-14 11:55:29,403 INFO Systematic variation: bdt_tight
+2026-10-14 11:55:29,430 INFO Systematic variation: norm_low
+2026-10-14 11:55:29,458 INFO Systematic variation: norm_high
+2026-10-14 11:55:29,485 INFO Systematic variation: pion_ptmin_020
+2026-10-14 11:55:29,513 INFO Systematic variation: pion_ptmin_025
+2026-10-14 11:55:29,540 INFO Systematic variation: pion_ptmax_200
+2026-10-14 11:55:29,569 INFO Systematic variation: pion_ptmax_225
+2026-10-14 11:55:29,597 INFO Systematic variation: pion_tpcrows_100
+2026-10-14 11:55:29,625 INFO Systematic variation: pion_tpcrows_110
+2026-10-14 11:55:29,654 INFO Systematic variation: pion_pid_tight
+2026-10-14 11:55:29,680 INFO Systematic variation: occupancy_low
+2026-10-14 11:55:29,708 INFO Systematic variation: mass_narrow
+2026-10-14 11:55:29,736 INFO Systematic variation: mass_background_constant
+2026-10-14 11:55:29,764 INFO Systematic variation: sideband_shift
+2026-10-14 11:55:29,792 INFO Systematic variation: pion_dca_tight
+2026-10-14 11:55:29,819 INFO Systematic variation: close_pair_strict
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__bdt_loose__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__bdt_loose__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__bdt_tight__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__bdt_tight__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__norm_low__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__norm_low__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__norm_high__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__norm_high__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__pion_ptmin_020__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__pion_ptmin_020__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__pion_ptmin_025__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__pion_ptmin_025__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__pion_ptmax_200__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__pion_ptmax_200__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__pion_ptmax_225__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__pion_ptmax_225__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__pion_tpcrows_100__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__pion_tpcrows_100__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__pion_tpcrows_110__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__pion_tpcrows_110__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__pion_pid_tight__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__pion_pid_tight__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__occupancy_low__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__occupancy_low__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__mass_narrow__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__mass_narrow__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__mass_background_constant__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__mass_background_constant__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__sideband_shift__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__sideband_shift__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__pion_dca_tight__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__pion_dca_tight__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__close_pair_strict__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/variation__close_pair_strict__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__bdt__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__bdt__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__normalization__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__normalization__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__pion_pt_min__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__pion_pt_min__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__pion_pt_max__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__pion_pt_max__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__pion_tpc_rows__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__pion_tpc_rows__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__pion_pid__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__pion_pid__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__occupancy__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__occupancy__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__mass_window__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__mass_window__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__mass_model__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__mass_model__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__sideband__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__sideband__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__pion_dca__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__pion_dca__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__close_pair__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__source__close_pair__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__total__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematic__total__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf has been created
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.systematics-fe98593bd7bd46bebfd6beaf8af86d98.tmp/qa/systematics_qa.pdf has been closed
+2026-10-14 11:55:39,765 INFO Finished systematics in 10.4 s
+2026-10-14 11:55:39,766 INFO Period test_period_2: systematics
+2026-10-14 11:55:39,768 INFO Start stage: systematics
+2026-10-14 11:55:39,812 INFO Systematic variation: bdt_loose
+2026-10-14 11:55:39,841 INFO Systematic variation: bdt_tight
+2026-10-14 11:55:39,868 INFO Systematic variation: norm_low
+2026-10-14 11:55:39,896 INFO Systematic variation: norm_high
+2026-10-14 11:55:39,924 INFO Systematic variation: pion_ptmin_020
+2026-10-14 11:55:39,952 INFO Systematic variation: pion_ptmin_025
+2026-10-14 11:55:39,980 INFO Systematic variation: pion_ptmax_200
+2026-10-14 11:55:40,007 INFO Systematic variation: pion_ptmax_225
+2026-10-14 11:55:40,034 INFO Systematic variation: pion_tpcrows_100
+2026-10-14 11:55:40,062 INFO Systematic variation: pion_tpcrows_110
+2026-10-14 11:55:40,089 INFO Systematic variation: pion_pid_tight
+2026-10-14 11:55:40,117 INFO Systematic variation: occupancy_low
+2026-10-14 11:55:40,145 INFO Systematic variation: mass_narrow
+2026-10-14 11:55:40,172 INFO Systematic variation: mass_background_constant
+2026-10-14 11:55:40,199 INFO Systematic variation: sideband_shift
+2026-10-14 11:55:40,227 INFO Systematic variation: pion_dca_tight
+2026-10-14 11:55:40,254 INFO Systematic variation: close_pair_strict
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__bdt_loose__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__bdt_loose__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__bdt_tight__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__bdt_tight__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__norm_low__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__norm_low__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__norm_high__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__norm_high__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__pion_ptmin_020__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__pion_ptmin_020__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__pion_ptmin_025__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__pion_ptmin_025__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__pion_ptmax_200__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__pion_ptmax_200__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__pion_ptmax_225__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__pion_ptmax_225__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__pion_tpcrows_100__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__pion_tpcrows_100__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__pion_tpcrows_110__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__pion_tpcrows_110__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__pion_pid_tight__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__pion_pid_tight__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__occupancy_low__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__occupancy_low__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__mass_narrow__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__mass_narrow__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__mass_background_constant__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__mass_background_constant__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__sideband_shift__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__sideband_shift__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__pion_dca_tight__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__pion_dca_tight__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__close_pair_strict__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/variation__close_pair_strict__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__bdt__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__bdt__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__normalization__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__normalization__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__pion_pt_min__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__pion_pt_min__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__pion_pt_max__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__pion_pt_max__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__pion_tpc_rows__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__pion_tpc_rows__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__pion_pid__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__pion_pid__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__occupancy__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__occupancy__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__mass_window__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__mass_window__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__mass_model__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__mass_model__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__sideband__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__sideband__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__pion_dca__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__pion_dca__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__close_pair__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__source__close_pair__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__total__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematic__total__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf has been created
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.systematics-248b1411b27548f590efb66b60049332.tmp/qa/systematics_qa.pdf has been closed
+2026-10-14 11:55:50,257 INFO Finished systematics in 10.5 s
+2026-10-14 11:55:50,257 INFO Period test_period_3: systematics
+2026-10-14 11:55:50,260 INFO Start stage: systematics
+2026-10-14 11:55:50,305 INFO Systematic variation: bdt_loose
+2026-10-14 11:55:50,334 INFO Systematic variation: bdt_tight
+2026-10-14 11:55:50,362 INFO Systematic variation: norm_low
+2026-10-14 11:55:50,389 INFO Systematic variation: norm_high
+2026-10-14 11:55:50,418 INFO Systematic variation: pion_ptmin_020
+2026-10-14 11:55:50,445 INFO Systematic variation: pion_ptmin_025
+2026-10-14 11:55:50,473 INFO Systematic variation: pion_ptmax_200
+2026-10-14 11:55:50,500 INFO Systematic variation: pion_ptmax_225
+2026-10-14 11:55:50,527 INFO Systematic variation: pion_tpcrows_100
+2026-10-14 11:55:50,554 INFO Systematic variation: pion_tpcrows_110
+2026-10-14 11:55:50,582 INFO Systematic variation: pion_pid_tight
+2026-10-14 11:55:50,610 INFO Systematic variation: occupancy_low
+2026-10-14 11:55:50,638 INFO Systematic variation: mass_narrow
+2026-10-14 11:55:50,667 INFO Systematic variation: mass_background_constant
+2026-10-14 11:55:50,696 INFO Systematic variation: sideband_shift
+2026-10-14 11:55:50,724 INFO Systematic variation: pion_dca_tight
+2026-10-14 11:55:50,752 INFO Systematic variation: close_pair_strict
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__bdt_loose__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__bdt_loose__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__bdt_tight__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__bdt_tight__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__norm_low__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__norm_low__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__norm_high__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__norm_high__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__pion_ptmin_020__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__pion_ptmin_020__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__pion_ptmin_025__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__pion_ptmin_025__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__pion_ptmax_200__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__pion_ptmax_200__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__pion_ptmax_225__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__pion_ptmax_225__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__pion_tpcrows_100__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__pion_tpcrows_100__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__pion_tpcrows_110__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__pion_tpcrows_110__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__pion_pid_tight__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__pion_pid_tight__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__occupancy_low__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__occupancy_low__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__mass_narrow__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__mass_narrow__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__mass_background_constant__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__mass_background_constant__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__sideband_shift__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__sideband_shift__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__pion_dca_tight__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__pion_dca_tight__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__close_pair_strict__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/variation__close_pair_strict__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__bdt__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__bdt__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__normalization__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__normalization__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__pion_pt_min__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__pion_pt_min__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__pion_pt_max__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__pion_pt_max__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__pion_tpc_rows__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__pion_tpc_rows__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__pion_pid__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__pion_pid__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__occupancy__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__occupancy__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__mass_window__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__mass_window__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__mass_model__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__mass_model__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__sideband__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__sideband__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__pion_dca__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__pion_dca__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__close_pair__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__source__close_pair__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__total__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematic__total__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf has been created
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.systematics-ef029d11609f4c86b065610600d327ae.tmp/qa/systematics_qa.pdf has been closed
+2026-10-14 11:56:00,675 INFO Finished systematics in 10.4 s
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__bdt_loose__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__bdt_loose__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__bdt_tight__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__bdt_tight__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__norm_low__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__norm_low__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__norm_high__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__norm_high__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__pion_ptmin_020__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__pion_ptmin_020__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__pion_ptmin_025__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__pion_ptmin_025__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__pion_ptmax_200__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__pion_ptmax_200__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__pion_ptmax_225__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__pion_ptmax_225__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__pion_tpcrows_100__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__pion_tpcrows_100__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__pion_tpcrows_110__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__pion_tpcrows_110__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__pion_pid_tight__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__pion_pid_tight__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__occupancy_low__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__occupancy_low__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__mass_narrow__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__mass_narrow__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__mass_background_constant__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__mass_background_constant__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__sideband_shift__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__sideband_shift__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__pion_dca_tight__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__pion_dca_tight__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__close_pair_strict__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/variation__close_pair_strict__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__bdt__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__bdt__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__normalization__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__normalization__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__pion_pt_min__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__pion_pt_min__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__pion_pt_max__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__pion_pt_max__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__pion_tpc_rows__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__pion_tpc_rows__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__pion_pid__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__pion_pid__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__occupancy__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__occupancy__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__mass_window__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__mass_window__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__mass_model__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__mass_model__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__sideband__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__sideband__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__pion_dca__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__pion_dca__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__close_pair__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__source__close_pair__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__total__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematic__total__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf has been created
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.systematics-periods-d8f0e963cfab4ee19e0e932df5dcb79a.tmp/qa/systematics_qa.pdf has been closed
+2026-10-14 11:56:06,527 INFO Finished aggregate systematics in 5.9 s
+2026-10-14 11:56:06,527 INFO Period test_period_1: mc_qa
+2026-10-14 11:56:06,530 INFO Start stage: mc_qa
+2026-10-14 11:56:06,545 INFO Finished mc_qa in 0.0 s
+2026-10-14 11:56:06,546 INFO Period test_period_2: mc_qa
+2026-10-14 11:56:06,548 INFO Start stage: mc_qa
+2026-10-14 11:56:06,563 INFO Finished mc_qa in 0.0 s
+2026-10-14 11:56:06,563 INFO Period test_period_3: mc_qa
+2026-10-14 11:56:06,565 INFO Start stage: mc_qa
+2026-10-14 11:56:06,579 INFO Finished mc_qa in 0.0 s
+2026-10-14 11:56:06,586 INFO Finished aggregate mc_qa in 0.0 s
+2026-10-14 11:56:06,586 INFO Period test_period_1: report
+2026-10-14 11:56:06,590 INFO Start stage: report
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.report-2bc7ae167c894758a5c527cc3ac990cc.tmp/working_point.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.report-2bc7ae167c894758a5c527cc3ac990cc.tmp/working_point_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.report-2bc7ae167c894758a5c527cc3ac990cc.tmp/working_point_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.report-2bc7ae167c894758a5c527cc3ac990cc.tmp/working_point_mass_fit.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.report-2bc7ae167c894758a5c527cc3ac990cc.tmp/raw_kstar_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.report-2bc7ae167c894758a5c527cc3ac990cc.tmp/raw_kstar_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.report-2bc7ae167c894758a5c527cc3ac990cc.tmp/raw_hyper_mass.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.report-2bc7ae167c894758a5c527cc3ac990cc.tmp/correlations_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.report-2bc7ae167c894758a5c527cc3ac990cc.tmp/pair_spectra_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.report-2bc7ae167c894758a5c527cc3ac990cc.tmp/correlations_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.report-2bc7ae167c894758a5c527cc3ac990cc.tmp/pair_spectra_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.report-2bc7ae167c894758a5c527cc3ac990cc.tmp/mass_purity.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_1/.report-2bc7ae167c894758a5c527cc3ac990cc.tmp/mixing_qa.pdf has been created
+2026-10-14 11:56:11,909 INFO Finished report in 5.3 s
+2026-10-14 11:56:11,909 INFO Period test_period_2: report
+2026-10-14 11:56:11,913 INFO Start stage: report
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.report-f5d094e1168c478eb87d6aefdf14f1c7.tmp/working_point.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.report-f5d094e1168c478eb87d6aefdf14f1c7.tmp/working_point_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.report-f5d094e1168c478eb87d6aefdf14f1c7.tmp/working_point_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.report-f5d094e1168c478eb87d6aefdf14f1c7.tmp/working_point_mass_fit.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.report-f5d094e1168c478eb87d6aefdf14f1c7.tmp/raw_kstar_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.report-f5d094e1168c478eb87d6aefdf14f1c7.tmp/raw_kstar_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.report-f5d094e1168c478eb87d6aefdf14f1c7.tmp/raw_hyper_mass.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.report-f5d094e1168c478eb87d6aefdf14f1c7.tmp/correlations_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.report-f5d094e1168c478eb87d6aefdf14f1c7.tmp/pair_spectra_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.report-f5d094e1168c478eb87d6aefdf14f1c7.tmp/correlations_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.report-f5d094e1168c478eb87d6aefdf14f1c7.tmp/pair_spectra_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.report-f5d094e1168c478eb87d6aefdf14f1c7.tmp/mass_purity.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_2/.report-f5d094e1168c478eb87d6aefdf14f1c7.tmp/mixing_qa.pdf has been created
+2026-10-14 11:56:17,118 INFO Finished report in 5.2 s
+2026-10-14 11:56:17,118 INFO Period test_period_3: report
+2026-10-14 11:56:17,122 INFO Start stage: report
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.report-98fda626c1354c8a889f2e5a171d7f82.tmp/working_point.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.report-98fda626c1354c8a889f2e5a171d7f82.tmp/working_point_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.report-98fda626c1354c8a889f2e5a171d7f82.tmp/working_point_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.report-98fda626c1354c8a889f2e5a171d7f82.tmp/working_point_mass_fit.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.report-98fda626c1354c8a889f2e5a171d7f82.tmp/raw_kstar_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.report-98fda626c1354c8a889f2e5a171d7f82.tmp/raw_kstar_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.report-98fda626c1354c8a889f2e5a171d7f82.tmp/raw_hyper_mass.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.report-98fda626c1354c8a889f2e5a171d7f82.tmp/correlations_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.report-98fda626c1354c8a889f2e5a171d7f82.tmp/pair_spectra_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.report-98fda626c1354c8a889f2e5a171d7f82.tmp/correlations_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.report-98fda626c1354c8a889f2e5a171d7f82.tmp/pair_spectra_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.report-98fda626c1354c8a889f2e5a171d7f82.tmp/mass_purity.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/periods/test_period_3/.report-98fda626c1354c8a889f2e5a171d7f82.tmp/mixing_qa.pdf has been created
+2026-10-14 11:56:22,351 INFO Finished report in 5.2 s
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/working_point__p13_test_period_1__global.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/working_point_efficiency__p13_test_period_1__global.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/working_point_yield__p13_test_period_1__global.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/working_point_mass_fit__p13_test_period_1__global.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/working_point__p13_test_period_2__global.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/working_point_efficiency__p13_test_period_2__global.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/working_point_yield__p13_test_period_2__global.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/working_point_mass_fit__p13_test_period_2__global.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/working_point__p13_test_period_3__global.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/working_point_efficiency__p13_test_period_3__global.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/working_point_yield__p13_test_period_3__global.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/working_point_mass_fit__p13_test_period_3__global.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/raw_kstar_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/raw_kstar_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/raw_hyper_mass.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/correlations_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/pair_spectra_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/correlations_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/pair_spectra_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/mass_purity.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/.report-periods-aa25627f7dee41f586d148df7ec795f4.tmp/mixing_qa.pdf has been created
+2026-10-14 11:56:28,233 INFO Finished aggregate report in 5.9 s
+==============================
+Training xgboost model for classification
+Number of detected classes: 2
+Training the model: ...
+Training the model: Done!
+Testing the model: ...
+ROC_AUC_score: 0.993594
+Testing the model: Done!
+==============================
+==============================
+Training xgboost model for classification
+Number of detected classes: 2
+Training the model: ...
+Training the model: Done!
+Testing the model: ...
+ROC_AUC_score: 0.993594
+Testing the model: Done!
+==============================
+==============================
+Training xgboost model for classification
+Number of detected classes: 2
+Training the model: ...
+Training the model: Done!
+Testing the model: ...
+ROC_AUC_score: 0.993594
+Testing the model: Done!
+==============================
+/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/report

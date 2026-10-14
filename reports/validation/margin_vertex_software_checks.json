@@ -1,0 +1,225 @@
+{
+  "status": "passed",
+  "tests": 221,
+  "duration_seconds": 83.672,
+  "source_fingerprint": "d1d03e89373efcfaf867dd1983e88bf2812729bc78b18365718f88a1c6044572",
+  "python": "/opt/anaconda3/envs/MLenv/bin/python",
+  "format_check": "Black: all 66 Python files passed",
+  "static_check": "Flake8 F,E9 passed",
+  "score_domain": "raw_margin; output_margin=True throughout training/QA/Optuna/WP/apply, no sigmoid or feature scaling",
+  "features": [
+    "DcaV0Daug",
+    "DcaHe",
+    "DcaPi",
+    "NSigmaHe",
+    "cos_pa"
+  ],
+  "mass_selection": {
+    "common_candidate_cuts": {},
+    "common_pt_range": null,
+    "selection_order": [
+      "upstream signal truth",
+      "upstream finite kinematics",
+      "common candidate cuts",
+      "common pT range",
+      "strict MC signal mass window / data outside the same window",
+      "finite BDT features",
+      "bounded priority reservoir",
+      "grouped train/validation split"
+    ],
+    "interval_policy": "cuts: min inclusive, max/abs_max exclusive; pT [low, high); training mass uses strict inequalities and excludes both endpoints",
+    "finite_features": [
+      "DcaV0Daug",
+      "DcaHe",
+      "DcaPi",
+      "NSigmaHe",
+      "cos_pa"
+    ],
+    "source_finite_kinematics": [
+      "mass_h3l",
+      "pt_h3l",
+      "ct",
+      "cos_pa"
+    ],
+    "signal": {
+      "upstream_truth_flags": [
+        "HypIsReco",
+        "HypIsSignal",
+        "HypIsTwoBodyDecay"
+      ],
+      "truth_policy": "applied by native/previously prepared MC source, not re-evaluated by sampler",
+      "mass_selection": {
+        "window": [
+          2.95,
+          3.02
+        ],
+        "comparison": "low < mass < high"
+      }
+    },
+    "background": {
+      "excluded_mass_window": [
+        2.95,
+        3.02
+      ],
+      "comparison": "mass < low or mass > high; both endpoints excluded"
+    },
+    "reservoir_limit_per_class": 100000,
+    "automatic_centrality_bins": null,
+    "mc_range_selection": {
+      "enabled": true,
+      "features": [
+        "DcaV0Daug",
+        "DcaHe",
+        "DcaPi",
+        "NSigmaHe",
+        "cos_pa"
+      ],
+      "ranges": {
+        "DcaV0Daug": [
+          -0.018087124477841356,
+          0.37997406903954306
+        ],
+        "DcaHe": [
+          -1.1993207672238346,
+          1.215197602808464
+        ],
+        "DcaPi": [
+          -17.479688994884487,
+          17.10049764394752
+        ],
+        "NSigmaHe": [
+          -1.9400565412640567,
+          2.4222494807839303
+        ],
+        "cos_pa": [
+          0.9990002502158297,
+          1.0000476034360526
+        ]
+      },
+      "quantiles": [
+        0.001,
+        0.999
+      ],
+      "quantile_method": "numpy.quantile(method='linear')",
+      "reference_quantile_values": {
+        "DcaV0Daug": [
+          6.56613658520655e-06,
+          0.3618803784251165
+        ],
+        "DcaHe": [
+          -1.0895699322223664,
+          1.1054467678069957
+        ],
+        "DcaPi": [
+          -15.907862329483033,
+          15.528670978546064
+        ],
+        "NSigmaHe": [
+          -1.741769903898239,
+          2.223962843418113
+        ],
+        "cos_pa": [
+          0.9990478571803854,
+          0.999999996471497
+        ]
+      },
+      "margin_fraction": 0.05,
+      "bounds": "inclusive at both ends; rows removed, surviving values unchanged",
+      "skipped_features": {},
+      "scope": "training, working_point, Femto/MCFemto inference",
+      "efficiency_scope": "conditional on the same frozen MC feature ranges applied to all domains",
+      "shape_policy": "range selection only; no distribution matching, reweighting or Winsorization",
+      "reference": {
+        "source": "bounded selected finite-feature reconstructed MC signal sample",
+        "sample_rows": 100000,
+        "rows": 9951,
+        "groups": 9025,
+        "requested_group_fraction": 0.1,
+        "random_state": 73236,
+        "group_hash_sha256": "19eb28633552e74960b00e433880ce503b13faec99c3922382213712722103b5",
+        "group_definition": "source file/tree and PV surrogate; not a producer collision ID",
+        "overlap_with_training_pool": 0,
+        "used_for_model_or_efficiency_mapping": false
+      },
+      "signal_counts": {
+        "sampled_before_reference": 100000,
+        "reference_removed": 9951,
+        "after_reference": 90049,
+        "after_mc_range": 89661,
+        "per_variable_mc_range": {
+          "DcaV0Daug": {
+            "input_rows": 90049,
+            "retained_rows": 89916,
+            "rejected_rows": 133,
+            "independent_rejected_rows": 133
+          },
+          "DcaHe": {
+            "input_rows": 89916,
+            "retained_rows": 89786,
+            "rejected_rows": 130,
+            "independent_rejected_rows": 134
+          },
+          "DcaPi": {
+            "input_rows": 89786,
+            "retained_rows": 89727,
+            "rejected_rows": 59,
+            "independent_rejected_rows": 82
+          },
+          "NSigmaHe": {
+            "input_rows": 89727,
+            "retained_rows": 89661,
+            "rejected_rows": 66,
+            "independent_rejected_rows": 66
+          },
+          "cos_pa": {
+            "input_rows": 89661,
+            "retained_rows": 89661,
+            "rejected_rows": 0,
+            "independent_rejected_rows": 0
+          }
+        }
+      },
+      "limitations": [
+        "Finite reference quantiles do not guarantee a full-population coverage fraction.",
+        "A rectangular feature range does not enforce a joint-density or shape match.",
+        "The MC-derived preselection acceptance needs independent MC for a final physical efficiency."
+      ]
+    }
+  },
+  "vertex_convention": "Producer stores SV-PV; directly use X/Y/ZDecVtx for cosPA/radius/ct, matching spectrum GeneralHelper.hpp",
+  "checks": [
+    "Full global and pT synthetic workflow/report/cache",
+    "Native XGBoost/HIPE raw margins and expit closure",
+    "Strict signal/background mass windows including endpoints",
+    "PV-independent derived geometry",
+    "Negative margin/config/efficiency arrays, finite held-out eff=1 endpoint",
+    "Unbounded storage null floor retaining all finite in-scope margins",
+    "Old model/NPZ/scored domain rejection including missing metadata",
+    "Five actual features only in feature distributions, correlations, importance",
+    "Score histograms cover all train/test tails without [0,1] assumptions",
+    "Existing DSCB, curve rendering, statistics, systematic, MC and ROOT contracts"
+  ],
+  "real_testset_acceptance": {
+    "status": "passed",
+    "checks": 502,
+    "record": "reports/validation/testset_margin_vertex_validation.json"
+  },
+  "visual_review": {
+    "status": "passed",
+    "reviewed_training_pdfs": 9,
+    "reviewed_report_pdfs": [
+      "working_point",
+      "working_point_mass_fit",
+      "working_point_yield"
+    ],
+    "previews_outside_outputs": "/tmp/pih3l-margin-vertex-review",
+    "findings": "Five physical-valued features; cosPA near 0.999-1; negative and >1 margin axis; labels and curves readable"
+  },
+  "physics_limits": {
+    "mc_chi2_ndf": 92.12663750148819,
+    "pol0_chi2_ndf": 101.53290060751257,
+    "mc_sigma_at_lower_bound": true,
+    "meaning": "Software acceptance does not establish model goodness of fit or a final physical WP"
+  },
+  "log": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/reports/validation/margin_vertex_software_checks.log"
+}

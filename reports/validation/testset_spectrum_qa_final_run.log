@@ -1,0 +1,10 @@
+2026-10-12 00:41:13,490 INFO Reuse verified stage: raw_qa
+2026-10-12 00:41:13,492 INFO Reuse verified stage: prepared
+2026-10-12 00:41:13,562 INFO Reuse verified stage: training
+2026-10-12 00:41:13,566 INFO Start stage: working_point
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-baba95901be64acdb0bcc4655ee338e1.tmp/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-baba95901be64acdb0bcc4655ee338e1.tmp/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-baba95901be64acdb0bcc4655ee338e1.tmp/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-baba95901be64acdb0bcc4655ee338e1.tmp/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-baba95901be64acdb0bcc4655ee338e1.tmp/qa/fit_stability.pdf has been created
+2026-10-12 00:41:15,514 ERROR WP pol0 yield fit failed: insufficient_points; valid distinct cuts in yield_eff_range=0, required=3. Full scan diagnostics saved to /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/failures/working_point-b5a5d662282dd03024f67c3f740cb456b17086538901b12469434bf8c484d484

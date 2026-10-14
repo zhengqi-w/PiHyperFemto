@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "source_fingerprint": "92916401e8a0f5059da76184d5ebbf9a3e1e6724aef1a77955f17a40cb8b3351",
+  "full_suite": {
+    "tests": 233,
+    "seconds": 97.214,
+    "log": "reports/validation/systematics_full_software_checks.log",
+    "note": "Before final coverage/layout/overview refinements; final refinements covered by focused and native artifact checks."
+  },
+  "final_focused": {
+    "tests": 34,
+    "seconds": 5.936,
+    "log": "reports/validation/systematics_final_focused_checks.log"
+  },
+  "final_qa_tests": {
+    "tests": 16,
+    "seconds": 3.398,
+    "log": "reports/validation/systematics_qa_tests.log"
+  },
+  "artifact_checks": 538,
+  "independent_cut_checks": 123,
+  "canvas_sync_checks": 68,
+  "variation_count": 17,
+  "source_count": 12,
+  "individual_pdfs": 60,
+  "overview_pages": 60,
+  "visual_review": {
+    "status": "passed",
+    "overview": "outputs/testset/systematics/qa/systematics_qa.pdf",
+    "previews": "/tmp/pih3l-systematics-review",
+    "scope": "All 60 individual plots via contact sheets, overview pages 1/35/60, final status-layout representative variation/source/total; notices placed above the data frame."
+  },
+  "records": [
+    "reports/validation/testset_systematics_validation.json",
+    "reports/validation/testset_systematics_cut_audit.json",
+    "reports/validation/testset_systematics_canvas_audit.json"
+  ]
+}

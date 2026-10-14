@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "meaning": "Final percentage-step plots and all numerical outputs validated after source freeze; prior evidence remains explicitly labeled as checkpoints.",
+  "checkpoint": {
+    "report": "reports/validation/testset_periods_validation.pre_percent_steps.json",
+    "sha256": "eb1239e90b1df60a8ba0c69282ff9e603ccd6002d473800a648cb668f0f903df",
+    "checks_passed": 6568,
+    "checks_total": 6568,
+    "source_fingerprint": "1223a892c29fbc84e91e40195687e37a3e3af5b5dfe921ce3f4f45dcb3ce7116",
+    "pipeline_signature": "bf4afd894ae265e5f5ae88857ba6d3e1661545dca49d3fa6fb4339fc9fd5105d"
+  },
+  "regression_suites": [
+    {
+      "scope": "full suite before final catalog guard and new percent-step rendering",
+      "log": "reports/validation/periods_full_software_checks.log",
+      "tests": 272,
+      "duration_seconds": 137.942,
+      "status": "passed",
+      "sha256": "128be8c1c82fb850057d8d8ee3261df06fed3e144183dd68a6184b9ae22b710b"
+    },
+    {
+      "scope": "final catalog guard contracts before new percent-step rendering",
+      "log": "reports/validation/periods_final_contract_checks.log",
+      "tests": 34,
+      "duration_seconds": 11.077,
+      "status": "passed",
+      "sha256": "55fb44f814f4ad06d9caa4ca6a36b845cf078479d2eb7089974fbca4d322513a"
+    },
+    {
+      "scope": "native multi-period integration and namespace regressions before new percent-step rendering",
+      "log": "reports/validation/periods_pipeline_checks.log",
+      "tests": 15,
+      "duration_seconds": 100.257,
+      "status": "passed",
+      "sha256": "d66f077725edc00f62814f73865a65ccccdec623a850c19f3a0a81453b9d50a4"
+    },
+    {
+      "scope": "final fraction histogram run splitting, styles and persistence",
+      "log": "reports/validation/systematics_fraction_unit_checks.log",
+      "tests": 18,
+      "duration_seconds": 3.821,
+      "status": "passed",
+      "sha256": "9daaba9fcd237f5e7e077d49f54c9a55e5ef2c4c1523791c8fed477d5e7d3662"
+    },
+    {
+      "scope": "final complete suite including native multi-period integration",
+      "log": "reports/validation/systematics_fraction_full_checks.log",
+      "tests": 275,
+      "duration_seconds": 154.067,
+      "status": "passed",
+      "sha256": "00718fa267cdf1a5beae0958e8b7924c9528732381224816c01bc2d2527e22fe"
+    }
+  ],
+  "pending": [],
+  "limitations": [
+    "Repeated TestSet inputs validate arithmetic, not independent physical statistics.",
+    "Missing MCFemto and sidebands remain unresolved physics limitations."
+  ],
+  "final_validation": {
+    "single_period": {
+      "report": "reports/validation/testset_systematics_validation.json",
+      "sha256": "c2593b15dca4196097c8d94f310a29460d6f0cec9f94a3b190534acb04cfdaa7",
+      "status": "passed",
+      "checks_passed": 553,
+      "checks_total": 553,
+      "source_fingerprint": "40e0b7fa4858bd49124858a905be97016fe5c109a6989d3adf78df818ed9c20a",
+      "pipeline_signature": "fea310ca4c5ce4fe8af48e768543c4757c0b580ac667c93630a50d88bd918bd9"
+    },
+    "three_periods": {
+      "report": "reports/validation/testset_periods_validation.json",
+      "sha256": "11199843ed3ca2d5b104e3245d690ad6c9e1b9882303a1c353c60b1a87faaac3",
+      "status": "passed",
+      "checks_passed": 6630,
+      "checks_total": 6630,
+      "source_fingerprint": "40e0b7fa4858bd49124858a905be97016fe5c109a6989d3adf78df818ed9c20a",
+      "pipeline_signature": "d8279f33ed9583f2b349038eadb30ccbd1a28d22dd9f21bde2b49d2cee70696e"
+    },
+    "plot_only_numeric_hash_equality": {
+      "report": "reports/validation/systematics_fraction_hash_comparison.json",
+      "sha256": "718dc990113a85b6d1f1507ad4110fc14bee149d4a1f96c7fd1efe9df5612191",
+      "status": "passed",
+      "checks_passed": 101,
+      "checks_total": 101
+    }
+  },
+  "final_plot_contract": {
+    "single_pdf_plots_per_output": 62,
+    "pdf_files_including_overview_per_output": 63,
+    "systematic_sources": 12,
+    "variations": 17,
+    "fraction_numerical_leaves_per_root": 480,
+    "percentage_step_leaves_per_root": 208,
+    "actual_finite_runs_per_root": 104,
+    "total_breakdown_observables": [
+      "raw",
+      "corrected"
+    ],
+    "display": "100 times stored fractions, ROOT HIST steps; invalid bins remain gaps; total black, sources colored",
+    "root_canvas_clone_comparison": "Exact persisted numerical/text/draw-option/line-style/marker-style payload equality"
+  }
+}

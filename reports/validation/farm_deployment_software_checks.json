@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "tests": 11,
+  "duration_seconds": 47.362,
+  "log": "reports/validation/farm_deployment_checks.log",
+  "log_sha256": "3b6a13627deb6a90615a886b6d50e904cfb8af84d9c7b91760675122fba9f068",
+  "test_file": "tests/test_deployment.py",
+  "test_file_sha256": "5ef37fbfdd147370a35a9a0ebc16f59c7f3225379a8f828fe69f696333c7be9b",
+  "source_fingerprint": "68a63aa44b1c4026f1262632b325af769f990ecbd5fdda7f94ad5e53eafcaa92",
+  "checked_utc": "2026-10-14T07:02:21.867739+00:00",
+  "installation_contract": {
+    "application": "Fresh non-editable offline wheel installation in a temporary venv.",
+    "dependencies": "Inherited from the current MLenv analysis environment via --system-site-packages; dependency provisioning on a new Farm host is not tested.",
+    "execution": "Installed console script and isolated Python import outside the checkout, with PYTHONPATH/PYTHONHOME removed.",
+    "wheel_scope": "All runtime Python modules included; no ROOT, parquet, model pickle, NPZ, logs, outputs or reports bundled.",
+    "build_isolation": "Copied release source avoids mutation of the shared checkout or egg-info."
+  },
+  "pipeline_contract": {
+    "stages": 9,
+    "mode": "single",
+    "inputs": "Four independent absolute ROOT role roots; nonempty MCFemto plus config-only optional null case.",
+    "synthetic_pairs": 5760,
+    "centrality_bins": [
+      [
+        0,
+        10
+      ],
+      [
+        10,
+        50
+      ]
+    ],
+    "charge_channels": 4,
+    "kstar_bins": 6,
+    "raw_cf": "Unity closure in all 8 groups.",
+    "corrected_cf": "Unity closure with explicit fixed purity 0.8 +/- 0.03 and populated toy sidebands; this does not validate a fitted physical purity.",
+    "mc": "16 SE/ME QA groups, primary/species fractions, truth closure with ME allowed across MC collisions.",
+    "outputs": "Native ROOT archive reopened by installed Python, corrected graphs and valid PDFs; no raster analysis deliverables.",
+    "cache": "All 9 manifest hashes and nanosecond mtimes unchanged on verified resume.",
+    "repair": "Tampered nominal metadata triggers downstream repair while training manifest remains unchanged."
+  },
+  "doctor_contract": [
+    "Environment-only JSON succeeds.",
+    "Four-role bounded preflight succeeds without modifying stage/model SHA256 or mtime.",
+    "Optional missing MC is warning; a cut column required only by a systematic variation fails before any model/stage artifact."
+  ],
+  "limitations": [
+    "Only deterministic synthetic small-input deployment is certified here.",
+    "No claim of processing 50 GB full statistics, running on the Farm scheduler, or remotely passing GitHub CI.",
+    "Full software suite and real single TestSet forced workflow are pending final source freeze."
+  ]
+}

@@ -1,0 +1,102 @@
+2026-10-13 16:06:20,553 INFO Start stage: raw_qa
+2026-10-13 16:06:20,594 INFO Raw QA: femto chunk 0
+2026-10-13 16:06:21,419 INFO Raw QA: femto chunk 10
+2026-10-13 16:06:22,200 INFO Raw QA: femto chunk 20
+2026-10-13 16:06:23,000 INFO Raw QA: femto chunk 30
+2026-10-13 16:06:23,728 INFO Raw QA: femto chunk 40
+2026-10-13 16:06:24,468 INFO Raw QA: femto chunk 50
+2026-10-13 16:06:25,151 INFO Raw QA: femto chunk 60
+2026-10-13 16:06:25,916 INFO Raw QA: femto chunk 70
+2026-10-13 16:06:26,598 INFO Raw QA: femto chunk 80
+2026-10-13 16:06:27,374 INFO Raw QA: femto chunk 90
+2026-10-13 16:06:28,137 INFO Raw QA: femto chunk 100
+2026-10-13 16:06:28,887 INFO Raw QA: femto chunk 110
+2026-10-13 16:06:29,631 INFO Raw QA: femto chunk 120
+2026-10-13 16:06:30,377 INFO Raw QA: femto chunk 130
+2026-10-13 16:06:31,122 INFO Raw QA: femto chunk 140
+2026-10-13 16:06:31,926 INFO Raw QA: femto chunk 150
+2026-10-13 16:06:32,653 INFO Raw QA: femto chunk 160
+2026-10-13 16:06:32,943 INFO Raw QA: background chunk 0
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.raw_qa-285cb48ef69d4fbbb2339e0e2b87d1a1.tmp/raw_kstar_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.raw_qa-285cb48ef69d4fbbb2339e0e2b87d1a1.tmp/raw_kstar_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.raw_qa-285cb48ef69d4fbbb2339e0e2b87d1a1.tmp/raw_hyper_mass.pdf has been created
+2026-10-13 16:06:33,547 INFO Finished raw_qa in 13.0 s
+2026-10-13 16:06:33,549 INFO Start stage: prepared
+2026-10-13 16:06:33,558 INFO Finished prepared in 0.0 s
+2026-10-13 16:06:34,533 INFO Start stage: training
+2026-10-13 16:06:44,637 INFO Finished training in 10.1 s
+2026-10-13 16:06:44,642 INFO Start stage: working_point
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-6a1a948a2fe746a09ebd29d323f285c7.tmp/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-6a1a948a2fe746a09ebd29d323f285c7.tmp/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-6a1a948a2fe746a09ebd29d323f285c7.tmp/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-6a1a948a2fe746a09ebd29d323f285c7.tmp/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-6a1a948a2fe746a09ebd29d323f285c7.tmp/qa/mean_sigma_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-6a1a948a2fe746a09ebd29d323f285c7.tmp/qa/fit_stability.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-6a1a948a2fe746a09ebd29d323f285c7.tmp/qa/best_mass_fit.pdf has been created
+2026-10-13 16:07:08,465 INFO Finished working_point in 23.8 s
+2026-10-13 16:07:08,485 INFO Start stage: scored
+2026-10-13 16:07:08,768 INFO Scored femto: input=49746 retained=14159
+2026-10-13 16:07:10,159 INFO Scored femto: input=511765 retained=123410
+2026-10-13 16:07:11,412 INFO Scored femto: input=965562 retained=194444
+2026-10-13 16:07:13,041 INFO Scored femto: input=1426658 retained=278571
+2026-10-13 16:07:14,582 INFO Scored femto: input=1893538 retained=400933
+2026-10-13 16:07:15,837 INFO Scored femto: input=2330538 retained=490784
+2026-10-13 16:07:16,996 INFO Scored femto: input=2731107 retained=563517
+2026-10-13 16:07:18,248 INFO Scored femto: input=3192949 retained=665226
+2026-10-13 16:07:19,360 INFO Scored femto: input=3580097 retained=757775
+2026-10-13 16:07:20,669 INFO Scored femto: input=4027218 retained=879419
+2026-10-13 16:07:21,883 INFO Scored femto: input=4480914 retained=975689
+2026-10-13 16:07:23,162 INFO Scored femto: input=4966971 retained=1082166
+2026-10-13 16:07:24,404 INFO Scored femto: input=5411897 retained=1173278
+2026-10-13 16:07:25,808 INFO Scored femto: input=5889676 retained=1300261
+2026-10-13 16:07:27,065 INFO Scored femto: input=6346389 retained=1407717
+2026-10-13 16:07:28,290 INFO Scored femto: input=6790438 retained=1508355
+2026-10-13 16:07:29,544 INFO Scored femto: input=7226887 retained=1608135
+2026-10-13 16:07:30,050 INFO Finished scored in 21.6 s
+2026-10-13 16:07:30,054 INFO Start stage: nominal
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+2026-10-13 16:07:30,692 INFO Finished nominal in 0.6 s
+2026-10-13 16:07:30,696 INFO Start stage: systematics
+2026-10-13 16:07:30,737 INFO Systematic variation: bdt_loose
+2026-10-13 16:07:30,758 INFO Systematic variation: bdt_tight
+2026-10-13 16:07:30,778 INFO Systematic variation: norm_low
+2026-10-13 16:07:30,797 INFO Systematic variation: norm_high
+2026-10-13 16:07:30,816 INFO Systematic variation: cospa_tight
+2026-10-13 16:07:30,836 INFO Systematic variation: pion_pid_tight
+2026-10-13 16:07:30,856 INFO Systematic variation: occupancy_low
+2026-10-13 16:07:30,875 INFO Systematic variation: mass_narrow
+2026-10-13 16:07:30,894 INFO Systematic variation: mass_background_constant
+2026-10-13 16:07:30,914 INFO Systematic variation: sideband_shift
+2026-10-13 16:07:30,933 INFO Systematic variation: pion_dca_tight
+2026-10-13 16:07:30,953 INFO Systematic variation: close_pair_strict
+2026-10-13 16:07:35,270 INFO Finished systematics in 4.6 s
+2026-10-13 16:07:35,274 INFO Start stage: mc_qa
+2026-10-13 16:07:35,288 INFO Finished mc_qa in 0.0 s
+2026-10-13 16:07:35,294 INFO Start stage: report
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-2669f995455d4b07b696e896cf2c2872.tmp/working_point.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-2669f995455d4b07b696e896cf2c2872.tmp/working_point_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-2669f995455d4b07b696e896cf2c2872.tmp/working_point_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-2669f995455d4b07b696e896cf2c2872.tmp/working_point_mass_fit.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-2669f995455d4b07b696e896cf2c2872.tmp/raw_kstar_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-2669f995455d4b07b696e896cf2c2872.tmp/raw_kstar_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-2669f995455d4b07b696e896cf2c2872.tmp/raw_hyper_mass.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-2669f995455d4b07b696e896cf2c2872.tmp/correlations_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-2669f995455d4b07b696e896cf2c2872.tmp/pair_spectra_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-2669f995455d4b07b696e896cf2c2872.tmp/correlations_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-2669f995455d4b07b696e896cf2c2872.tmp/pair_spectra_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-2669f995455d4b07b696e896cf2c2872.tmp/mass_purity.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-2669f995455d4b07b696e896cf2c2872.tmp/mixing_qa.pdf has been created
+2026-10-13 16:07:38,797 INFO Finished report in 3.5 s
+==============================
+Training xgboost model for classification
+Number of detected classes: 2
+Training the model: ...
+Training the model: Done!
+Testing the model: ...
+ROC_AUC_score: 0.993594
+Testing the model: Done!
+==============================
+/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/report

@@ -1,0 +1,76 @@
+test_component_bin_and_window_integrals_match_roofit_exact_shapes (test_wp_mass_fit.WorkingPointMassFitTests) ... [#1] INFO:Eval -- RooRealVar::setRange(integration_mass_0_9) new range named 'window' created with bounds [2.989,2.996]
+[#1] INFO:Eval -- RooRealVar::setRange(integration_mass_1_0) new range named 'window' created with bounds [2.989,2.996]
+[#1] INFO:Eval -- RooRealVar::setRange(integration_mass_2_0) new range named 'window' created with bounds [2.989,2.996]
+[#1] INFO:Eval -- RooRealVar::setRange(integration_mass_15_0) new range named 'window' created with bounds [2.989,2.996]
+ok
+test_global_chebychev_positivity_includes_interior_not_only_bin_centers (test_wp_mass_fit.WorkingPointMassFitTests) ... ok
+test_invalid_histogram_and_unsupported_background_fail_before_roofit (test_wp_mass_fit.WorkingPointMassFitTests) ... ok
+test_mc_tail_calibration_and_explicit_default_fallback_states (test_wp_mass_fit.WorkingPointMassFitTests) ... ok
+test_native_extended_fits_float_pol1_pol2_and_fix_tails (test_wp_mass_fit.WorkingPointMassFitTests) ... ok
+test_prefit_freezes_coefficients_and_counts_only_actual_free_parameters (test_wp_mass_fit.WorkingPointMassFitTests) ... ok
+test_warm_start_does_not_mutate_cached_fit_or_override_frozen_tails (test_wp_mass_fit.WorkingPointMassFitTests) ... ok
+test_actual_a4_pdf_keeps_lower_and_upper_panels_inside_page (test_spectrum_wp_qa.SpectrumWorkingPointQATests) ... Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzpvbtjbj/paper_950_850.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzpvbtjbj/paper_850_950.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzpvbtjbj/paper_1600_600.pdf has been created
+ok
+test_band_uses_common_mask_sorted_final_values_and_nominal_not_qa_maximum (test_spectrum_wp_qa.SpectrumWorkingPointQATests) ... Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0jfyr2se/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0jfyr2se/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0jfyr2se/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0jfyr2se/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0jfyr2se/qa/mean_sigma_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0jfyr2se/qa/fit_stability.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0jfyr2se/qa/best_mass_fit.pdf has been created
+ok
+test_exact_override_outside_scan_is_visible_and_invalid_override_has_no_star (test_spectrum_wp_qa.SpectrumWorkingPointQATests) ... Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmptw4s_83w/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmptw4s_83w/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmptw4s_83w/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmptw4s_83w/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmptw4s_83w/qa/mean_sigma_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmptw4s_83w/qa/fit_stability.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmptw4s_83w/qa/best_mass_fit.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmptw4s_83w/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmptw4s_83w/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmptw4s_83w/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmptw4s_83w/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmptw4s_83w/qa/mean_sigma_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmptw4s_83w/qa/fit_stability.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmptw4s_83w/qa/best_mass_fit.pdf has been created
+ok
+test_failed_wp_labels_diagnostics_and_retains_rejected_mass_fits (test_spectrum_wp_qa.SpectrumWorkingPointQATests) ... Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgzuout2x/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgzuout2x/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgzuout2x/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgzuout2x/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgzuout2x/qa/mean_sigma_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgzuout2x/qa/fit_stability.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgzuout2x/qa/mass_fit_0000.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgzuout2x/qa/mass_fit_0001.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgzuout2x/qa/mass_fit_0002.pdf has been created
+ok
+test_missing_exact_cut_or_failed_three_sigma_pol0_never_fabricates_marker_or_ns (test_spectrum_wp_qa.SpectrumWorkingPointQATests) ... Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgw1z41_v/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgw1z41_v/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgw1z41_v/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgw1z41_v/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgw1z41_v/qa/mean_sigma_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgw1z41_v/qa/fit_stability.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgw1z41_v/qa/best_mass_fit.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgw1z41_v/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgw1z41_v/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgw1z41_v/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgw1z41_v/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgw1z41_v/qa/mean_sigma_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgw1z41_v/qa/fit_stability.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgw1z41_v/qa/best_mass_fit.pdf has been created
+ok
+test_raw_three_sigma_pol0_components_and_single_panel_roundtrip (test_spectrum_wp_qa.SpectrumWorkingPointQATests) ... Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmppx4xgj6o/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmppx4xgj6o/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmppx4xgj6o/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmppx4xgj6o/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmppx4xgj6o/qa/mean_sigma_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmppx4xgj6o/qa/fit_stability.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmppx4xgj6o/qa/best_mass_fit.pdf has been created
+ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.987s
+
+OK

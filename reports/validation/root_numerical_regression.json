@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "files": {
+    "nominal/correlations.csv": {
+      "previous_sha256": "d02c4eb83fd5b9cb2713463046bd99d319be20ca63c0f1101a621318388cab55",
+      "current_sha256": "d02c4eb83fd5b9cb2713463046bd99d319be20ca63c0f1101a621318388cab55",
+      "byte_identical": true
+    },
+    "nominal/covariances.npz": {
+      "previous_sha256": "4f872227fc906d53913b38da7b9abe9f0cf58bd237655051d250521727ecc592",
+      "current_sha256": "4f872227fc906d53913b38da7b9abe9f0cf58bd237655051d250521727ecc592",
+      "byte_identical": true
+    },
+    "systematics/final_observables.csv": {
+      "previous_sha256": "e51f586e36ae877208be0605a19991591381d15393faae2b6b3cd549d5bdc0ea",
+      "current_sha256": "e51f586e36ae877208be0605a19991591381d15393faae2b6b3cd549d5bdc0ea",
+      "byte_identical": true
+    },
+    "systematics/covariances.npz": {
+      "previous_sha256": "919483d23b3ba03b7520c576c681e97b6ab92b8a1fbb738ded0f8f97ac5e8ac5",
+      "current_sha256": "919483d23b3ba03b7520c576c681e97b6ab92b8a1fbb738ded0f8f97ac5e8ac5",
+      "byte_identical": true
+    }
+  }
+}

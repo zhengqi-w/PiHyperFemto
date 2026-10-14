@@ -1,0 +1,220 @@
+# Copy to farm.yaml and edit input roots, output, selections and training/WP.
+# No source edits are needed. Absolute example paths must exist on the Farm.
+# Dependency installation: bash scripts/install_environment.sh
+# Full run: pih3l run -c configs/farm.yaml
+schema_version: 1
+output: ../outputs/farm/lhc25pbpb
+seed: 73129
+io:
+  chunk_rows: 100000
+  fingerprint: stat  # Fast restart checks for large AO2D sets; use sha256 for byte-level provenance.
+  root_projection: true
+  slim_scored: true
+  checkpoint: true
+  persist_prepared: false  # Direct ROOT -> bounded batches by default.
+  cache_model_scores: false  # Optional NPZ inference cache costs extra disk space.
+  scored_partition_by_pt: true
+  # Mandatory routing/observables and all declared cut columns are included automatically.
+  scored_columns: [mass_h3l, kstar, pt_h3l]
+  scored_optional_columns: [HypTrackOccupancy, PairCentFT0C, MixingDepth, IsClosePairRejected]
+# Input QA display ranges only; does not apply analysis cuts or BDT.
+raw_qa:
+  mass_range: [2.94, 3.06]
+  mass_bins: 120
+  # kstar_edges defaults to 60 equal bins over [0, 1.2) GeV/c.
+# Every role may live under an independent directory or a list of directories.
+# Roots already identify each tree-role folder; patterns do not repeat its name.
+inputs:
+  femto: {root: /farm/data/LHC25PbPb/Femto, patterns: ["AO2D*.root"], required: true}
+  background: {root: /farm/data/LHC25PbPb/Hyper, patterns: ["AO2D*.root"], required: true}
+  signal: {root: /farm/data/LHC25PbPb/MCHyper, patterns: ["AO2D*.root"], required: true}
+  mc_femto: {root: null, patterns: ["AO2D*.root"], required: false} # Fill when pair MC exists.
+synthetic_repetition: false
+# A true single-period workflow; shared input roots are used directly.
+periods: []
+analysis:
+  centrality_bins: [[0, 10], [10, 30], [30, 50], [50, 80]]
+  normalization: [0.3, 0.5]
+  signal_window: [2.985, 2.997]
+  sidebands: [[2.96, 2.975], [3.007, 3.025]]
+  mass_range: [2.96, 3.025]
+  close_pair_reject_bits: 3
+  mixing_weight: unit
+  candidate_cuts:
+    cos_pa: {min: 0.99}
+    ct: {min: 0, max: 40}
+    NSigmaHe: {abs_max: 5}
+  pair_cuts:
+    PairPiTrackEta: {abs_max: 0.8}
+    PairPiTrackPt: {min: 0.15, max: 5}
+    PairPiTrackTpcNSigmaPi: {abs_max: 3}
+  event_cuts:
+    ZPrimVtx: {abs_max: 10}
+training:
+  # CPU XGBoost reference from H3l_2body_spectrum; not tuned on this dataset.
+  # gamma/min_split_loss are aliases: only canonical gamma is configured here.
+  class_weight: balanced
+  model_params:
+    objective: binary:logistic
+    booster: gbtree
+    max_depth: 6
+    gamma: 2.0
+    learning_rate: 0.05
+    n_estimators: 800
+    min_child_weight: 3.0
+    subsample: 0.7
+    colsample_bytree: 0.73
+    colsample_bylevel: 1.0
+    colsample_bynode: 1.0
+    tree_method: hist
+    max_bin: 256
+    n_jobs: 4
+    eval_metric: auc
+    reg_alpha: 0.0
+    reg_lambda: 1.0
+    verbosity: 0
+  # One shared model over a restricted range: pt_range: [2, 8].
+  # Independent models: set pt_range: null and uncomment pt_bins below.
+  pt_range: null
+  pt_bins: []
+  # pt_bins:
+  #   - {id: pt_2_4, pt_range: [2, 4]}
+  #   - {id: pt_4_8, pt_range: [4, 8]}
+  # Per-bin model_params/use_optuna/optuna override the shared settings.
+  #   - id: pt_4_8
+  #     pt_range: [4, 8]
+  #     model_params: {max_depth: 5}
+  #     use_optuna: true
+  #     optuna:
+  #       n_trials: 10
+  #       search_space: {max_depth: {type: int, low: 3, high: 6}}
+  retrain_bins: []  # e.g. [pt_4_8], then clear after the requested retrain.
+  candidate_cuts: {}  # Training definition, separate from final analysis cuts.
+  # Per-model feature ranges learned once from independent MC groups.
+  mc_range_selection:
+    enabled: true
+    features: null  # All BDT features; can be a subset of them.
+    quantiles: [0.001, 0.999]
+    margin_fraction: 0.05  # Expand each learned interval by 5% of its width.
+    reference_fraction: 0.1  # Whole groups removed from classifier/CV/held-out.
+    min_reference_rows: 50
+  # Lifetime observables (ct/fCt) are intentionally excluded from the BDT.
+  features: [DcaV0Daug, DcaHe, DcaPi, NSigmaHe, cos_pa]
+  signal_mass_window: [2.95, 3.02]  # MC strictly inside; data strictly outside.
+  target_signal_efficiency: 0.8
+  max_per_class: 200000
+  min_per_class: 30
+  validation_fraction: 0.25
+  qa_shap_max_per_class: 1000  # Bounded held-out sample for SHAP QA.
+  # Spectrum-compatible dense score-efficiency grid; no training centrality split.
+  efficiency_min: 0.29
+  efficiency_max: 0.99
+  npoints_for_effi: 701
+  qa_bins: 100
+  use_optuna: false  # Set true to tune on group folds of the training split only.
+  optuna:
+    metric: auc
+    direction: maximize
+    n_trials: 20
+    timeout: 300  # seconds; null disables the time limit
+    cv_folds: 3
+    n_jobs: 1  # Parallel studies; model_params.n_jobs controls XGBoost threads.
+    n_startup_trials: 5
+    pruner: median
+    n_warmup_steps: 1
+    # H3l reference ranges. They are an explicit starting point, not a result.
+    search_space:
+      max_depth: {type: int, low: 3, high: 8}
+      learning_rate: {type: float, low: 0.015, high: 0.12, log: true}
+      n_estimators: {type: int, low: 300, high: 1400, step: 100}
+      min_child_weight: {type: float, low: 1.0, high: 10.0}
+      subsample: {type: float, low: 0.60, high: 0.95}
+      colsample_bytree: {type: float, low: 0.60, high: 1.0}
+      gamma: {type: float, low: 0.0, high: 5.0}
+      reg_alpha: {type: float, low: 0.0, high: 2.0}
+      reg_lambda: {type: float, low: 0.5, high: 5.0}
+working_point:
+  # Convert held-out signal efficiencies to score candidates, then choose the
+  # score maximizing efficiency*c0/sqrt(c0+B), with c0 from pol0(raw yield/efficiency).
+  signal_efficiencies: null
+  objective: pol0_expected_significance
+  yield_eff_range: [0.5, 0.95]
+  min_pol0_points: 3
+  max_fit_chi2_ndf: 10.0
+  save_score_fit_frames: false
+  centrality_bins: null  # no candidate centrality selection; independent of CF bins
+  candidate_cuts:
+    cos_pa: {min: 0.99}
+    ct: {min: 0, max: 40}
+    NSigmaHe: {abs_max: 5}
+  event_cuts:
+    ZPrimVtx: {abs_max: 10}
+  mass_range: [2.96, 3.04]
+  signal_window: [2.985, 2.997]
+  sidebands: [[2.96, 2.98], [3.005, 3.04]]
+  mass_fit:
+    signal_model: dscb
+    background: pol1  # Only pol1 or pol2 (RooChebychev).
+    mass_bins: 50  # Spectrum data histogram: 2.96-3.04 GeV/c^2.
+    mc_mass_bins: 80
+    min_mass_entries: 80
+    mean_bounds: [2.985, 3.005]
+    sigma_bounds: [0.0014, 0.0020]
+    calibrate_mc_tails: true
+    sideband_prefit: true
+    alpha_bounds: [0.7, 5.0]
+    n_bounds: [0.9, 15.0]
+    tail_defaults: {alpha_left: 1.5, n_left: 2.0, alpha_right: 1.5, n_right: 2.0}
+  period_text: ALICE Run 3 PbPb
+  additional_text: "PbPb #sqrt{#it{s_{NN}}} = 5.36 TeV"
+  storage:
+    enabled: true
+    reserve_signal_efficiency: 0.99
+purity:
+  method: fit
+  background: linear
+systematics:
+  method: envelope
+  variations:
+    # Nearby WP variation, defined in held-out MC efficiency, not score:
+    # - name: bdt_tighter
+    #   group: bdt
+    #   wp_efficiency_delta: -0.02
+    #   overrides: {}
+    - name: normalization_low
+      group: normalization
+      overrides: {analysis: {normalization: [0.26, 0.46]}}
+    - name: normalization_high
+      group: normalization
+      overrides: {analysis: {normalization: [0.34, 0.54]}}
+    # Pair pion cuts; alternatives within each source, independent named sources.
+    - name: pion_ptmin_020
+      group: pion_pt_min
+      overrides: {analysis: {pair_cuts: {PairPiTrackPt: {min: 0.20}}}}
+    - name: pion_ptmin_025
+      group: pion_pt_min
+      overrides: {analysis: {pair_cuts: {PairPiTrackPt: {min: 0.25}}}}
+    - name: pion_ptmax_200
+      group: pion_pt_max
+      overrides: {analysis: {pair_cuts: {PairPiTrackPt: {max: 2.0}}}}
+    - name: pion_ptmax_225
+      group: pion_pt_max
+      overrides: {analysis: {pair_cuts: {PairPiTrackPt: {max: 2.25}}}}
+    - name: pion_tpcrows_100
+      group: pion_tpc_rows
+      overrides: {analysis: {pair_cuts: {PairPiTrackTpcNClsCrossedRows: {min: 100}}}}
+    - name: pion_tpcrows_110
+      group: pion_tpc_rows
+      overrides: {analysis: {pair_cuts: {PairPiTrackTpcNClsCrossedRows: {min: 110}}}}
+    - name: pion_pid_tight
+      group: pion_pid
+      overrides: {analysis: {pair_cuts: {PairPiTrackTpcNSigmaPi: {abs_max: 2.5}}}}
+    - name: mass_narrow
+      group: mass_window
+      overrides: {analysis: {signal_window: [2.987, 2.995]}}
+    - name: sideband_shift
+      group: sideband
+      overrides: {analysis: {sidebands: [[2.965, 2.98], [3.005, 3.02]]}}
+    - name: mass_background_constant
+      group: mass_model
+      overrides: {purity: {background: constant}}

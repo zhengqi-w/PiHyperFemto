@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "checks_passed": 880,
+  "checks_total": 880,
+  "working_point": {
+    "status": "ok",
+    "directory": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/working_point",
+    "stage_signature": "723b1220c99911de51c6c9c5c967df152cfa2f2e96a575f037080e709bfbc7fc",
+    "threshold": 0.16523253525304007,
+    "nominal_mc_signal_efficiency": 0.9850160542276133,
+    "scan_points": 701,
+    "valid_mass_fits": 157,
+    "valid_efficiency_segments": [
+      [
+        0.367,
+        0.402,
+        36
+      ],
+      [
+        0.404,
+        0.516,
+        113
+      ],
+      [
+        0.521,
+        0.521,
+        1
+      ],
+      [
+        0.542,
+        0.544,
+        3
+      ],
+      [
+        0.985,
+        0.988,
+        4
+      ]
+    ],
+    "yield_pol0": {
+      "status": "ok",
+      "fit_range": [
+        0.5,
+        0.95
+      ],
+      "points": 21,
+      "distinct_thresholds": 21,
+      "minimum_points": 3,
+      "c0": 2073.338886278804,
+      "c0_error": 13.991944913597004,
+      "chi2": 0.4454033588840719,
+      "ndof": 20,
+      "chi2_ndf": 0.022270167944203594,
+      "method": "ROOT TGraphErrors weighted TF1 pol0 fit",
+      "reference_difference": "preserves every valid efficiency point; avoids TH1 bin collisions overwriting scan points",
+      "efficiency_coordinate": "requested MC signal efficiency",
+      "uncertainty": "marginal mass-fit errors; covariance between nested WP samples unavailable",
+      "root_fit_status": 0
+    },
+    "spectrum_qa_pol0": {
+      "status": "ok",
+      "fit_range": [
+        0.5,
+        0.95
+      ],
+      "points": 21,
+      "distinct_thresholds": 21,
+      "minimum_points": 3,
+      "c0": 2068.019335023584,
+      "c0_error": 13.957335364031318,
+      "chi2": 0.44721741933982695,
+      "ndof": 20,
+      "chi2_ndf": 0.022360870966991346,
+      "method": "ROOT TGraphErrors weighted TF1 pol0 fit",
+      "reference_difference": "preserves every valid efficiency point; avoids TH1 bin collisions overwriting scan points",
+      "efficiency_coordinate": "requested MC signal efficiency",
+      "uncertainty": "marginal mass-fit errors; covariance between nested WP samples unavailable",
+      "root_fit_status": 0
+    },
+    "pdfs": 7,
+    "new_best_fit_available": true
+  }
+}

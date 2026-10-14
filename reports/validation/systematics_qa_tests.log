@@ -1,0 +1,65 @@
+test_rendered_archive_reopens_in_fresh_process_with_drawn_ratio_points (test_systematics_qa.SystematicQaRootTests) ... Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/variation__pion_pt_min_0__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/variation__pion_pt_min_1__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/variation__pion_pt_max_0__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/variation__pion_pt_max_1__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/variation__pion_tpc_rows_0__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/variation__pion_tpc_rows_1__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/systematic__source__pion_pt_min__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/systematic__source__pion_pt_max__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/systematic__source__pion_tpc_rows__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/systematic__total__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/systematics_qa.pdf has been created
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpkh3yjby9/qa/systematics_qa.pdf has been closed
+ok
+test_root_export_preserves_bins_masks_and_plain_graphs (test_systematics_qa.SystematicQaRootTests) ... ok
+test_source_named_total_cannot_overwrite_combined_total_pdf_or_canvas (test_systematics_qa.SystematicQaRootTests) ... Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/variation__pion_pt_min_0__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/variation__pion_pt_min_1__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/variation__pion_pt_max_0__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/variation__pion_pt_max_1__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/variation__pion_tpc_rows_0__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/variation__pion_tpc_rows_1__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/systematic__source__total__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/systematic__source__pion_pt_max__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/systematic__source__pion_tpc_rows__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/systematic__total__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/systematics_qa.pdf has been created
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp0f2513r3/qa/systematics_qa.pdf has been closed
+ok
+test_build_keeps_source_alternatives_and_quadrature_total_distinct (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_failed_alternative_marks_source_and_total_incomplete (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_failed_variation_remains_explicit_without_fake_unit_ratios (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_identical_sources_have_unit_ratio_without_invented_error (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_nonfinite_or_negative_input_variance_masks_diagnostics (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_overflow_in_a_finite_input_ratio_or_relative_error_is_invalid (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_partial_bin_coverage_preserves_available_spread_but_marks_budget (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_ratio_uses_nominal_correlation_not_its_standard_error (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_relative_uncertainty_divides_by_absolute_nominal (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_relative_uncertainty_preserves_invalid_and_unavailable_errors (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_rms_dropped_common_ensemble_member_marks_populated_bins_partial (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_zero_nonfinite_and_explicitly_invalid_denominators_are_missing (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_zero_numerator_is_a_valid_zero_ratio (test_systematics_qa.SystematicRatioMathTests) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 3.398s
+
+OK

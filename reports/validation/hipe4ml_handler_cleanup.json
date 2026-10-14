@@ -1,0 +1,16 @@
+{
+  "removed_generated_caches": [
+    {
+      "path": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/src/pih3l/__pycache__",
+      "files": 34,
+      "bytes": 251174
+    },
+    {
+      "path": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/tests/__pycache__",
+      "files": 11,
+      "bytes": 120480
+    }
+  ],
+  "historical_outputs_preserved": true,
+  "legacy_model_behavior": "Rejected for reuse; rebuild from source on next workflow run"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "focused_tests": 28,
+  "duration_seconds": 15.767,
+  "source_fingerprint": "5db364f166def0b84541da8f4e07d188c527a337898cdc18eb4f7d2dc8c4ed89",
+  "artifact_checks": 502,
+  "artifact_record": "reports/validation/testset_mass_distribution_validation.json",
+  "scope": "Mass is an additional distribution-only QA variable; five model inputs, five-dimensional correlations and importance retained",
+  "visual_review": {
+    "status": "passed",
+    "pdf": "outputs/testset/training/qa/feature_distributions.pdf",
+    "preview_outside_outputs": "/tmp/pih3l-mass-distribution-review/features.png",
+    "findings": "Six readable panels; mass signal/background shown with physical units and QA-only label"
+  },
+  "log": "reports/validation/mass_distribution_qa_checks.log"
+}

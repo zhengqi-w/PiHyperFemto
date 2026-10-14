@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "tests": 152,
+  "duration_seconds": 32.205,
+  "source_fingerprint": "9560968aa3fd41f370f84bac874317fb43663bcc7ffee6c35259f6cb5f9a2de8",
+  "python": "/opt/anaconda3/envs/MLenv/bin/python",
+  "root_version": "6.38.04",
+  "hipe4ml": {
+    "provider": "hipe4ml.analysis_utils.score_from_efficiency_array",
+    "version": "0.0.18",
+    "implementation_sha256": "69b0fbcc6c6b5481ef5485811c90d245746ff35557b68c9a545cb353932bea3b",
+    "score_domain": "classifier predict_proba(signal), [0,1]",
+    "input": "both classes of the fixed held-out validation sample",
+    "library_comparison": "score > threshold",
+    "application_comparison": "score >= threshold (inclusive ties)",
+    "unit_efficiency_policy": "threshold 0 in the probability domain",
+    "fallback": "none",
+    "numerical_retry_policy": "On a missing spline root only, evaluate targets one float64 ULP toward zero on the identical sample; retain requested efficiencies and report actual acceptance."
+  },
+  "format_check": "24 modified Python files pass Black",
+  "static_check": "Flake8 F,E9 passed",
+  "log": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/reports/validation/spectrum_qa_software_checks.log",
+  "real_testset": "stopped at pol0: no valid fits in configured range; previous downstream outputs retained"
+}

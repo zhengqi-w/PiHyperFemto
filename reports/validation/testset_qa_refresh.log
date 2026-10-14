@@ -1,0 +1,22 @@
+2026-10-12 12:21:31,078 INFO Reuse verified stage: prepared
+2026-10-12 12:21:31,980 INFO Start stage: training
+2026-10-12 12:21:44,182 INFO Finished training in 12.2 s
+2026-10-12 12:21:44,187 INFO Start stage: working_point
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-a2b6dc97ebad4228b3c06f445706217e.tmp/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-a2b6dc97ebad4228b3c06f445706217e.tmp/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-a2b6dc97ebad4228b3c06f445706217e.tmp/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-a2b6dc97ebad4228b3c06f445706217e.tmp/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-a2b6dc97ebad4228b3c06f445706217e.tmp/qa/mean_sigma_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-a2b6dc97ebad4228b3c06f445706217e.tmp/qa/fit_stability.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-a2b6dc97ebad4228b3c06f445706217e.tmp/qa/best_mass_fit.pdf has been created
+2026-10-12 12:21:56,821 INFO Finished working_point in 12.6 s
+==============================
+Training xgboost model for classification
+Number of detected classes: 2
+Training the model: ...
+Training the model: Done!
+Testing the model: ...
+ROC_AUC_score: 0.991371
+Testing the model: Done!
+==============================
+/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/working_point

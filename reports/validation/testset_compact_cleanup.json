@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "completed_utc": "2026-10-11T15:59:24.464562+00:00",
+  "status": "complete",
+  "authorization": "User requested rerunning TestSet and deleting unused folders.",
+  "testset_validation": "reports/validation/testset_compact_validation.json",
+  "checks": "389/389",
+  "removed": [
+    {
+      "path": "src/pih3l/__pycache__",
+      "type": "generated_directory",
+      "files": 32,
+      "bytes": 231308,
+      "reason": "Old build/package outputs or regenerable Python/test cache."
+    },
+    {
+      "path": "tests/__pycache__",
+      "type": "generated_directory",
+      "files": 31,
+      "bytes": 261135,
+      "reason": "Old build/package outputs or regenerable Python/test cache."
+    },
+    {
+      "path": "scripts/__pycache__",
+      "type": "generated_directory",
+      "files": 1,
+      "bytes": 16677,
+      "reason": "Old build/package outputs or regenerable Python/test cache."
+    },
+    {
+      "path": ".pytest_cache",
+      "type": "generated_directory",
+      "files": 6,
+      "bytes": 11950,
+      "reason": "Old build/package outputs or regenerable Python/test cache."
+    },
+    {
+      "path": "build",
+      "type": "generated_directory",
+      "files": 20,
+      "bytes": 148257,
+      "reason": "Old build/package outputs or regenerable Python/test cache."
+    },
+    {
+      "path": "dist",
+      "type": "generated_directory",
+      "files": 1,
+      "bytes": 48604,
+      "reason": "Old build/package outputs or regenerable Python/test cache."
+    },
+    {
+      "path": "outputs/testset/.checkpoints/scored/mc_femto/a40ab4a66a3eaac920c38ea704d0d477f3711a87f5a11129661466df754bac14",
+      "type": "empty_directory",
+      "files": 0,
+      "bytes": 0,
+      "reason": "No data or metadata remains."
+    },
+    {
+      "path": "outputs/testset/.checkpoints/scored/mc_femto",
+      "type": "empty_directory",
+      "files": 0,
+      "bytes": 0,
+      "reason": "No data or metadata remains."
+    },
+    {
+      "path": "outputs/benchmarks/optimization/slim_samples",
+      "type": "empty_directory",
+      "files": 0,
+      "bytes": 0,
+      "reason": "No data or metadata remains."
+    },
+    {
+      "path": "outputs/testset/legacy_artifacts_removed.json",
+      "type": "obsolete_status_file",
+      "files": 1,
+      "bytes": 978,
+      "reason": "Current TestSet run and artifact validation supersede this historical warning."
+    }
+  ],
+  "removed_directory_count": 9,
+  "removed_generated_bytes": 718909,
+  "preserved": [
+    "Current scored Parquet and dataset.json",
+    "All current workflow stage folders and manifests",
+    "Training models/held-out scores/score-efficiency arrays",
+    "ROOT/PDF/JSON/CSV report and numerical artifacts",
+    "Active femto shard checkpoints (hard links, required for recovery)",
+    "Historical benchmark JSON and validation evidence",
+    "Source package egg-info for environment metadata"
+  ],
+  "current_scored": {
+    "path": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/scored/femto",
+    "files": 158,
+    "parquet_bytes": 60302211,
+    "rows": 1996515,
+    "columns": 18,
+    "raw_rows": 15645511,
+    "before_storage_rows": 7328643,
+    "minimum_threshold": 0.10621458949154691
+  },
+  "post_cleanup_resume": {
+    "status": "passed",
+    "reused_stages": [
+      "raw_qa",
+      "prepared",
+      "training",
+      "working_point",
+      "scored",
+      "nominal",
+      "systematics",
+      "mc_qa",
+      "report"
+    ],
+    "log": "reports/validation/testset_compact_resume.log"
+  }
+}

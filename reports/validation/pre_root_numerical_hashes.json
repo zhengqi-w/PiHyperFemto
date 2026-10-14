@@ -1,0 +1,6 @@
+{
+  "nominal/correlations.csv": "d02c4eb83fd5b9cb2713463046bd99d319be20ca63c0f1101a621318388cab55",
+  "nominal/covariances.npz": "4f872227fc906d53913b38da7b9abe9f0cf58bd237655051d250521727ecc592",
+  "systematics/final_observables.csv": "e51f586e36ae877208be0605a19991591381d15393faae2b6b3cd549d5bdc0ea",
+  "systematics/covariances.npz": "919483d23b3ba03b7520c576c681e97b6ab92b8a1fbb738ded0f8f97ac5e8ac5"
+}

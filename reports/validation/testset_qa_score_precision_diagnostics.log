@@ -1,0 +1,25 @@
+/Users/zhengqingwang/.matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/matplotlib-ffyfdcu4 because there was an issue with the default path (/Users/zhengqingwang/.matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+2026-10-12 12:19:47.066 system_profiler[68952:6610632] XType: Using static font registry.
+Matplotlib is building the font cache; this may take a moment.
+Traceback (most recent call last):
+  File "/tmp/pih3l_audit_qa_refresh.py", line 53, in <module>
+    np.testing.assert_allclose(actual, metrics["score_efficiency_array"]["actual_efficiency"], rtol=0, atol=1e-12)
+  File "/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/numpy/testing/_private/utils.py", line 1504, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/opt/anaconda3/envs/MLenv/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/numpy/testing/_private/utils.py", line 797, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError:
+Not equal to tolerance rtol=0, atol=1e-12
+
+Mismatched elements: 6 / 701 (0.856%)
+Max absolute difference: 4.45950767e-05
+Max relative difference: 0.00013906
+ x: array([0.289021, 0.289957, 0.291161, 0.292142, 0.292945, 0.293525,
+       0.294461, 0.295398, 0.29629 , 0.297271, 0.297984, 0.298742,
+       0.299768, 0.300928, 0.302176, 0.303247, 0.304138, 0.305432,...
+ y: array([0.289021, 0.289957, 0.291161, 0.292142, 0.292945, 0.293525,
+       0.294461, 0.295398, 0.29629 , 0.297271, 0.297984, 0.298742,
+       0.299768, 0.300928, 0.302176, 0.303247, 0.304138, 0.305432,...

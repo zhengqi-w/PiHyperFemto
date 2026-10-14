@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "completed_utc": "2026-10-11T15:43:46.286983+00:00",
+  "status": "passed",
+  "scope": "Software tests using synthetic ROOT inputs; no real TestSet retraining, physics validation, or 50 GB full-period execution.",
+  "tests": {
+    "full_suite": {
+      "command": "PYTHONPATH=src:tests OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=1 /opt/anaconda3/envs/MLenv/bin/python -m unittest discover -s tests -v",
+      "count": 131,
+      "seconds": 27.21,
+      "status": "passed",
+      "log": "reports/validation/scored_storage_unittest.log"
+    },
+    "additional_optional_its_integration": {
+      "test": "test_streaming_pipeline.StreamingPipelineTests.test_optional_its_output_decodes_packed_root_column_before_compact_write",
+      "count": 1,
+      "seconds": 2.46,
+      "status": "passed",
+      "log": "reports/validation/scored_storage_its_unittest.log"
+    },
+    "total_distinct_passed": 132
+  },
+  "static_checks": {
+    "black": "21 changed Python files checked; passed",
+    "flake8": "src and tests, --select F,E9; passed"
+  },
+  "coverage": [
+    "Direct ROOT training/WP with no prepared Parquet",
+    "Dense spectrum-compatible per-model score-efficiency export",
+    "Independent WP cuts, fit geometry and sidebands",
+    "Partial event-cut field absence reported across batches",
+    "NPZ-only held-out labels/scores and optional sparse model score cache",
+    "Pruned/unpruned nominal and declared variations: exact SE/ME/sumw2 histograms and equivalent CF covariance",
+    "Inclusive ties and minimum storage threshold guards",
+    "Per-pT recursive scored paths, full ROOT/PDF report and eight centrality/channel groups",
+    "Multi-artifact checkpoint verification and effective storage-floor cache reuse",
+    "Persisted/direct candidate centrality consistency",
+    "Optional ITS packed branch decoded into compact derived QA output"
+  ],
+  "environment": {
+    "python": "3.10.16",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.14.1",
+    "scikit-learn": "1.6.0",
+    "pyarrow": "18.1.0",
+    "uproot": "5.5.1",
+    "xgboost": "1.7.6",
+    "optuna": "4.1.0"
+  },
+  "source_sha256": {
+    "src/pih3l/config.py": "257bde4228163bd1ab1bf2bc1b2e527ffb33b43583e481b2ae377bd6a48a5c5a",
+    "src/pih3l/training_settings.py": "2bd0a06736adcc965961c18d737903fb7d1e7135972b6d33856f91aa964e279c",
+    "src/pih3l/training.py": "2dbf737bb462b60041a21d77d65cbc2649f0f025d9aafc60d5dc8ae8bb99985a",
+    "src/pih3l/working_point.py": "cd2992b5b676392fc8b267d7e641d17fe9d31362f57bdaa39154eaece113c122",
+    "src/pih3l/dataset.py": "717f26df7a0571a0e22fa99470f663cc0395dc90ae9c57e8d8c497d34bbb9aa4",
+    "src/pih3l/scored_storage.py": "b2d330bed4e32cb8272b38e0a82f0d364e94956356d5e5ed01672fba50fcc052",
+    "src/pih3l/validation_scores.py": "31bc544808df70aada4732f23c71dd409af5d0409d040e4065efd47282f6cb7b",
+    "src/pih3l/io.py": "facbad4418821cf6d09c27915f0d4863167ff59da33df860ee940663c866a3b3",
+    "src/pih3l/models.py": "ce05cd9a1057e70eff7c56cd46369e2e57db9b598fc5b79c54af25ad84c618dc",
+    "src/pih3l/execution.py": "7a8159d8d7dffc012ccc2b2f5b6069ebf6d2e8b6a708daa79184faf81ae703cd",
+    "src/pih3l/score_cache.py": "eda150e58909da645c9ec91d4e76af73b934784804389fe8fd28538e9053901d",
+    "src/pih3l/analysis.py": "15c8a4cb57132df0d5473ce584b299cba5b61417bc8f68839da89cbf3ee70381",
+    "src/pih3l/systematics.py": "88f107aa18c46aacd722172d3a1884f42273272b63cc7d0a3a66e13dd7777834",
+    "src/pih3l/mc.py": "13841491a92372facdb1238ab8aa2f87814b27ead8da4fee0ddcf04e53795185",
+    "src/pih3l/root_output.py": "64c879e96d857a8219560fc662c1a74e4751d4ff3600f4b877e592264a920ae8",
+    "src/pih3l/pipeline.py": "6911bf11b03bf90e335caaa903fb3956819701e99f9185ccd2d57c5c75170124"
+  },
+  "configuration_sha256": {
+    "configs/testset.yaml": "370fae220f34008406b7d0fbaf6d4382bd0693fd6d47e2b432fdbb7a129e1345",
+    "configs/production.example.yaml": "48bea44d731905f99e582812b669a67011c3d4ecc7fd91614701bb2fa511111a"
+  },
+  "cleanup": {
+    "ledger": "reports/validation/scored_storage_cleanup.json",
+    "deleted_parquet": 256,
+    "net_logical_bytes_reduced": 764997648,
+    "remaining_output_parquet": 0
+  }
+}

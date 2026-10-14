@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "source_fingerprint": "b4fe22b16eaec9931a7cbc693c348c551c5d0247d164ea4374884362a01d8a84",
+  "reviewed_final_artifacts": [
+    {
+      "pdf": "outputs/testset_periods/systematics/qa/systematic__total__cent0.pdf",
+      "sha256": "c3ed961d8d5116a0d730681c2030ead2fd63cad898d9f26f8fcc9336eac75d5c",
+      "preview": "/tmp/pih3l-fraction-final/latest_systematic__total__cent0.png",
+      "result": "passed",
+      "inspection": "all-source raw 0-10%; black total and colors, legend and axes clear"
+    },
+    {
+      "pdf": "outputs/testset_periods/systematics/qa/systematic__total__cent1.pdf",
+      "sha256": "1e2eb269ea214e72726bd665f1acc76fd777596a34a523a7be39c96461d6de37",
+      "preview": "/tmp/pih3l-fraction-final/latest_systematic__total__cent1.png",
+      "result": "passed",
+      "inspection": "all-source raw 10-50%; black total and colors, legend and axes clear"
+    },
+    {
+      "pdf": "outputs/testset_periods/systematics/qa/systematic__source__pion_pt_min__cent0.pdf",
+      "sha256": "accdabaa47df8d002594a78dc62aaf7b4c3d0100c0706932c1b05e7abee27580",
+      "preview": "/tmp/pih3l-fraction-final/latest_systematic__source__pion_pt_min__cent0.png",
+      "result": "passed",
+      "inspection": "final notice above axes, source curves retain independent blue/red styles"
+    },
+    {
+      "pdf": "outputs/testset_periods/systematics/qa/systematics_qa.pdf",
+      "sha256": "e5f57be9897efd999f0a2135537dc32c5b4b904b19aebb7c57b094186f05f530",
+      "preview": "/tmp/pih3l-fraction-final/latest_source_book.png",
+      "result": "passed",
+      "inspection": "page 39 matches independently styled source PDF; final notice above axes"
+    },
+    {
+      "pdf": "outputs/testset/systematics/qa/systematic__source__pion_pt_min__cent0.pdf",
+      "sha256": "35cba2fdcea7a3cc70e22dd2f9d86f905ef8f765c1f008f578faeaec2b116f45",
+      "preview": "/tmp/pih3l-fraction-final/final_notice_source_single.png",
+      "result": "passed",
+      "inspection": "single-period final margin and notice clear"
+    },
+    {
+      "pdf": "outputs/testset/systematics/qa/systematics_qa.pdf",
+      "sha256": "4295273a0265d8aff0feea9453a64ad2e761a610be50f6e1cf4663a55be8e8c0",
+      "preview": "/tmp/pih3l-fraction-final/final_notice_source_book_single.png",
+      "result": "passed",
+      "inspection": "single-period page 39 matches independent source PDF"
+    }
+  ],
+  "earlier_unaffected_checks": [
+    "raw/corrected fraction breakdown PDFs and book pages 59/60/61 before final source-only notice margin adjustment",
+    "merged nominal CF PDFs for both centrality bins and three period-context WP PDFs; unaffected by fraction notice margin"
+  ],
+  "output_raster_files": [],
+  "reason": "Previews are temporary only; analysis deliverables remain PDF and ROOT."
+}

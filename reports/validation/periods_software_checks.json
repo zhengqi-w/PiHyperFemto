@@ -1,0 +1,141 @@
+{
+  "status": "passed",
+  "meaning": "Final source-panel margin and percent-step artifacts are validated. The 275-test full suite is explicitly retained as a pre-margin checkpoint; final-source validation comprises 18 focused tests and both complete real-data artifact audits.",
+  "checkpoint": {
+    "report": "reports/validation/testset_periods_validation.pre_percent_steps.json",
+    "sha256": "eb1239e90b1df60a8ba0c69282ff9e603ccd6002d473800a648cb668f0f903df",
+    "checks_passed": 6568,
+    "checks_total": 6568,
+    "source_fingerprint": "1223a892c29fbc84e91e40195687e37a3e3af5b5dfe921ce3f4f45dcb3ce7116",
+    "pipeline_signature": "bf4afd894ae265e5f5ae88857ba6d3e1661545dca49d3fa6fb4339fc9fd5105d"
+  },
+  "regression_suites": [
+    {
+      "scope": "full suite before final catalog guard and new percent-step rendering",
+      "log": "reports/validation/periods_full_software_checks.log",
+      "tests": 272,
+      "duration_seconds": 137.942,
+      "status": "passed",
+      "sha256": "128be8c1c82fb850057d8d8ee3261df06fed3e144183dd68a6184b9ae22b710b"
+    },
+    {
+      "scope": "final catalog guard contracts before new percent-step rendering",
+      "log": "reports/validation/periods_final_contract_checks.log",
+      "tests": 34,
+      "duration_seconds": 11.077,
+      "status": "passed",
+      "sha256": "55fb44f814f4ad06d9caa4ca6a36b845cf078479d2eb7089974fbca4d322513a"
+    },
+    {
+      "scope": "native multi-period integration and namespace regressions before new percent-step rendering",
+      "log": "reports/validation/periods_pipeline_checks.log",
+      "tests": 15,
+      "duration_seconds": 100.257,
+      "status": "passed",
+      "sha256": "d66f077725edc00f62814f73865a65ccccdec623a850c19f3a0a81453b9d50a4"
+    },
+    {
+      "scope": "18 fraction histogram, style and persistence tests before the final source-panel top-margin adjustment.",
+      "log": "reports/validation/systematics_fraction_unit_checks.log",
+      "tests": 18,
+      "duration_seconds": 3.821,
+      "status": "passed",
+      "sha256": "9daaba9fcd237f5e7e077d49f54c9a55e5ef2c4c1523791c8fed477d5e7d3662",
+      "source_fingerprint": "40e0b7fa4858bd49124858a905be97016fe5c109a6989d3adf78df818ed9c20a"
+    },
+    {
+      "scope": "Complete 275-test suite at the pre-final-margin source checkpoint; not rerun after the one-constant margin adjustment.",
+      "log": "reports/validation/systematics_fraction_full_checks.log",
+      "tests": 275,
+      "duration_seconds": 154.067,
+      "status": "passed",
+      "sha256": "00718fa267cdf1a5beae0958e8b7924c9528732381224816c01bc2d2527e22fe",
+      "source_fingerprint": "40e0b7fa4858bd49124858a905be97016fe5c109a6989d3adf78df818ed9c20a"
+    },
+    {
+      "scope": "Final-source fraction QA tests after source-panel top margin changed from 0.19 to 0.24.",
+      "log": "reports/validation/systematics_fraction_final_layout_checks.log",
+      "tests": 18,
+      "duration_seconds": 5.681,
+      "status": "passed",
+      "sha256": "d5ba8d02d859dae6915502a5b0642822eef41bc8d866d97e7ad8b0a9077568d4",
+      "source_fingerprint": "b4fe22b16eaec9931a7cbc693c348c551c5d0247d164ea4374884362a01d8a84"
+    }
+  ],
+  "pending": [],
+  "limitations": [
+    "Repeated TestSet inputs validate arithmetic, not independent physical statistics.",
+    "Missing MCFemto and sidebands remain unresolved physics limitations."
+  ],
+  "final_validation": {
+    "single_period": {
+      "report": "reports/validation/testset_systematics_validation.json",
+      "sha256": "e76c7afd856e29ae965c035dc4803a681dfc8c44b66e34be2e160d4dfe96761e",
+      "status": "passed",
+      "checks_passed": 553,
+      "checks_total": 553,
+      "source_fingerprint": "b4fe22b16eaec9931a7cbc693c348c551c5d0247d164ea4374884362a01d8a84",
+      "pipeline_signature": "68e01b6af781cbe3e1e71774efbcf229c695f4191e3c5a4dadc4c62d50f04838"
+    },
+    "three_periods": {
+      "report": "reports/validation/testset_periods_validation.json",
+      "sha256": "9c634de3642bdec26d77340b812253f0763f96fda08875e3ac5dcde7b17499ef",
+      "status": "passed",
+      "checks_passed": 6630,
+      "checks_total": 6630,
+      "source_fingerprint": "b4fe22b16eaec9931a7cbc693c348c551c5d0247d164ea4374884362a01d8a84",
+      "pipeline_signature": "e2ad96a62b12f87e4e04a32f558e61328ade339adf8ad9e5d5f655c26bd42567"
+    },
+    "plot_only_numeric_hash_equality": {
+      "report": "reports/validation/systematics_fraction_hash_comparison.json",
+      "sha256": "6bf744e172144a06cb8ec817c2b3fb9534b412ce51569dd8ff53f154eafb9a9d",
+      "status": "passed",
+      "checks_passed": 101,
+      "checks_total": 101
+    },
+    "visual": {
+      "report": "reports/validation/systematics_fraction_visual_checks.json",
+      "sha256": "0973d742081c7b22628e65dd8ab24f6d3adc2a63226e7db1c89e9aab7035b9ce",
+      "status": "passed",
+      "source_fingerprint": "b4fe22b16eaec9931a7cbc693c348c551c5d0247d164ea4374884362a01d8a84",
+      "current_pdf_artifacts_reviewed": 6,
+      "reviewer": "root agent; native PDF render previews inspected",
+      "no_raster_deliverables": true
+    },
+    "cache_resume": {
+      "report": "reports/validation/testset_periods_final_cache.json",
+      "sha256": "c3500c13d4c339df7533c5d1bcd63d8b6f3d555bf5e8cb2cf605da064f8803d2",
+      "status": "passed",
+      "source_fingerprint": "b4fe22b16eaec9931a7cbc693c348c551c5d0247d164ea4374884362a01d8a84",
+      "exit_code": 0,
+      "manifests_checked": 36,
+      "changed_manifests": [],
+      "reused_child_stages": 27,
+      "reused_parent_stages": 9
+    }
+  },
+  "final_plot_contract": {
+    "single_pdf_plots_per_output": 62,
+    "pdf_files_including_overview_per_output": 63,
+    "systematic_sources": 12,
+    "variations": 17,
+    "fraction_numerical_leaves_per_root": 480,
+    "percentage_step_leaves_per_root": 208,
+    "actual_finite_runs_per_root": 104,
+    "total_breakdown_observables": [
+      "raw",
+      "corrected"
+    ],
+    "display": "100 times stored fractions, ROOT HIST steps; invalid bins remain gaps; total black, sources colored",
+    "root_canvas_clone_comparison": "Exact persisted numerical/text/draw-option/line-style/marker-style payload equality"
+  },
+  "notice_margin_checkpoint": "reports/validation/periods_software_checks.pre_notice_margin.json",
+  "final_layout_change": {
+    "source_panel_top_margin_before": 0.19,
+    "source_panel_top_margin_after": 0.24,
+    "numerical_algorithms_changed": false,
+    "full_suite_repeated_after_change": false,
+    "final_validation_scope": "18 focused tests plus single-period 553 checks, three-period 6630 checks and 101 exact artifact SHA comparisons.",
+    "visual_and_cache_evidence": "Six current PDF artifacts reviewed and byte-matched to visual evidence; cached resume preserved all 36 manifest SHA256 values and nanosecond mtimes."
+  }
+}

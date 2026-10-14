@@ -1,0 +1,146 @@
+{
+  "outputs/testset_periods/periods/test_period_1/mc_qa/manifest.json": {
+    "sha256": "a19aa9d862a716a6c6c373b37ec8c0b9aeb5b3ad659e29efbd4763348a754339",
+    "mtime_ns": 1791951273718143970
+  },
+  "outputs/testset_periods/periods/test_period_1/prepared/manifest.json": {
+    "sha256": "4d81222fbbcde49e545074d700b5c99dae95e2a498357e687d8785122eb3a6af",
+    "mtime_ns": 1791949959351385235
+  },
+  "outputs/testset_periods/periods/test_period_1/nominal/manifest.json": {
+    "sha256": "7271e5c7cde9724f4b2bf413c683698e7cf3b824f0887c955df84b35557fcada",
+    "mtime_ns": 1791951233525561186
+  },
+  "outputs/testset_periods/periods/test_period_1/training/manifest.json": {
+    "sha256": "bed7452a5b28569150aeef1b94f08723b7612105808648d2d6370139ff4c7ebb",
+    "mtime_ns": 1791949971006632114
+  },
+  "outputs/testset_periods/periods/test_period_1/working_point/manifest.json": {
+    "sha256": "ec77a51c3ea2c87a3a0fb770a127e967787db93eeae85edce9384c4c9c0f416a",
+    "mtime_ns": 1791950016236208972
+  },
+  "outputs/testset_periods/periods/test_period_1/report/manifest.json": {
+    "sha256": "a05ac342171b1b3e02cf44825f823ce33210429803078002cb63480ddc34a2e0",
+    "mtime_ns": 1791954695556119095
+  },
+  "outputs/testset_periods/periods/test_period_1/systematics/manifest.json": {
+    "sha256": "56b68d56fcff21a028858c9765335987bce741c6d4f6a7db49f98df0e22d75b6",
+    "mtime_ns": 1791954661695699119
+  },
+  "outputs/testset_periods/periods/test_period_1/scored/manifest.json": {
+    "sha256": "d1bf320f2899ee736e0b6fd8062ff9cbee9e9098a466604c0ecf030679a7e0f4",
+    "mtime_ns": 1791951190279950410
+  },
+  "outputs/testset_periods/periods/test_period_1/raw_qa/manifest.json": {
+    "sha256": "95105efbd090b5d778222c186d578c55007e34ffe41feb579085a93e9622d172",
+    "mtime_ns": 1791949932810341857
+  },
+  "outputs/testset_periods/periods/test_period_3/mc_qa/manifest.json": {
+    "sha256": "3576a00ee11c43c45c52696964a6c0bfc43bed2b6e1305deb3a290364d663399",
+    "mtime_ns": 1791951273759111597
+  },
+  "outputs/testset_periods/periods/test_period_3/prepared/manifest.json": {
+    "sha256": "99994ac254e1763e20bbb900fd83db83eb190a956a988bfa3b22147b78a63b2e",
+    "mtime_ns": 1791949959370186321
+  },
+  "outputs/testset_periods/periods/test_period_3/nominal/manifest.json": {
+    "sha256": "990e71f921bb7e834d72b6c2fe98fb614ee370e7857898943fd95046b8c7415c",
+    "mtime_ns": 1791951234865805907
+  },
+  "outputs/testset_periods/periods/test_period_3/training/manifest.json": {
+    "sha256": "a51d14e7cb71429d1df22f43eefbce081a2af8ad812954e6f282237a906c56c2",
+    "mtime_ns": 1791949991525003702
+  },
+  "outputs/testset_periods/periods/test_period_3/working_point/manifest.json": {
+    "sha256": "e18368d2ec079ae0e998169ccaab428920fea58a7315edd14076c3964cb6ed28",
+    "mtime_ns": 1791950063734204618
+  },
+  "outputs/testset_periods/periods/test_period_3/report/manifest.json": {
+    "sha256": "a195f17f818250a1f773f65ee87d09d314cfc43a2ba99a55cf5d7642592693b9",
+    "mtime_ns": 1791954706323190856
+  },
+  "outputs/testset_periods/periods/test_period_3/systematics/manifest.json": {
+    "sha256": "f1a534f462d5417a095c39978706491d4c20eb48de677e0e2d342c3830482422",
+    "mtime_ns": 1791954683814625099
+  },
+  "outputs/testset_periods/periods/test_period_3/scored/manifest.json": {
+    "sha256": "3ed2064f29fe25336f4ff4f7f8efb8932cbb9389051957678e6266932064f971",
+    "mtime_ns": 1791951232732244024
+  },
+  "outputs/testset_periods/periods/test_period_3/raw_qa/manifest.json": {
+    "sha256": "84d3c30613a9b774e9ccb160959c6baa93aa28e836789378fc5a6a9c14f09872",
+    "mtime_ns": 1791949959282102921
+  },
+  "outputs/testset_periods/periods/test_period_2/mc_qa/manifest.json": {
+    "sha256": "025348a908536d769cb6f0016c781e514c81e5d7e75b0e9299edc72cac4980fc",
+    "mtime_ns": 1791951273740696933
+  },
+  "outputs/testset_periods/periods/test_period_2/prepared/manifest.json": {
+    "sha256": "c52e6898f0f1f2c98b38532c81fe3d0503290e83a0b989dd1de186dfdf36cd7b",
+    "mtime_ns": 1791949959360682624
+  },
+  "outputs/testset_periods/periods/test_period_2/nominal/manifest.json": {
+    "sha256": "c21c04d7f08c07840f23367dc86779cffbdfbb6832a819e56147be5e66c5f835",
+    "mtime_ns": 1791951234231220068
+  },
+  "outputs/testset_periods/periods/test_period_2/training/manifest.json": {
+    "sha256": "b85d228947e2f770b79cee655d8fb19c68cb4f8824820912ed8b5894c9efa2fc",
+    "mtime_ns": 1791949981238309110
+  },
+  "outputs/testset_periods/periods/test_period_2/working_point/manifest.json": {
+    "sha256": "8de5669980ce64db0edebb127e5fed0dc91cd37abc225e163e03e537293fe4ed",
+    "mtime_ns": 1791950040048820201
+  },
+  "outputs/testset_periods/periods/test_period_2/report/manifest.json": {
+    "sha256": "af12b4da9a4e1382b0d7e996c8ec6191312b4e08874f625062cdeb769177717a",
+    "mtime_ns": 1791954700956945547
+  },
+  "outputs/testset_periods/periods/test_period_2/systematics/manifest.json": {
+    "sha256": "f0d6704d22c9b09a42a4691f86c2aff0a0194c042051ff59d55b5285eff3374e",
+    "mtime_ns": 1791954672522062693
+  },
+  "outputs/testset_periods/periods/test_period_2/scored/manifest.json": {
+    "sha256": "f5b334436b646c488d122929e9af31bd35e1f9ba23fc2077ab3f93e64cd7b188",
+    "mtime_ns": 1791951211390691470
+  },
+  "outputs/testset_periods/periods/test_period_2/raw_qa/manifest.json": {
+    "sha256": "df6b28524287b84486a336a9987c3834bf484dd352e935c2324e0e71b3adabdb",
+    "mtime_ns": 1791949945929190895
+  },
+  "outputs/testset_periods/mc_qa/manifest.json": {
+    "sha256": "c6cecaf4cd18a5133db14e2c90c6c6a3d9ed96717e885c7b555404256b6fc489",
+    "mtime_ns": 1791954690064180979
+  },
+  "outputs/testset_periods/prepared/manifest.json": {
+    "sha256": "890e16db3125fc940eaf81b9b2789d86f6a3fc70f8ff386f2584e27eb9ad1f06",
+    "mtime_ns": 1791954648852013493
+  },
+  "outputs/testset_periods/nominal/manifest.json": {
+    "sha256": "9100597ff8f850da3789296338ff60d655a5e683f4172cd10aed5bb39a582479",
+    "mtime_ns": 1791954650570285803
+  },
+  "outputs/testset_periods/training/manifest.json": {
+    "sha256": "f095c7420aea231653e4879195a1f6ab65642b597625c720d7845130171276bd",
+    "mtime_ns": 1791954649757966439
+  },
+  "outputs/testset_periods/working_point/manifest.json": {
+    "sha256": "0cf1f0816509c29b6c29cd04781dd6f14d115cd26b7eae850ed2fc98fbc88627",
+    "mtime_ns": 1791954650121623712
+  },
+  "outputs/testset_periods/report/manifest.json": {
+    "sha256": "17afe9d1c2eb81fc6d9110b888fd704e174901a4b5e4455bf0b064108650ae49",
+    "mtime_ns": 1791954712699485213
+  },
+  "outputs/testset_periods/systematics/manifest.json": {
+    "sha256": "c2c42a2e1bea72357015ba2138eccb8fadfbfaa7eebf0d9456c3e983f8cf2d0c",
+    "mtime_ns": 1791954690029413334
+  },
+  "outputs/testset_periods/scored/manifest.json": {
+    "sha256": "8b86c33a20544f7860dfc854ece7795d512e275cb3b14f96af5312d6e4e74195",
+    "mtime_ns": 1791954650433316893
+  },
+  "outputs/testset_periods/raw_qa/manifest.json": {
+    "sha256": "c99bcb2032ebc9683f7105bbc26c13a10d90d55b50d6755079ae380100ff5413",
+    "mtime_ns": 1791954648832983167
+  }
+}

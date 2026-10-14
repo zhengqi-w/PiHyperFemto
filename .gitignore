@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+.envrc
+.direnv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+outputs/
+.DS_Store
+# Local Farm paths and generated analysis data never belong in source control.
+configs/farm.yaml
+configs/*.local.yaml
+*.root
+*.parquet
+*.pkl
+*.joblib

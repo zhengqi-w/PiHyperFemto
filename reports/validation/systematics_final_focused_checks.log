@@ -1,0 +1,147 @@
+test_rendered_archive_reopens_in_fresh_process_with_drawn_ratio_points (test_systematics_qa.SystematicQaRootTests) ... Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/variation__pion_pt_min_0__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/variation__pion_pt_min_1__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/variation__pion_pt_max_0__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/variation__pion_pt_max_1__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/variation__pion_tpc_rows_0__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/variation__pion_tpc_rows_1__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/systematic__source__pion_pt_min__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/systematic__source__pion_pt_max__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/systematic__source__pion_tpc_rows__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/systematic__total__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/systematics_qa.pdf has been created
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpgjmjulm4/qa/systematics_qa.pdf has been closed
+ok
+test_root_export_preserves_bins_masks_and_plain_graphs (test_systematics_qa.SystematicQaRootTests) ... ok
+test_source_named_total_cannot_overwrite_combined_total_pdf_or_canvas (test_systematics_qa.SystematicQaRootTests) ... Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/variation__pion_pt_min_0__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/variation__pion_pt_min_1__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/variation__pion_pt_max_0__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/variation__pion_pt_max_1__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/variation__pion_tpc_rows_0__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/variation__pion_tpc_rows_1__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/systematic__source__total__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/systematic__source__pion_pt_max__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/systematic__source__pion_tpc_rows__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/systematic__total__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/systematics_qa.pdf has been created
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpdp00fsg5/qa/systematics_qa.pdf has been closed
+ok
+test_build_keeps_source_alternatives_and_quadrature_total_distinct (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_failed_alternative_marks_source_and_total_incomplete (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_failed_variation_remains_explicit_without_fake_unit_ratios (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_identical_sources_have_unit_ratio_without_invented_error (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_nonfinite_or_negative_input_variance_masks_diagnostics (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_overflow_in_a_finite_input_ratio_or_relative_error_is_invalid (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_partial_bin_coverage_preserves_available_spread_but_marks_budget (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_ratio_uses_nominal_correlation_not_its_standard_error (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_relative_uncertainty_divides_by_absolute_nominal (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_relative_uncertainty_preserves_invalid_and_unavailable_errors (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_rms_dropped_common_ensemble_member_marks_populated_bins_partial (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_zero_nonfinite_and_explicitly_invalid_denominators_are_missing (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_zero_numerator_is_a_valid_zero_ratio (test_systematics_qa.SystematicRatioMathTests) ... ok
+test_constant_se_me_ratio_closes_to_unity (test_statistics.CorrelationTests) ... ok
+test_covariance_matches_independent_finite_difference_jacobian (test_statistics.CorrelationTests) ... ok
+test_empty_bins_do_not_become_zero_error_measurements (test_statistics.CorrelationTests) ... ok
+test_empty_normalization_is_unavailable (test_statistics.CorrelationTests) ... ok
+test_histograms_use_hyper_centrality_and_se_mass_only (test_statistics.CorrelationTests) ... ok
+test_single_normalization_bin_has_zero_self_variance (test_statistics.CorrelationTests) ... ok
+test_exact_unit_purity_does_not_require_a_background_estimate (test_statistics.PurityTests) ... ok
+test_mass_fit_refuses_truncated_sidebands (test_statistics.PurityTests) ... ok
+test_missing_sidebands_make_correction_unavailable (test_statistics.PurityTests) ... ok
+test_subtraction_and_shared_purity_covariance (test_statistics.PurityTests) ... ok
+test_synthetic_mass_fit_recovers_injected_purity (test_statistics.PurityTests) ... ok
+test_envelope_uses_alternative_maxima_and_quadrature_across_sources (test_statistics.SystematicsTests) ... ok
+test_missing_variation_coverage_is_not_zero_systematic (test_statistics.SystematicsTests) ... ok
+test_rms_is_mean_outer_product_about_nominal (test_statistics.SystematicsTests) ... ok
+test_rms_missing_joint_coverage_does_not_invent_zero_covariance (test_statistics.SystematicsTests) ... ok
+test_ensemble_reads_once_and_matches_independent_scans (test_ensemble_processing.EnsembleProcessingTests) ... /Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/variation__norm__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/variation__norm__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/variation__fit__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/variation__fit__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/variation__loose__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/variation__loose__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/variation__tight__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/variation__tight__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/variation__duplicate__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/variation__duplicate__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematic__source__norm__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematic__source__norm__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematic__source__fit__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematic__source__fit__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematic__source__bdt__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematic__source__bdt__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematic__total__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematic__total__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf has been created
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/ensemble/qa/systematics_qa.pdf has been closed
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/variation__norm__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/variation__norm__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/variation__fit__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/variation__fit__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/systematic__source__norm__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/systematic__source__norm__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/systematic__source__fit__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/systematic__source__fit__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/systematic__total__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/systematic__total__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/systematics_qa.pdf has been created
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpaae5n3lc/reuse/qa/systematics_qa.pdf has been closed
+ok
+test_scoped_bundle_without_registry_preserves_application_range (test_ensemble_processing.EnsembleProcessingTests) ... ok
+test_segmented_reductions_match_numpy_histogram_reference (test_ensemble_processing.EnsembleProcessingTests) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 5.936s
+
+OK

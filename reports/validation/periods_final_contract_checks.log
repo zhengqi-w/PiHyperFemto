@@ -1,0 +1,72 @@
+test_explicit_saved_variables_and_domain_guard (test_scored_storage.ScoredStorageTests) ... ok
+test_inclusive_ties_pt_subdirectories_and_recursive_reader (test_scored_storage.ScoredStorageTests) ... /Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+ok
+test_period_catalog_cannot_be_misread_as_one_model_dataset_or_missing_mc (test_scored_storage.ScoredStorageTests) ... ok
+test_pruning_preserves_every_declared_nominal_and_systematic_histogram (test_scored_storage.ScoredStorageTests) ... ok
+test_unbounded_storage_retains_negative_margins_and_rejects_old_domains (test_scored_storage.ScoredStorageTests) ... ok
+test_environment_expansion_and_absolute_patterns_remain_supported (test_period_config.PeriodConfigurationTests) ... ok
+test_examples_keep_single_testset_and_explicit_repeated_period_semantics (test_period_config.PeriodConfigurationTests) ... ok
+test_independent_role_roots_resolve_without_repeating_role_folders (test_period_config.PeriodConfigurationTests) ... ok
+test_legacy_discovery_and_single_output_are_unchanged (test_period_config.PeriodConfigurationTests) ... ok
+test_multiple_roots_globs_symlinks_and_hard_links_use_each_physical_file_once (test_period_config.PeriodConfigurationTests) ... ok
+test_null_optional_input_cannot_fall_back_to_existing_legacy_files (test_period_config.PeriodConfigurationTests) ... ok
+test_period_overrides_resolve_to_yaml_and_keep_shared_physics_and_default_seed (test_period_config.PeriodConfigurationTests) ... ok
+test_period_specs_reject_unsafe_ids_unknown_fields_and_invalid_merged_children (test_period_config.PeriodConfigurationTests) ... ok
+test_root_schema_and_synthetic_marker_fail_early (test_period_config.PeriodConfigurationTests) ... ok
+test_cutflow_retains_period_specific_thresholds_and_empty_counts (test_period_merge.AuxiliaryMergeTests) ... ok
+test_mixing_missing_flags_are_ored_and_flag_keys_normalized (test_period_merge.AuxiliaryMergeTests) ... ok
+test_raw_qa_preserves_count_definitions_and_adds_flows (test_period_merge.AuxiliaryMergeTests) ... ok
+test_metadata_shapes_and_variances_must_be_compatible (test_period_merge.HistogramMergeTests) ... ok
+test_period_with_unavailable_normalization_still_contributes_counts (test_period_merge.HistogramMergeTests) ... ok
+test_three_replicated_inputs_preserve_cf_and_scale_formal_sumw2_covariance (test_period_merge.HistogramMergeTests) ... ok
+test_unequal_periods_normalize_after_summing_all_sufficient_statistics (test_period_merge.HistogramMergeTests) ... ok
+test_fractions_wilson_and_resolution_are_recomputed_from_sums (test_period_merge.MonteCarloMergeTests) ... ok
+test_mc_grid_mismatch_and_missing_declared_artifact_are_errors (test_period_merge.MonteCarloMergeTests) ... ok
+test_missing_mc_period_is_explicit_and_all_missing_stays_unavailable (test_period_merge.MonteCarloMergeTests) ... ok
+test_missing_truth_is_not_a_measured_zero_or_subset_closure (test_period_merge.MonteCarloMergeTests) ... ok
+test_auxiliary_analysis_directories_are_persisted (test_root_output.RootOutputTests) ... ok
+test_final_covariances_and_errors_match_numerical_exports (test_root_output.RootOutputTests) ... ok
+test_invalid_bins_persist_nan_and_graphs_exclude_them (test_root_output.RootOutputTests) ... Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/invalid-report/working_point.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/invalid-report/working_point_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/invalid-report/working_point_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/invalid-report/working_point_mass_fit.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/invalid-report/raw_kstar_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/invalid-report/raw_kstar_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/invalid-report/raw_hyper_mass.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/invalid-report/correlations_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/invalid-report/pair_spectra_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/invalid-report/correlations_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/invalid-report/pair_spectra_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/invalid-report/mass_purity.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/invalid-report/mixing_qa.pdf has been created
+ok
+test_metadata_is_json_and_canvases_contain_primitives (test_root_output.RootOutputTests) ... ok
+test_nominal_histograms_preserve_values_errors_edges_and_validity (test_root_output.RootOutputTests) ... ok
+test_nonempty_mc_fractions_resolution_and_canvas_round_trip (test_root_output.RootOutputTests) ... Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/mc-report/working_point.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/mc-report/working_point_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/mc-report/working_point_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/mc-report/working_point_mass_fit.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/mc-report/raw_kstar_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/mc-report/raw_kstar_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/mc-report/raw_hyper_mass.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/mc-report/correlations_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/mc-report/pair_spectra_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/mc-report/correlations_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/mc-report/pair_spectra_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/mc-report/mass_purity.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/mc-report/mixing_qa.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/mc-report/mc_primary_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/mc-report/mc_primary_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpzypbryia/mc-redrawn.pdf has been created
+ok
+test_serialized_canvas_is_redrawable_in_a_fresh_root_process (test_root_output.RootOutputTests) ... ok
+test_statistical_covariances_round_trip (test_root_output.RootOutputTests) ... ok
+test_weighted_histogram_sumw2_and_malformed_variance (test_root_output.RootOutputTests) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 11.077s
+
+OK

@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "tests": 162,
+  "duration_seconds": 74.838,
+  "source_fingerprint": "6ffeefa8ab37eca54dd953aa73fc601adaa6a83821cd3b415267a36541f85123",
+  "python": "/opt/anaconda3/envs/MLenv/bin/python",
+  "root_version": "6.38.04",
+  "model_api": "hipe4ml.model_handler.ModelHandler + XGBoost",
+  "model_format": "model_handler.pkl via dump_model_handler/load_model_handler",
+  "model_score": "predict(..., output_margin=False), probability [0,1]",
+  "training_api": "train_test_model(..., return_prediction=True, output_margin=False, sample_weight=...)",
+  "plot_api": [
+    "plot_distr",
+    "plot_corr",
+    "plot_output_train_test",
+    "plot_roc_train_test",
+    "plot_bdt_eff",
+    "plot_feature_imp"
+  ],
+  "dependency_versions": {
+    "hipe4ml": "0.0.18",
+    "xgboost": "1.7.6",
+    "optuna": "4.1.0",
+    "matplotlib": "3.9.3",
+    "shap": "0.46.0",
+    "scikit-learn": "1.6.0"
+  },
+  "library_source_sha256": {
+    "analysis_utils": "69b0fbcc6c6b5481ef5485811c90d245746ff35557b68c9a545cb353932bea3b",
+    "model_handler": "f80c2bbff64984298f171ac821e9b36aea5cf3b242d8351dd53ab8c164129acc",
+    "plot_utils": "99e8ab6f46069a2a24bfa8f8ac07337229b37e81011ed3a99a61d9752ef71a1e"
+  },
+  "checks": [
+    "Full synthetic global/pT ROOT workflow",
+    "HIPE handler persistence and feature order",
+    "Grouped CV and held-out isolation",
+    "Stage/model/score cache and official-source invalidation",
+    "Official nine-PDF ML QA and numerical ROOT archive",
+    "Standalone ROOT-before-SHAP runtime regression",
+    "Compact scored layout and systematic envelope coverage"
+  ],
+  "format_check": "Black: all 58 Python files passed",
+  "static_check": "Flake8 F,E9 passed",
+  "visual_review": {
+    "synthetic_only": true,
+    "directory": "/tmp/pih3l-hipe4ml-qa-final-__a8gc6k/qa",
+    "official_pdfs": 9,
+    "reviewed": [
+      "bdt_train_test",
+      "feature_distributions",
+      "correlations_signal",
+      "feature_importance"
+    ]
+  },
+  "real_testset_run": false,
+  "real_testset_outputs": "Previous model/QA/scored/report preserved as historical artifacts; not results of this migration",
+  "log": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/reports/validation/hipe4ml_handler_software_checks.log"
+}

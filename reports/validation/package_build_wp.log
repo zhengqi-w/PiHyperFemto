@@ -1,0 +1,10 @@
+WARNING: The directory '/Users/zhengqingwang/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Processing /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: pih3l-femto
+  Building wheel for pih3l-femto (pyproject.toml): started
+  Building wheel for pih3l-femto (pyproject.toml): finished with status 'done'
+  Created wheel for pih3l-femto: filename=pih3l_femto-0.1.0-py3-none-any.whl size=48604 sha256=e84b2d702e6d4e825a292894b16b770e91a3e1741ce6d08ce5a5ef6e4b8c43f8
+  Stored in directory: /private/var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/pip-ephem-wheel-cache-wlr58hub/wheels/fb/33/48/94b9e8f20837887dc9e2b09620a0bb3bb1b8ee0860197ac4d4
+Successfully built pih3l-femto

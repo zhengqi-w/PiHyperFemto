@@ -1,0 +1,23 @@
+2026-10-12 12:17:13,781 INFO Start stage: prepared
+2026-10-12 12:17:13,793 INFO Finished prepared in 0.0 s
+2026-10-12 12:17:14,628 INFO Start stage: training
+2026-10-12 12:17:28,440 INFO Finished training in 13.8 s
+2026-10-12 12:17:28,446 INFO Start stage: working_point
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-00a0e818c9914ce6844432156775e5ab.tmp/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-00a0e818c9914ce6844432156775e5ab.tmp/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-00a0e818c9914ce6844432156775e5ab.tmp/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-00a0e818c9914ce6844432156775e5ab.tmp/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-00a0e818c9914ce6844432156775e5ab.tmp/qa/mean_sigma_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-00a0e818c9914ce6844432156775e5ab.tmp/qa/fit_stability.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-00a0e818c9914ce6844432156775e5ab.tmp/qa/best_mass_fit.pdf has been created
+2026-10-12 12:17:40,863 INFO Finished working_point in 12.4 s
+==============================
+Training xgboost model for classification
+Number of detected classes: 2
+Training the model: ...
+Training the model: Done!
+Testing the model: ...
+ROC_AUC_score: 0.991371
+Testing the model: Done!
+==============================
+/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/working_point

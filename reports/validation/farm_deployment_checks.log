@@ -1,0 +1,16 @@
+test_fresh_wheel_import_and_console_entrypoint_outside_checkout (test_deployment.InstalledPackageDeploymentTests) ... ok
+test_installed_cached_resume_preserves_all_manifests (test_deployment.InstalledPackageDeploymentTests) ... ok
+test_installed_doctor_checks_environment_without_a_config (test_deployment.InstalledPackageDeploymentTests) ... ok
+test_installed_doctor_optional_mc_is_warning_and_missing_cut_is_failure (test_deployment.InstalledPackageDeploymentTests) ... ok
+test_installed_doctor_preflights_all_four_roles_without_running_stages (test_deployment.InstalledPackageDeploymentTests) ... ok
+test_installed_optional_mc_can_be_disabled_by_config_only (test_deployment.InstalledPackageDeploymentTests) ... ok
+test_installed_reports_are_pdf_and_root_with_corrected_graphs (test_deployment.InstalledPackageDeploymentTests) ... ok
+test_installed_single_period_recovers_raw_and_corrected_unity (test_deployment.InstalledPackageDeploymentTests) ... ok
+test_installed_tamper_detection_rebuilds_downstream_only (test_deployment.InstalledPackageDeploymentTests) ... ok
+test_installed_working_point_systematics_and_truth_qa_are_complete (test_deployment.InstalledPackageDeploymentTests) ... ok
+test_wheel_contains_all_runtime_modules_and_no_analysis_data (test_deployment.InstalledPackageDeploymentTests) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 47.362s
+
+OK

@@ -1,0 +1,31 @@
+# Shared Farm / Linux CI environment. Create it with scripts/install_environment.sh.
+# Pins reproduce the tested Python stack; Linux solving is exercised by CI.
+name: pih3l-femto
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10.16
+  - root=6.38.04
+  - pip=24.3.1
+  - setuptools=75.6.0
+  - wheel=0.45.1
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - scipy=1.14.1
+  - scikit-learn=1.6.0
+  - xgboost=1.7.6
+  - shap=0.46.0
+  - numba=0.60.0
+  - lightgbm=4.5.0
+  - ipython=8.18.1
+  - uproot=5.5.1
+  - awkward=2.7.2
+  - pyarrow=18.1.0
+  - pyyaml=6.0.2
+  - joblib=1.4.2
+  - packaging=24.2
+  - matplotlib=3.9.3
+  - optuna=4.1.0
+  - pip:
+      - hipe4ml==0.0.18

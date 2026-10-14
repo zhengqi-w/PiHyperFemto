@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "tests": 13,
+  "duration_seconds": 1.987,
+  "source_fingerprint": "a786e838d092d36adef4a6bf7c014b1d25bbeba3951753f5bd74588c15f69d2f",
+  "scope": "Focused native RooFit density and ROOT/PDF rendering regressions; earlier full 211-test DSCB baseline archived separately",
+  "checks": [
+    "Continuous DSCB/Chebychev values agree with native normalized RooFit PDFs for n=0.9,1,2,15",
+    "Mass canvas draws three dense TGraph functions and no model TH1 primitives",
+    "Exact histogram expectations remain persisted",
+    "Report and standalone QA reproduce the same persisted canvas",
+    "All WP scan, MC tail, pol0 and selected threshold values unchanged"
+  ],
+  "format_check": "Black and Flake8 F,E9 passed for edited Python files",
+  "full_testset_acceptance": {
+    "status": "passed",
+    "checks": 479,
+    "record": "reports/validation/testset_wp_curves_validation.json"
+  },
+  "visual_review": {
+    "status": "passed",
+    "reviewed": [
+      "working_point/qa/best_fit.pdf",
+      "report/working_point_mass_fit.pdf"
+    ],
+    "temporary_previews": "/tmp/pih3l-wp-curves-review",
+    "findings": "Smooth total/signal/background curves, visible data errors, unobstructed labels and legend"
+  },
+  "plot_format": "PDF only; ROOT functions sampled into persistent TGraphs"
+}

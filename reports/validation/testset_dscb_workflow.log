@@ -1,0 +1,51 @@
+2026-10-13 13:48:55,341 INFO Reuse verified stage: raw_qa
+2026-10-13 13:48:55,342 INFO Reuse verified stage: prepared
+2026-10-13 13:48:55,990 INFO Reuse verified stage: training
+2026-10-13 13:48:55,994 INFO Start stage: working_point
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-33cdba4939504cdca08229fbf63be239.tmp/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-33cdba4939504cdca08229fbf63be239.tmp/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-33cdba4939504cdca08229fbf63be239.tmp/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-33cdba4939504cdca08229fbf63be239.tmp/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-33cdba4939504cdca08229fbf63be239.tmp/qa/mean_sigma_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-33cdba4939504cdca08229fbf63be239.tmp/qa/fit_stability.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-33cdba4939504cdca08229fbf63be239.tmp/qa/best_mass_fit.pdf has been created
+2026-10-13 13:49:22,729 INFO Finished working_point in 26.7 s
+2026-10-13 13:49:22,821 INFO Reuse verified stage: scored
+2026-10-13 13:49:22,824 INFO Start stage: nominal
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+2026-10-13 13:49:23,376 INFO Finished nominal in 0.6 s
+2026-10-13 13:49:23,380 INFO Start stage: systematics
+2026-10-13 13:49:23,424 INFO Systematic variation: bdt_loose
+2026-10-13 13:49:23,445 INFO Systematic variation: bdt_tight
+2026-10-13 13:49:23,466 INFO Systematic variation: norm_low
+2026-10-13 13:49:23,485 INFO Systematic variation: norm_high
+2026-10-13 13:49:23,506 INFO Systematic variation: cospa_tight
+2026-10-13 13:49:23,525 INFO Systematic variation: pion_pid_tight
+2026-10-13 13:49:23,546 INFO Systematic variation: occupancy_low
+2026-10-13 13:49:23,566 INFO Systematic variation: mass_narrow
+2026-10-13 13:49:23,586 INFO Systematic variation: mass_background_constant
+2026-10-13 13:49:23,606 INFO Systematic variation: sideband_shift
+2026-10-13 13:49:23,625 INFO Systematic variation: pion_dca_tight
+2026-10-13 13:49:23,645 INFO Systematic variation: close_pair_strict
+2026-10-13 13:49:26,975 INFO Finished systematics in 3.6 s
+2026-10-13 13:49:26,979 INFO Start stage: mc_qa
+2026-10-13 13:49:26,992 INFO Finished mc_qa in 0.0 s
+2026-10-13 13:49:26,998 INFO Start stage: report
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-85aa634d0ade4c28861c37802e4a5450.tmp/working_point.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-85aa634d0ade4c28861c37802e4a5450.tmp/working_point_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-85aa634d0ade4c28861c37802e4a5450.tmp/working_point_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-85aa634d0ade4c28861c37802e4a5450.tmp/working_point_mass_fit.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-85aa634d0ade4c28861c37802e4a5450.tmp/raw_kstar_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-85aa634d0ade4c28861c37802e4a5450.tmp/raw_kstar_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-85aa634d0ade4c28861c37802e4a5450.tmp/raw_hyper_mass.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-85aa634d0ade4c28861c37802e4a5450.tmp/correlations_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-85aa634d0ade4c28861c37802e4a5450.tmp/pair_spectra_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-85aa634d0ade4c28861c37802e4a5450.tmp/correlations_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-85aa634d0ade4c28861c37802e4a5450.tmp/pair_spectra_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-85aa634d0ade4c28861c37802e4a5450.tmp/mass_purity.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.report-85aa634d0ade4c28861c37802e4a5450.tmp/mixing_qa.pdf has been created
+2026-10-13 13:49:30,587 INFO Finished report in 3.6 s
+/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/report

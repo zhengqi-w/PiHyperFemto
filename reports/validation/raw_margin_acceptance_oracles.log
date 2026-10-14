@@ -1,0 +1,170 @@
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+test_actual_five_features_drive_qa_despite_extra_mass_and_topology_columns (test_wp_validation_contract.RawMarginAcceptanceTests) ... /opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+ok
+test_efficiency_one_endpoint_does_not_claim_unrestricted_application_acceptance (test_wp_validation_contract.RawMarginAcceptanceTests) ... ok
+test_handler_matches_native_margin_and_probability_closure (test_wp_validation_contract.RawMarginAcceptanceTests) ... /opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+ok
+test_margin_histogram_accepts_full_range_and_rejects_probability_clipping (test_wp_validation_contract.RawMarginAcceptanceTests) ... ok
+test_null_storage_floor_preserves_negative_scores_and_zero_is_not_unbounded (test_wp_validation_contract.RawMarginAcceptanceTests) ... ok
+test_probability_wrapper_cannot_pass_as_raw_margin (test_wp_validation_contract.RawMarginAcceptanceTests) ... /opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:312: DeprecationWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(dtype):
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:314: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif is_categorical_dtype(dtype) and enable_categorical:
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:345: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if is_categorical_dtype(dtype)
+/opt/anaconda3/envs/MLenv/lib/python3.10/site-packages/xgboost/data.py:336: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  return is_int or is_bool or is_float or is_categorical_dtype(dtype)
+ok
+test_raw_margin_npz_requires_explicit_domain_without_probability_bounds (test_wp_validation_contract.RawMarginAcceptanceTests) ... ok
+test_strict_mass_sampler_rejects_both_boundary_values_for_both_roles (test_wp_validation_contract.RawMarginAcceptanceTests) ... /Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+ok
+test_bounded_roofit_reported_error_differs_from_local_covariance (test_wp_validation_contract.WorkingPointAcceptanceOracleTests)
+Bounded Minuit parameter errors are not sqrt(covariance diagonal). ... [#0] WARNING:InputArguments -- The parameter 'acceptance_bounded_93505e26307d42b1a212a3729144effa_sigma' with range [-inf, inf] of the RooGaussian 'acceptance_bounded_93505e26307d42b1a212a3729144effa_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(acceptance_bounded_93505e26307d42b1a212a3729144effa_model) fixing normalization set for coefficient determination to observables in data
+[#1] INFO:Fitting -- using generic CPU library compiled with no vectorizations
+[#1] INFO:Fitting -- Creation of NLL object took 7.91796 ms
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_acceptance_bounded_93505e26307d42b1a212a3729144effa_model_acceptance_bounded_93505e26307d42b1a212a3729144effa_data) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: activating const optimization
+[#1] INFO:Minimization -- [fitFCN] No discrete parameters, performing continuous minimization only
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: deactivating const optimization
+ok
+test_canvas_contract_rejects_a_second_residual_panel (test_wp_validation_contract.WorkingPointAcceptanceOracleTests) ... ok
+test_canvas_payload_detects_modified_graph_after_clone (test_wp_validation_contract.WorkingPointAcceptanceOracleTests) ... ok
+test_independent_quadrature_matches_roofit_dscb_and_chebyshev_integrals (test_wp_validation_contract.WorkingPointAcceptanceOracleTests) ... [#0] WARNING:InputArguments -- The parameter 'acceptance_fde8120d36304b06b61283049fae7622_sigma' with range [-inf, inf] of the RooCrystalBall 'acceptance_fde8120d36304b06b61283049fae7622_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_fde8120d36304b06b61283049fae7622_alpha_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_fde8120d36304b06b61283049fae7622_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_fde8120d36304b06b61283049fae7622_alpha_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_fde8120d36304b06b61283049fae7622_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_fde8120d36304b06b61283049fae7622_n_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_fde8120d36304b06b61283049fae7622_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_fde8120d36304b06b61283049fae7622_n_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_fde8120d36304b06b61283049fae7622_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#1] INFO:Eval -- RooRealVar::setRange(acceptance_fde8120d36304b06b61283049fae7622_mass) new range named 'window' created with bounds [2.986,2.997]
+[#0] WARNING:InputArguments -- The parameter 'acceptance_6f11b0462a0e47999665c11a713ed147_sigma' with range [-inf, inf] of the RooCrystalBall 'acceptance_6f11b0462a0e47999665c11a713ed147_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_6f11b0462a0e47999665c11a713ed147_alpha_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_6f11b0462a0e47999665c11a713ed147_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_6f11b0462a0e47999665c11a713ed147_alpha_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_6f11b0462a0e47999665c11a713ed147_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_6f11b0462a0e47999665c11a713ed147_n_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_6f11b0462a0e47999665c11a713ed147_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_6f11b0462a0e47999665c11a713ed147_n_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_6f11b0462a0e47999665c11a713ed147_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#1] INFO:Eval -- RooRealVar::setRange(acceptance_6f11b0462a0e47999665c11a713ed147_mass) new range named 'window' created with bounds [2.96,2.99]
+[#0] WARNING:InputArguments -- The parameter 'acceptance_16ad4df5d2cc4834b6b35234e2f2a133_sigma' with range [-inf, inf] of the RooCrystalBall 'acceptance_16ad4df5d2cc4834b6b35234e2f2a133_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_16ad4df5d2cc4834b6b35234e2f2a133_alpha_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_16ad4df5d2cc4834b6b35234e2f2a133_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_16ad4df5d2cc4834b6b35234e2f2a133_alpha_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_16ad4df5d2cc4834b6b35234e2f2a133_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_16ad4df5d2cc4834b6b35234e2f2a133_n_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_16ad4df5d2cc4834b6b35234e2f2a133_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_16ad4df5d2cc4834b6b35234e2f2a133_n_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_16ad4df5d2cc4834b6b35234e2f2a133_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#1] INFO:Eval -- RooRealVar::setRange(acceptance_16ad4df5d2cc4834b6b35234e2f2a133_mass) new range named 'window' created with bounds [2.96,3.04]
+[#0] WARNING:InputArguments -- The parameter 'acceptance_f8e19da9d05c406f91384956f30e678f_sigma' with range [-inf, inf] of the RooCrystalBall 'acceptance_f8e19da9d05c406f91384956f30e678f_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_f8e19da9d05c406f91384956f30e678f_alpha_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_f8e19da9d05c406f91384956f30e678f_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_f8e19da9d05c406f91384956f30e678f_alpha_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_f8e19da9d05c406f91384956f30e678f_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_f8e19da9d05c406f91384956f30e678f_n_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_f8e19da9d05c406f91384956f30e678f_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_f8e19da9d05c406f91384956f30e678f_n_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_f8e19da9d05c406f91384956f30e678f_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#1] INFO:Eval -- RooRealVar::setRange(acceptance_f8e19da9d05c406f91384956f30e678f_mass) new range named 'window' created with bounds [2.986,2.997]
+[#0] WARNING:InputArguments -- The parameter 'acceptance_705dc8e4b53c44ad9ae5155f7fba5cde_sigma' with range [-inf, inf] of the RooCrystalBall 'acceptance_705dc8e4b53c44ad9ae5155f7fba5cde_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_705dc8e4b53c44ad9ae5155f7fba5cde_alpha_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_705dc8e4b53c44ad9ae5155f7fba5cde_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_705dc8e4b53c44ad9ae5155f7fba5cde_alpha_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_705dc8e4b53c44ad9ae5155f7fba5cde_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_705dc8e4b53c44ad9ae5155f7fba5cde_n_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_705dc8e4b53c44ad9ae5155f7fba5cde_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_705dc8e4b53c44ad9ae5155f7fba5cde_n_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_705dc8e4b53c44ad9ae5155f7fba5cde_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#1] INFO:Eval -- RooRealVar::setRange(acceptance_705dc8e4b53c44ad9ae5155f7fba5cde_mass) new range named 'window' created with bounds [2.96,2.99]
+[#0] WARNING:InputArguments -- The parameter 'acceptance_aa1b3bf8969245b8a1b9d603c9bbcaf2_sigma' with range [-inf, inf] of the RooCrystalBall 'acceptance_aa1b3bf8969245b8a1b9d603c9bbcaf2_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_aa1b3bf8969245b8a1b9d603c9bbcaf2_alpha_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_aa1b3bf8969245b8a1b9d603c9bbcaf2_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_aa1b3bf8969245b8a1b9d603c9bbcaf2_alpha_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_aa1b3bf8969245b8a1b9d603c9bbcaf2_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_aa1b3bf8969245b8a1b9d603c9bbcaf2_n_left' with range [-inf, inf] of the RooCrystalBall 'acceptance_aa1b3bf8969245b8a1b9d603c9bbcaf2_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'acceptance_aa1b3bf8969245b8a1b9d603c9bbcaf2_n_right' with range [-inf, inf] of the RooCrystalBall 'acceptance_aa1b3bf8969245b8a1b9d603c9bbcaf2_signal' exceeds the safe range of (0, inf). Advise to limit its range.
+[#1] INFO:Eval -- RooRealVar::setRange(acceptance_aa1b3bf8969245b8a1b9d603c9bbcaf2_mass) new range named 'window' created with bounds [2.96,3.04]
+ok
+test_pol0_oracle_uses_s3_over_efficiency_and_ignores_fixed_window_signal (test_wp_validation_contract.WorkingPointAcceptanceOracleTests) ... ok
+test_scope_exclusions_are_distinct_from_invalid_in_scope_scores (test_wp_validation_contract.WorkingPointAcceptanceOracleTests) ... ok
+test_component_totals_not_equal_to_physical_yields_are_rejected (test_wp_validation_contract.WorkingPointArtifactContractTests) ... ok
+test_fixed_window_pol0_cannot_replace_s3_normalization (test_wp_validation_contract.WorkingPointArtifactContractTests) ... ok
+test_independent_physical_fixture_passes_acceptance (test_wp_validation_contract.WorkingPointArtifactContractTests) ... ok
+test_nonmaximum_selected_point_is_rejected (test_wp_validation_contract.WorkingPointArtifactContractTests) ... ok
+test_normalized_yield_covariance_mislabeled_as_physical_is_rejected (test_wp_validation_contract.WorkingPointArtifactContractTests) ... ok
+test_wrong_dscb_tail_integral_is_rejected (test_wp_validation_contract.WorkingPointArtifactContractTests) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.711s
+
+OK

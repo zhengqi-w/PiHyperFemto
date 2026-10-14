@@ -1,0 +1,14 @@
+{
+  "previous_failure": {
+    "stage": "working_point",
+    "signature": "9a65a614e574328d8f4e3f66a19844e41bad7884a470ec417a27fde15701251e",
+    "error": "WP pol0 yield fit failed: insufficient_points; valid distinct cuts in yield_eff_range=0, required=3. Full scan diagnostics saved to /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/failures/working_point-9a65a614e574328d8f4e3f66a19844e41bad7884a470ec417a27fde15701251e",
+    "error_type": "AnalysisError",
+    "diagnostics_path": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/failures/working_point-9a65a614e574328d8f4e3f66a19844e41bad7884a470ec417a27fde15701251e",
+    "failed_unix": 1791777332.988194,
+    "previous_completed_stage_preserved": true
+  },
+  "superseded_by_successful_wp": "723b1220c99911de51c6c9c5c967df152cfa2f2e96a575f037080e709bfbc7fc",
+  "current_qa_record": "reports/validation/testset_qa_refresh.json",
+  "cleanup": "Intermediate pre-MC-range diagnostic superseded; log preserved, old history b5a5 unchanged"
+}

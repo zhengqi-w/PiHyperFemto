@@ -1,0 +1,128 @@
+{
+  "time_utc": "2026-10-11T14:46:51.604992+00:00",
+  "scope": "Training settings and Optuna framework; synthetic software tests only",
+  "real_testset_run": false,
+  "suite": {
+    "command": "PYTHONPATH=src:tests OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=1 python -m unittest discover -s tests -v",
+    "tests": 114,
+    "seconds": 22.083,
+    "status": "passed"
+  },
+  "static_checks": {
+    "black_changed_python_files": "passed",
+    "flake8_src_and_tests_select_F_E9": "passed"
+  },
+  "coverage": [
+    "HGB and XGBoost actual fit/predict",
+    "Actual small Optuna studies on grouped CV",
+    "Outer held-out excluded from optimization",
+    "Typed parameter and distribution validation",
+    "Per-pT overrides, search-space replacement and selective retraining",
+    "Optimization artifact reuse and tamper detection",
+    "Independent training QA grids and cache reuse",
+    "Candidate reader/source and PyArrow cache invalidation",
+    "Synthetic ROOT to Hyper mass-fit WP to Femto to ROOT/PDF report",
+    "No PNG report output"
+  ],
+  "environment": {
+    "python": "3.10.16",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.0",
+    "xgboost": "1.7.6",
+    "optuna": "4.1.0",
+    "pyarrow": "18.1.0"
+  },
+  "source_sha256": {
+    "src/pih3l/config.py": "fe3131dc5b6e6ed52f81c1564377d552a183dd38555f8b974654d4416c34c1cc",
+    "src/pih3l/training.py": "5770e8803b965e885c52174c9bd2ff3100daa6e5fdb8ef4bf0ff936dcc0129a0",
+    "src/pih3l/training_settings.py": "b641b851c090c5e516c116a49ecf57b65ea9fc0b83f4f1da0d9d1f9679497e5b",
+    "src/pih3l/training_optimization.py": "f07d59056c9d24254fff5c2388a65d2b6d402e06d81bc51e33a439d521701825",
+    "src/pih3l/models.py": "bbb700120b04307f041b65dec862aefc4fe8c629bd933540e800d85cd5ff8e37",
+    "src/pih3l/execution.py": "ae5a4ba848bd76eae7abce6308a51faf15c446bb36a5f7d75175ea004cf14b48",
+    "src/pih3l/pipeline.py": "b6f1a44910bc34cd14fccc99c1fd52d2399897d7fbefa81688003c50686865be",
+    "src/pih3l/root_output.py": "ee310ab6db53803e36fd137f3353f7f5ea6bd2098422bc35e0cdfee4afebad67",
+    "tests/test_training_optimization.py": "a81728e1faf682c16a18a0ab3fa5bded4960dcab10a33c7d74e95263e1b34507",
+    "tests/test_training_settings.py": "f383e8e306f29c59a2dc7fba272997547a501af17be4139f201ebc201bb0686a",
+    "configs/testset.yaml": "840cbff93626a4cc16a728d75e2f1a69ac4900a43b131165068f12bf97ef00be",
+    "configs/production.example.yaml": "c0f09df48c4f1dfea85c14c197bf2ed438f11f599c179e7c8923eedfd38f8301",
+    "pyproject.toml": "bdf5e2718435a9284444a1d994a2e2ed37b86fc9839c295d9dbf81ad4202cffa",
+    ".github/workflows/tests.yml": "2f7ddc88788d54544cfe8091023eb79a37a4271461e2b3887742cf359ba6f56d"
+  },
+  "validated_configs": {
+    "configs/testset.yaml": {
+      "backend": "hist_gradient_boosting",
+      "use_optuna": false,
+      "model_params": {
+        "loss": "log_loss",
+        "max_iter": 150,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 30,
+        "learning_rate": 0.06,
+        "l2_regularization": 2.0,
+        "max_depth": null,
+        "max_bins": 255,
+        "max_features": 1.0,
+        "early_stopping": false,
+        "verbose": 0
+      },
+      "qa_centrality_bins": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          50
+        ]
+      ]
+    },
+    "configs/production.example.yaml": {
+      "backend": "xgboost",
+      "use_optuna": false,
+      "model_params": {
+        "objective": "binary:logistic",
+        "booster": "gbtree",
+        "max_depth": 6,
+        "gamma": 2.0,
+        "learning_rate": 0.05,
+        "n_estimators": 800,
+        "min_child_weight": 3.0,
+        "subsample": 0.7,
+        "colsample_bytree": 0.73,
+        "colsample_bylevel": 1.0,
+        "colsample_bynode": 1.0,
+        "tree_method": "hist",
+        "max_bin": 256,
+        "n_jobs": 4,
+        "eval_metric": "auc",
+        "reg_alpha": 0.0,
+        "reg_lambda": 1.0,
+        "verbosity": 0
+      },
+      "qa_centrality_bins": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          30,
+          50
+        ],
+        [
+          50,
+          80
+        ]
+      ]
+    }
+  },
+  "limitations": [
+    "No physics validation or retraining on real TestSet",
+    "Remote CI configured but not executed locally",
+    "No full-period 50GB performance measurement in this change"
+  ]
+}

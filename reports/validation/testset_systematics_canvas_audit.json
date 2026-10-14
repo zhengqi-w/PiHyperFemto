@@ -1,0 +1,611 @@
+{
+  "status": "passed",
+  "checks_total": 68,
+  "checks_passed": 68,
+  "checks": [
+    {
+      "name": "exact_canvas_payload/variation__bdt_loose__cent0",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__bdt_loose__cent1",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__bdt_tight__cent0",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__bdt_tight__cent1",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__norm_low__cent0",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__norm_low__cent1",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__norm_high__cent0",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__norm_high__cent1",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__pion_ptmin_020__cent0",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__pion_ptmin_020__cent1",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__pion_ptmin_025__cent0",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__pion_ptmin_025__cent1",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__pion_ptmax_200__cent0",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__pion_ptmax_200__cent1",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__pion_ptmax_225__cent0",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__pion_ptmax_225__cent1",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__pion_tpcrows_100__cent0",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__pion_tpcrows_100__cent1",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__pion_tpcrows_110__cent0",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__pion_tpcrows_110__cent1",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__pion_pid_tight__cent0",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__pion_pid_tight__cent1",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__occupancy_low__cent0",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__occupancy_low__cent1",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__mass_narrow__cent0",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__mass_narrow__cent1",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__mass_background_constant__cent0",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__mass_background_constant__cent1",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__sideband_shift__cent0",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__sideband_shift__cent1",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__pion_dca_tight__cent0",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__pion_dca_tight__cent1",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__close_pair_strict__cent0",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/variation__close_pair_strict__cent1",
+      "passed": true,
+      "payload_objects": 67
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__bdt__cent0",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__bdt__cent1",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__normalization__cent0",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__normalization__cent1",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__pion_pt_min__cent0",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__pion_pt_min__cent1",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__pion_pt_max__cent0",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__pion_pt_max__cent1",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__pion_tpc_rows__cent0",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__pion_tpc_rows__cent1",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__pion_pid__cent0",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__pion_pid__cent1",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__occupancy__cent0",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__occupancy__cent1",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__mass_window__cent0",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__mass_window__cent1",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__mass_model__cent0",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__mass_model__cent1",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__sideband__cent0",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__sideband__cent1",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__pion_dca__cent0",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__pion_dca__cent1",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__close_pair__cent0",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__source__close_pair__cent1",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__total__cent0",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "exact_canvas_payload/systematic__total__cent1",
+      "passed": true,
+      "payload_objects": 30
+    },
+    {
+      "name": "unchanged_cut_counts/nominal",
+      "passed": true
+    },
+    {
+      "name": "unchanged_cut_counts/pion_ptmin_020",
+      "passed": true
+    },
+    {
+      "name": "unchanged_cut_counts/pion_ptmin_025",
+      "passed": true
+    },
+    {
+      "name": "unchanged_cut_counts/pion_ptmax_200",
+      "passed": true
+    },
+    {
+      "name": "unchanged_cut_counts/pion_ptmax_225",
+      "passed": true
+    },
+    {
+      "name": "unchanged_cut_counts/pion_tpcrows_100",
+      "passed": true
+    },
+    {
+      "name": "unchanged_cut_counts/pion_tpcrows_110",
+      "passed": true
+    },
+    {
+      "name": "legacy_cospa_still_absent",
+      "passed": true
+    }
+  ],
+  "canvas_count": 60,
+  "definition": "Every persisted graph/histogram/function value and canvas text compared using native ROOT, ignoring canvas name only; all 7 nominal/cut totals and centrality/channel SE/ME counts equal the pre-layout independent audit.",
+  "counts": {
+    "nominal": {
+      "se": 82006,
+      "me": 793813,
+      "per_group": {
+        "cent_0_10__ch_0": {
+          "se": 12318,
+          "me": 118978
+        },
+        "cent_0_10__ch_1": {
+          "se": 12456,
+          "me": 121272
+        },
+        "cent_0_10__ch_2": {
+          "se": 8933,
+          "me": 86928
+        },
+        "cent_0_10__ch_3": {
+          "se": 8783,
+          "me": 85467
+        },
+        "cent_10_50__ch_0": {
+          "se": 10843,
+          "me": 101199
+        },
+        "cent_10_50__ch_1": {
+          "se": 10725,
+          "me": 101259
+        },
+        "cent_10_50__ch_2": {
+          "se": 8869,
+          "me": 89654
+        },
+        "cent_10_50__ch_3": {
+          "se": 9079,
+          "me": 89056
+        }
+      }
+    },
+    "pion_ptmin_020": {
+      "se": 66749,
+      "me": 647325,
+      "per_group": {
+        "cent_0_10__ch_0": {
+          "se": 10154,
+          "me": 97534
+        },
+        "cent_0_10__ch_1": {
+          "se": 10179,
+          "me": 99717
+        },
+        "cent_0_10__ch_2": {
+          "se": 7221,
+          "me": 70563
+        },
+        "cent_0_10__ch_3": {
+          "se": 7126,
+          "me": 69428
+        },
+        "cent_10_50__ch_0": {
+          "se": 8762,
+          "me": 82415
+        },
+        "cent_10_50__ch_1": {
+          "se": 8702,
+          "me": 82561
+        },
+        "cent_10_50__ch_2": {
+          "se": 7246,
+          "me": 73055
+        },
+        "cent_10_50__ch_3": {
+          "se": 7359,
+          "me": 72052
+        }
+      }
+    },
+    "pion_ptmin_025": {
+      "se": 51212,
+      "me": 497090,
+      "per_group": {
+        "cent_0_10__ch_0": {
+          "se": 7789,
+          "me": 74778
+        },
+        "cent_0_10__ch_1": {
+          "se": 7808,
+          "me": 76906
+        },
+        "cent_0_10__ch_2": {
+          "se": 5537,
+          "me": 54065
+        },
+        "cent_0_10__ch_3": {
+          "se": 5457,
+          "me": 53253
+        },
+        "cent_10_50__ch_0": {
+          "se": 6708,
+          "me": 63213
+        },
+        "cent_10_50__ch_1": {
+          "se": 6681,
+          "me": 63568
+        },
+        "cent_10_50__ch_2": {
+          "se": 5542,
+          "me": 56150
+        },
+        "cent_10_50__ch_3": {
+          "se": 5690,
+          "me": 55157
+        }
+      }
+    },
+    "pion_ptmax_200": {
+      "se": 81992,
+      "me": 793664,
+      "per_group": {
+        "cent_0_10__ch_0": {
+          "se": 12318,
+          "me": 118958
+        },
+        "cent_0_10__ch_1": {
+          "se": 12452,
+          "me": 121247
+        },
+        "cent_0_10__ch_2": {
+          "se": 8932,
+          "me": 86909
+        },
+        "cent_0_10__ch_3": {
+          "se": 8780,
+          "me": 85447
+        },
+        "cent_10_50__ch_0": {
+          "se": 10841,
+          "me": 101179
+        },
+        "cent_10_50__ch_1": {
+          "se": 10722,
+          "me": 101240
+        },
+        "cent_10_50__ch_2": {
+          "se": 8868,
+          "me": 89644
+        },
+        "cent_10_50__ch_3": {
+          "se": 9079,
+          "me": 89040
+        }
+      }
+    },
+    "pion_ptmax_225": {
+      "se": 82004,
+      "me": 793770,
+      "per_group": {
+        "cent_0_10__ch_0": {
+          "se": 12318,
+          "me": 118971
+        },
+        "cent_0_10__ch_1": {
+          "se": 12455,
+          "me": 121262
+        },
+        "cent_0_10__ch_2": {
+          "se": 8932,
+          "me": 86924
+        },
+        "cent_0_10__ch_3": {
+          "se": 8783,
+          "me": 85464
+        },
+        "cent_10_50__ch_0": {
+          "se": 10843,
+          "me": 101193
+        },
+        "cent_10_50__ch_1": {
+          "se": 10725,
+          "me": 101254
+        },
+        "cent_10_50__ch_2": {
+          "se": 8869,
+          "me": 89651
+        },
+        "cent_10_50__ch_3": {
+          "se": 9079,
+          "me": 89051
+        }
+      }
+    },
+    "pion_tpcrows_100": {
+      "se": 79735,
+      "me": 772317,
+      "per_group": {
+        "cent_0_10__ch_0": {
+          "se": 12017,
+          "me": 115791
+        },
+        "cent_0_10__ch_1": {
+          "se": 12149,
+          "me": 118381
+        },
+        "cent_0_10__ch_2": {
+          "se": 8656,
+          "me": 84574
+        },
+        "cent_0_10__ch_3": {
+          "se": 8519,
+          "me": 83053
+        },
+        "cent_10_50__ch_0": {
+          "se": 10521,
+          "me": 98318
+        },
+        "cent_10_50__ch_1": {
+          "se": 10422,
+          "me": 98587
+        },
+        "cent_10_50__ch_2": {
+          "se": 8640,
+          "me": 87229
+        },
+        "cent_10_50__ch_3": {
+          "se": 8811,
+          "me": 86384
+        }
+      }
+    },
+    "pion_tpcrows_110": {
+      "se": 75655,
+      "me": 732481,
+      "per_group": {
+        "cent_0_10__ch_0": {
+          "se": 11401,
+          "me": 109581
+        },
+        "cent_0_10__ch_1": {
+          "se": 11542,
+          "me": 112648
+        },
+        "cent_0_10__ch_2": {
+          "se": 8226,
+          "me": 80147
+        },
+        "cent_0_10__ch_3": {
+          "se": 8056,
+          "me": 78460
+        },
+        "cent_10_50__ch_0": {
+          "se": 9973,
+          "me": 93098
+        },
+        "cent_10_50__ch_1": {
+          "se": 9906,
+          "me": 93827
+        },
+        "cent_10_50__ch_2": {
+          "se": 8226,
+          "me": 82979
+        },
+        "cent_10_50__ch_3": {
+          "se": 8325,
+          "me": 81741
+        }
+      }
+    }
+  },
+  "source_fingerprint": "92916401e8a0f5059da76184d5ebbf9a3e1e6724aef1a77955f17a40cb8b3351",
+  "report_signature": "9bf9a23d5e05bc6af31791e2796d37eff320a065614667bca6edbb3c3341308d"
+}

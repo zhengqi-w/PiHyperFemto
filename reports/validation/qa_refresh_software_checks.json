@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "tests": 190,
+  "duration_seconds": 82.223,
+  "source_fingerprint": "d5fbb7eafba052ad75d3cc640845705dc9716f4813ee5bc858af6b627e7ace3e",
+  "python": "/opt/anaconda3/envs/MLenv/bin/python",
+  "format_check": "Black: all 63 Python files passed",
+  "static_check": "Flake8 F,E9 passed",
+  "model_api": "HIPE4ML ModelHandler + XGBoost; probability output_margin=False",
+  "training_qa": [
+    "bdt_output",
+    "correlations_signal/background",
+    "efficiency_vs_score",
+    "feature_distributions",
+    "SHAP importance bar/beeswarm",
+    "ROC train/test",
+    "bdt_test_score"
+  ],
+  "working_point_qa": [
+    "3sigma significance vs score/efficiency",
+    "2sigma-4sigma filled integration-window envelope",
+    "S3/eff ROOT pol0",
+    "mean/sigma errors",
+    "exact nominal marker",
+    "scan optimum Gaussian mass components and pull",
+    "all scan fits including rejected points"
+  ],
+  "physics_contract": "Diagnostic window curves share c0_3sigma; nominal fixed-window selection unchanged. Gaussian/full covariance differ from Spectrum DSCB/yield-only errors.",
+  "checks": [
+    "Full synthetic global/pT workflow and report QA links",
+    "HIPE4ML official API calls, RNG isolation, artifact/index/ROOT coverage",
+    "Moving/clipped windows and covariance derivatives",
+    "Sorted common-mask window polygon and ROOT canvas round trip",
+    "Exact explicit override and failure states",
+    "ROOT-before-SHAP fresh interpreter",
+    "Existing streaming, systematics, MC and cache contracts",
+    "Independent MC calibration group and frozen conditional-efficiency domain",
+    "MC input cutflow and training/ROOT/index parity",
+    "Domain-aware score cache invalidation",
+    "Actual A4 PDF panel extents without new dependencies",
+    "Float32 boundary regression: float64 score-efficiency comparisons reproduce NPZ exactly"
+  ],
+  "dependency_versions": {
+    "hipe4ml": "0.0.18",
+    "xgboost": "1.7.6",
+    "matplotlib": "3.9.3",
+    "shap": "0.46.0",
+    "optuna": "4.1.0",
+    "scikit-learn": "1.6.0"
+  },
+  "log": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/reports/validation/qa_refresh_software_checks.log",
+  "scope": "Software/synthetic checks; real TestSet training/WP recorded separately in testset_qa_refresh.json",
+  "real_testset_run": true,
+  "mc_range_selection": {
+    "enabled_in_example_configs": true,
+    "quantiles": [
+      0.001,
+      0.999
+    ],
+    "margin_fraction": 0.05,
+    "reference_group_fraction": 0.1,
+    "scope": "training, WP, Femto/MCFemto; immutable per model",
+    "no_fixed_physical_cuts_added": true
+  },
+  "real_testset_checks": "reports/validation/testset_qa_refresh.json: 880 passed; training/WP only",
+  "visual_review": {
+    "directory": "/tmp/pih3l-spectrum-wp-qa-preview",
+    "real_testset": true,
+    "reviewed": [
+      "feature_distributions",
+      "sig_vs_eff",
+      "best_fit"
+    ],
+    "findings": "MC-derived feature ranges retain class shapes; final envelope and nominal marker visible; full pull/sigma axes fit the PDF page",
+    "temporary_raster_previews_outside_outputs": true
+  }
+}

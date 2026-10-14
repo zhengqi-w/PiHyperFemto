@@ -1,0 +1,336 @@
+{
+  "status": "passed",
+  "checks_passed": 81,
+  "checks_total": 81,
+  "checks": [
+    {
+      "name": "checkpoint/merged_groups",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/systematic_qa",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/mc_status",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/histogram_arrays_checked",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/root_archive",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_1/training",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_1/training_contract",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_1/working_point_contract",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_1/scored",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_1/scored_storage",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_1/groups",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_1/systematic_qa_contract",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_1/mc_status",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_1/variation_selection_metadata",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_2/training",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_2/training_contract",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_2/working_point_contract",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_2/scored",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_2/scored_storage",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_2/groups",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_2/systematic_qa_contract",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_2/mc_status",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_2/variation_selection_metadata",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_3/training",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_3/training_contract",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_3/working_point_contract",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_3/scored",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_3/scored_storage",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_3/groups",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_3/systematic_qa_contract",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_3/mc_status",
+      "passed": true
+    },
+    {
+      "name": "checkpoint/test_period_3/variation_selection_metadata",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_1/cent_0_10__ch_0/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_1/cent_0_10__ch_0/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_1/cent_0_10__ch_1/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_1/cent_0_10__ch_1/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_1/cent_0_10__ch_2/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_1/cent_0_10__ch_2/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_1/cent_0_10__ch_3/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_1/cent_0_10__ch_3/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_1/cent_10_50__ch_0/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_1/cent_10_50__ch_0/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_1/cent_10_50__ch_1/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_1/cent_10_50__ch_1/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_1/cent_10_50__ch_2/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_1/cent_10_50__ch_2/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_1/cent_10_50__ch_3/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_1/cent_10_50__ch_3/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_2/cent_0_10__ch_0/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_2/cent_0_10__ch_0/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_2/cent_0_10__ch_1/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_2/cent_0_10__ch_1/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_2/cent_0_10__ch_2/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_2/cent_0_10__ch_2/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_2/cent_0_10__ch_3/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_2/cent_0_10__ch_3/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_2/cent_10_50__ch_0/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_2/cent_10_50__ch_0/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_2/cent_10_50__ch_1/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_2/cent_10_50__ch_1/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_2/cent_10_50__ch_2/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_2/cent_10_50__ch_2/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_2/cent_10_50__ch_3/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_2/cent_10_50__ch_3/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_3/cent_0_10__ch_0/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_3/cent_0_10__ch_0/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_3/cent_0_10__ch_1/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_3/cent_0_10__ch_1/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_3/cent_0_10__ch_2/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_3/cent_0_10__ch_2/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_3/cent_0_10__ch_3/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_3/cent_0_10__ch_3/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_3/cent_10_50__ch_0/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_3/cent_10_50__ch_0/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_3/cent_10_50__ch_1/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_3/cent_10_50__ch_1/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_3/cent_10_50__ch_2/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_3/cent_10_50__ch_2/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_3/cent_10_50__ch_3/raw_cf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "repeated_input/test_period_3/cent_10_50__ch_3/formal_covariance_divided_by_three",
+      "passed": true
+    },
+    {
+      "name": "final_complete_independent_oracle",
+      "passed": true
+    }
+  ],
+  "source_before": "280f1a3cffc87ff4c6760cc03bd690dfe96a315fc8923e047376c263c09afaae",
+  "source_after": "1223a892c29fbc84e91e40195687e37a3e3af5b5dfe921ce3f4f45dcb3ce7116",
+  "report_signature": "bf4afd894ae265e5f5ae88857ba6d3e1661545dca49d3fa6fb4339fc9fd5105d",
+  "comparison_scope": "Exact equality of all retained checkpoint model/WP/score/selection/merged-count summaries. Full pre-guard numerical arrays were not archived; current nominal plus all 17 variation counts/sumw2/CF/covariance are rechecked independently from child sums by the final 6568-check oracle.",
+  "statistical_interpretation": "Repeated inputs only test arithmetic; formal covariance /3 is not physical statistical improvement."
+}

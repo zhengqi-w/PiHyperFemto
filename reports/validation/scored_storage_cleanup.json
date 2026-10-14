@@ -1,0 +1,1569 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-11T15:42:59.126221+00:00",
+  "authorization": "User requested deletion of previously generated Parquet artifacts after implementing compact scored storage.",
+  "scope": "Generated historical Parquet under project outputs; original ROOT inputs excluded.",
+  "status": "complete",
+  "files": [
+    {
+      "path": "outputs/benchmarks/optimization/slim_samples/part-000000.parquet",
+      "bytes": 3235694,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/benchmarks/optimization/slim_samples/part-000001.parquet",
+      "bytes": 2986545,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/benchmarks/optimization/slim_samples/part-000002.parquet",
+      "bytes": 2913808,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/benchmarks/optimization/slim_samples/part-000003.parquet",
+      "bytes": 2890123,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/benchmarks/optimization/slim_samples/part-000004.parquet",
+      "bytes": 3282986,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/background/part-000000.parquet",
+      "bytes": 1877067,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000000.parquet",
+      "bytes": 4657449,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000001.parquet",
+      "bytes": 4296723,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000002.parquet",
+      "bytes": 4197347,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000003.parquet",
+      "bytes": 4159177,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000004.parquet",
+      "bytes": 4733574,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000005.parquet",
+      "bytes": 3665528,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000006.parquet",
+      "bytes": 4265936,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000007.parquet",
+      "bytes": 4019360,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000008.parquet",
+      "bytes": 4861077,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000009.parquet",
+      "bytes": 1653663,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000010.parquet",
+      "bytes": 4363917,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000011.parquet",
+      "bytes": 4647540,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000012.parquet",
+      "bytes": 4805351,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000013.parquet",
+      "bytes": 1955374,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000014.parquet",
+      "bytes": 3808020,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000015.parquet",
+      "bytes": 4106303,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000016.parquet",
+      "bytes": 4079061,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000017.parquet",
+      "bytes": 3551605,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000018.parquet",
+      "bytes": 4569245,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000019.parquet",
+      "bytes": 4533803,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000020.parquet",
+      "bytes": 4473493,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000021.parquet",
+      "bytes": 4224842,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000022.parquet",
+      "bytes": 3978201,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000023.parquet",
+      "bytes": 1313326,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000024.parquet",
+      "bytes": 4267367,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000025.parquet",
+      "bytes": 4325631,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000026.parquet",
+      "bytes": 3958726,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000027.parquet",
+      "bytes": 2397806,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000028.parquet",
+      "bytes": 4582789,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000029.parquet",
+      "bytes": 4250584,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000030.parquet",
+      "bytes": 3894757,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000031.parquet",
+      "bytes": 3206510,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000032.parquet",
+      "bytes": 4516954,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000033.parquet",
+      "bytes": 4326331,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000034.parquet",
+      "bytes": 3978747,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000035.parquet",
+      "bytes": 3959867,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000036.parquet",
+      "bytes": 4642097,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000037.parquet",
+      "bytes": 362308,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000038.parquet",
+      "bytes": 4334256,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000039.parquet",
+      "bytes": 4072482,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000040.parquet",
+      "bytes": 4443283,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000041.parquet",
+      "bytes": 3139857,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000042.parquet",
+      "bytes": 3862019,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000043.parquet",
+      "bytes": 4130340,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000044.parquet",
+      "bytes": 4607911,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000045.parquet",
+      "bytes": 3004254,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000046.parquet",
+      "bytes": 4347415,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000047.parquet",
+      "bytes": 4408036,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000048.parquet",
+      "bytes": 4591905,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000049.parquet",
+      "bytes": 1315790,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000050.parquet",
+      "bytes": 4160873,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000051.parquet",
+      "bytes": 4122790,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000052.parquet",
+      "bytes": 4286868,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000053.parquet",
+      "bytes": 1315858,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000054.parquet",
+      "bytes": 4938020,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000055.parquet",
+      "bytes": 4671736,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000056.parquet",
+      "bytes": 4756849,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000057.parquet",
+      "bytes": 4642635,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000058.parquet",
+      "bytes": 2042343,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000059.parquet",
+      "bytes": 4340983,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000060.parquet",
+      "bytes": 4337421,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000061.parquet",
+      "bytes": 4728551,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000062.parquet",
+      "bytes": 4178491,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000063.parquet",
+      "bytes": 2896111,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000064.parquet",
+      "bytes": 4656911,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000065.parquet",
+      "bytes": 4446437,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000066.parquet",
+      "bytes": 4399521,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000067.parquet",
+      "bytes": 4152657,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000068.parquet",
+      "bytes": 2229750,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000069.parquet",
+      "bytes": 4467188,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000070.parquet",
+      "bytes": 4120237,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000071.parquet",
+      "bytes": 4339229,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000072.parquet",
+      "bytes": 4658038,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000073.parquet",
+      "bytes": 4386175,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000074.parquet",
+      "bytes": 1084272,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000075.parquet",
+      "bytes": 4426903,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000076.parquet",
+      "bytes": 3921479,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000077.parquet",
+      "bytes": 4310329,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000078.parquet",
+      "bytes": 2065179,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000079.parquet",
+      "bytes": 3892981,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000080.parquet",
+      "bytes": 4287486,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000081.parquet",
+      "bytes": 3842915,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000082.parquet",
+      "bytes": 3466097,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000083.parquet",
+      "bytes": 4213073,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000084.parquet",
+      "bytes": 4443344,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000085.parquet",
+      "bytes": 3655115,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/femto/part-000086.parquet",
+      "bytes": 3059189,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000000.parquet",
+      "bytes": 1031250,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000001.parquet",
+      "bytes": 1013078,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000002.parquet",
+      "bytes": 996747,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000003.parquet",
+      "bytes": 988423,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000004.parquet",
+      "bytes": 1015757,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000005.parquet",
+      "bytes": 583061,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000006.parquet",
+      "bytes": 1011879,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000007.parquet",
+      "bytes": 1006042,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000008.parquet",
+      "bytes": 979015,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000009.parquet",
+      "bytes": 410686,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000010.parquet",
+      "bytes": 1105110,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000011.parquet",
+      "bytes": 1102451,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000012.parquet",
+      "bytes": 1038994,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000013.parquet",
+      "bytes": 993977,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000014.parquet",
+      "bytes": 869111,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000015.parquet",
+      "bytes": 979468,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000016.parquet",
+      "bytes": 979176,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000017.parquet",
+      "bytes": 984740,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000018.parquet",
+      "bytes": 266724,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000019.parquet",
+      "bytes": 997022,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000020.parquet",
+      "bytes": 1001616,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000021.parquet",
+      "bytes": 902046,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000022.parquet",
+      "bytes": 962645,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000023.parquet",
+      "bytes": 1012887,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000024.parquet",
+      "bytes": 977573,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000025.parquet",
+      "bytes": 192615,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000026.parquet",
+      "bytes": 1006731,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000027.parquet",
+      "bytes": 997578,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000028.parquet",
+      "bytes": 992753,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000029.parquet",
+      "bytes": 968644,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000030.parquet",
+      "bytes": 90112,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000031.parquet",
+      "bytes": 975691,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000032.parquet",
+      "bytes": 987453,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000033.parquet",
+      "bytes": 993466,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000034.parquet",
+      "bytes": 985295,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000035.parquet",
+      "bytes": 88464,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000036.parquet",
+      "bytes": 975795,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000037.parquet",
+      "bytes": 989024,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000038.parquet",
+      "bytes": 885231,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000039.parquet",
+      "bytes": 1009871,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000040.parquet",
+      "bytes": 974685,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000041.parquet",
+      "bytes": 992494,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000042.parquet",
+      "bytes": 345587,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000043.parquet",
+      "bytes": 1007452,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000044.parquet",
+      "bytes": 989311,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000045.parquet",
+      "bytes": 986253,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000046.parquet",
+      "bytes": 988056,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000047.parquet",
+      "bytes": 343846,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000048.parquet",
+      "bytes": 984225,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000049.parquet",
+      "bytes": 1002528,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000050.parquet",
+      "bytes": 990028,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000051.parquet",
+      "bytes": 48397,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000052.parquet",
+      "bytes": 1016032,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000053.parquet",
+      "bytes": 1024051,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000054.parquet",
+      "bytes": 1006951,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000055.parquet",
+      "bytes": 1035973,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000056.parquet",
+      "bytes": 423294,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000057.parquet",
+      "bytes": 978035,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000058.parquet",
+      "bytes": 978870,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000059.parquet",
+      "bytes": 1039995,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000060.parquet",
+      "bytes": 1028262,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000061.parquet",
+      "bytes": 1002904,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000062.parquet",
+      "bytes": 544841,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000063.parquet",
+      "bytes": 995287,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000064.parquet",
+      "bytes": 1014172,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000065.parquet",
+      "bytes": 1016702,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000066.parquet",
+      "bytes": 991317,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000067.parquet",
+      "bytes": 914462,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000068.parquet",
+      "bytes": 987120,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000069.parquet",
+      "bytes": 994088,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000070.parquet",
+      "bytes": 992179,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000071.parquet",
+      "bytes": 318578,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000072.parquet",
+      "bytes": 984445,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000073.parquet",
+      "bytes": 979336,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/prepared/signal/part-000074.parquet",
+      "bytes": 934842,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000000.parquet",
+      "bytes": 4658400,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000001.parquet",
+      "bytes": 4297689,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000002.parquet",
+      "bytes": 4198340,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000003.parquet",
+      "bytes": 4160150,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000004.parquet",
+      "bytes": 4734540,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000005.parquet",
+      "bytes": 3666517,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000006.parquet",
+      "bytes": 4266995,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000007.parquet",
+      "bytes": 4020479,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000008.parquet",
+      "bytes": 4862051,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000009.parquet",
+      "bytes": 1654438,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000010.parquet",
+      "bytes": 4364869,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000011.parquet",
+      "bytes": 4648526,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000012.parquet",
+      "bytes": 4806317,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000013.parquet",
+      "bytes": 1956100,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000014.parquet",
+      "bytes": 3809031,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000015.parquet",
+      "bytes": 4107281,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000016.parquet",
+      "bytes": 4080157,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000017.parquet",
+      "bytes": 3552609,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000018.parquet",
+      "bytes": 4570356,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000019.parquet",
+      "bytes": 4534919,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000020.parquet",
+      "bytes": 4474555,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000021.parquet",
+      "bytes": 4225961,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000022.parquet",
+      "bytes": 3979377,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000023.parquet",
+      "bytes": 1314123,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000024.parquet",
+      "bytes": 4268444,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000025.parquet",
+      "bytes": 4326697,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000026.parquet",
+      "bytes": 3959841,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000027.parquet",
+      "bytes": 2398663,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000028.parquet",
+      "bytes": 4583913,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000029.parquet",
+      "bytes": 4251560,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000030.parquet",
+      "bytes": 3895860,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000031.parquet",
+      "bytes": 3207526,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000032.parquet",
+      "bytes": 4517885,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000033.parquet",
+      "bytes": 4327295,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000034.parquet",
+      "bytes": 3979760,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000035.parquet",
+      "bytes": 3961021,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000036.parquet",
+      "bytes": 4643140,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000037.parquet",
+      "bytes": 362929,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000038.parquet",
+      "bytes": 4335335,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000039.parquet",
+      "bytes": 4073417,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000040.parquet",
+      "bytes": 4444284,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000041.parquet",
+      "bytes": 3140799,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000042.parquet",
+      "bytes": 3863053,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000043.parquet",
+      "bytes": 4131557,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000044.parquet",
+      "bytes": 4608972,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000045.parquet",
+      "bytes": 3005122,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000046.parquet",
+      "bytes": 4348527,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000047.parquet",
+      "bytes": 4409077,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000048.parquet",
+      "bytes": 4592902,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000049.parquet",
+      "bytes": 1316506,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000050.parquet",
+      "bytes": 4162006,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000051.parquet",
+      "bytes": 4123772,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000052.parquet",
+      "bytes": 4287847,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000053.parquet",
+      "bytes": 1316560,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000054.parquet",
+      "bytes": 4939039,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000055.parquet",
+      "bytes": 4672709,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000056.parquet",
+      "bytes": 4757826,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000057.parquet",
+      "bytes": 4643725,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000058.parquet",
+      "bytes": 2043077,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000059.parquet",
+      "bytes": 4342056,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000060.parquet",
+      "bytes": 4338453,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000061.parquet",
+      "bytes": 4729582,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000062.parquet",
+      "bytes": 4179461,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000063.parquet",
+      "bytes": 2896991,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000064.parquet",
+      "bytes": 4657893,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000065.parquet",
+      "bytes": 4447491,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000066.parquet",
+      "bytes": 4400507,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000067.parquet",
+      "bytes": 4153681,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000068.parquet",
+      "bytes": 2230526,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000069.parquet",
+      "bytes": 4468270,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000070.parquet",
+      "bytes": 4121289,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000071.parquet",
+      "bytes": 4340261,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000072.parquet",
+      "bytes": 4659151,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000073.parquet",
+      "bytes": 4387293,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000074.parquet",
+      "bytes": 1084954,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000075.parquet",
+      "bytes": 4427885,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000076.parquet",
+      "bytes": 3922527,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000077.parquet",
+      "bytes": 4311406,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000078.parquet",
+      "bytes": 2065954,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000079.parquet",
+      "bytes": 3894043,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000080.parquet",
+      "bytes": 4288582,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000081.parquet",
+      "bytes": 3843862,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000082.parquet",
+      "bytes": 3467059,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000083.parquet",
+      "bytes": 4214040,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000084.parquet",
+      "bytes": 4444335,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000085.parquet",
+      "bytes": 3656224,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/scored/femto/part-000086.parquet",
+      "bytes": 3060092,
+      "hardlink_count": 1,
+      "deleted": true
+    },
+    {
+      "path": "outputs/testset/training/validation.parquet",
+      "bytes": 6123451,
+      "hardlink_count": 1,
+      "deleted": true
+    }
+  ],
+  "migrations": [
+    {
+      "source": "outputs/testset/training/validation.parquet",
+      "target": "outputs/testset/training/validation_scores.npz",
+      "rows": 25781,
+      "source_bytes": 6123451,
+      "target_bytes": 185090,
+      "target_sha256": "68fa87aa64a212ebacf149e63b1acf0e1ee2e2e87c487563f9f965f257745a69",
+      "verified": "Labels and scores equal, including NaN scores; no model retraining."
+    }
+  ],
+  "preserved": [
+    "Original ROOT input dataset",
+    "Existing model.joblib and metrics.json",
+    "Historical JSON/CSV/ROOT/PDF analysis artifacts"
+  ],
+  "rerun_note": "Historical prepared/scored manifests reference removed files and therefore fail verification. The next workflow rebuilds from original ROOT. No real TestSet training or analysis was run for this change.",
+  "deleted_count": 256,
+  "deleted_logical_bytes": 765182738,
+  "unlinked_single_link_bytes": 765182738,
+  "new_npz_bytes": 185090,
+  "net_logical_bytes_reduced": 764997648,
+  "remaining_project_output_parquet": [],
+  "completed_utc": "2026-10-11T15:42:59.294758+00:00"
+}

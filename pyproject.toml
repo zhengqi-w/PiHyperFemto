@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pih3l-femto"
+version = "0.1.0"
+description = "Reproducible pion–hypertriton femtoscopy analysis"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "numpy>=1.26,<2", "pandas>=2,<3", "scipy>=1.10,<2",
+  "scikit-learn>=1.6,<1.7", "uproot>=5,<6", "awkward>=2,<3",
+  "pyarrow>=12", "PyYAML>=6,<7", "packaging>=23,<26",
+  "hipe4ml==0.0.18", "xgboost==1.7.6", "shap==0.46.0",
+  "lightgbm>=4.5,<5", "ipython>=8.18,<9",
+  "optuna>=4,<5", "matplotlib>=3.7,<4",
+]
+# Native ROOT / PyROOT is provided by the analysis environment (e.g. conda-forge root).
+# environment.yml defines the Python 3.10 / ROOT 6.38 Farm and Linux CI baseline.
+# HIPE4ML 0.0.18 requires XGBoost < 2; the validated model engine is pinned accordingly.
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.6"]
+
+[project.scripts]
+pih3l = "pih3l.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
+ignore = ["E501"]

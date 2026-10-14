@@ -1,0 +1,3744 @@
+{
+  "status": "passed_expected_failure_diagnostics",
+  "workflow_status": "stopped_at_working_point_insufficient_statistics",
+  "physics_validation": false,
+  "source_fingerprint": "9560968aa3fd41f370f84bac874317fb43663bcc7ffee6c35259f6cb5f9a2de8",
+  "config": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/configs/testset.yaml",
+  "failure": {
+    "stage": "working_point",
+    "signature": "b5a5d662282dd03024f67c3f740cb456b17086538901b12469434bf8c484d484",
+    "error": "WP pol0 yield fit failed: insufficient_points; valid distinct cuts in yield_eff_range=0, required=3. Full scan diagnostics saved to /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/failures/working_point-b5a5d662282dd03024f67c3f740cb456b17086538901b12469434bf8c484d484",
+    "error_type": "AnalysisError",
+    "diagnostics_path": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/failures/working_point-b5a5d662282dd03024f67c3f740cb456b17086538901b12469434bf8c484d484",
+    "failed_unix": 1791736875.5141609,
+    "previous_completed_stage_preserved": true
+  },
+  "scan_points": 701,
+  "valid_scan_points": 30,
+  "pol0": {
+    "status": "insufficient_points",
+    "fit_range": [
+      0.5,
+      0.95
+    ],
+    "points": 0,
+    "distinct_thresholds": 0,
+    "minimum_points": 3,
+    "c0": null,
+    "c0_error": null,
+    "chi2": null,
+    "ndof": 0,
+    "chi2_ndf": null,
+    "method": "ROOT TGraphErrors weighted TF1 pol0 fit",
+    "reference_difference": "preserves every valid efficiency point; avoids TH1 bin collisions overwriting scan points",
+    "efficiency_coordinate": "requested MC signal efficiency",
+    "uncertainty": "marginal mass-fit errors; covariance between nested WP samples unavailable"
+  },
+  "fit_status_counts": {
+    "insufficient_mass_entries": 667,
+    "insufficient_mass_sidebands": 3,
+    "ok": 30,
+    "fit_failed": 1
+  },
+  "training_grid": {
+    "provider": "hipe4ml.analysis_utils.score_from_efficiency_array",
+    "version": "0.0.18",
+    "implementation_sha256": "69b0fbcc6c6b5481ef5485811c90d245746ff35557b68c9a545cb353932bea3b",
+    "score_domain": "classifier predict_proba(signal), [0,1]",
+    "input": "both classes of the fixed held-out validation sample",
+    "library_comparison": "score > threshold",
+    "application_comparison": "score >= threshold (inclusive ties)",
+    "unit_efficiency_policy": "threshold 0 in the probability domain",
+    "fallback": "none",
+    "numerical_retry_policy": "On a missing spline root only, evaluate targets one float64 ULP toward zero on the identical sample; retain requested efficiencies and report actual acceptance.",
+    "numerical_retry": true,
+    "evaluated_efficiencies": [
+      0.29,
+      0.291,
+      0.292,
+      0.293,
+      0.294,
+      0.295,
+      0.296,
+      0.297,
+      0.298,
+      0.299,
+      0.3,
+      0.301,
+      0.302,
+      0.303,
+      0.304,
+      0.305,
+      0.306,
+      0.307,
+      0.308,
+      0.309,
+      0.31,
+      0.311,
+      0.312,
+      0.313,
+      0.314,
+      0.315,
+      0.316,
+      0.317,
+      0.318,
+      0.319,
+      0.32,
+      0.321,
+      0.322,
+      0.323,
+      0.324,
+      0.325,
+      0.326,
+      0.327,
+      0.328,
+      0.329,
+      0.33,
+      0.331,
+      0.332,
+      0.333,
+      0.334,
+      0.335,
+      0.336,
+      0.337,
+      0.338,
+      0.339,
+      0.34,
+      0.341,
+      0.342,
+      0.343,
+      0.344,
+      0.345,
+      0.346,
+      0.347,
+      0.348,
+      0.349,
+      0.35,
+      0.351,
+      0.352,
+      0.353,
+      0.354,
+      0.355,
+      0.356,
+      0.357,
+      0.358,
+      0.359,
+      0.36,
+      0.361,
+      0.362,
+      0.363,
+      0.364,
+      0.365,
+      0.366,
+      0.367,
+      0.368,
+      0.369,
+      0.37,
+      0.371,
+      0.372,
+      0.373,
+      0.374,
+      0.375,
+      0.376,
+      0.377,
+      0.378,
+      0.379,
+      0.38,
+      0.381,
+      0.382,
+      0.383,
+      0.384,
+      0.385,
+      0.386,
+      0.387,
+      0.388,
+      0.389,
+      0.39,
+      0.391,
+      0.392,
+      0.393,
+      0.394,
+      0.395,
+      0.396,
+      0.397,
+      0.398,
+      0.399,
+      0.4,
+      0.401,
+      0.402,
+      0.403,
+      0.404,
+      0.405,
+      0.406,
+      0.407,
+      0.408,
+      0.409,
+      0.41,
+      0.411,
+      0.412,
+      0.413,
+      0.414,
+      0.415,
+      0.416,
+      0.417,
+      0.418,
+      0.419,
+      0.42,
+      0.421,
+      0.422,
+      0.423,
+      0.424,
+      0.425,
+      0.426,
+      0.427,
+      0.428,
+      0.429,
+      0.43,
+      0.431,
+      0.432,
+      0.433,
+      0.434,
+      0.435,
+      0.436,
+      0.437,
+      0.438,
+      0.439,
+      0.44,
+      0.441,
+      0.442,
+      0.443,
+      0.444,
+      0.445,
+      0.446,
+      0.447,
+      0.448,
+      0.449,
+      0.45,
+      0.451,
+      0.452,
+      0.453,
+      0.454,
+      0.455,
+      0.456,
+      0.457,
+      0.458,
+      0.459,
+      0.46,
+      0.461,
+      0.462,
+      0.463,
+      0.464,
+      0.465,
+      0.466,
+      0.467,
+      0.468,
+      0.469,
+      0.47,
+      0.471,
+      0.472,
+      0.473,
+      0.474,
+      0.475,
+      0.476,
+      0.477,
+      0.478,
+      0.479,
+      0.48,
+      0.481,
+      0.482,
+      0.483,
+      0.484,
+      0.485,
+      0.486,
+      0.487,
+      0.488,
+      0.489,
+      0.49,
+      0.491,
+      0.492,
+      0.493,
+      0.494,
+      0.495,
+      0.496,
+      0.497,
+      0.498,
+      0.499,
+      0.5,
+      0.501,
+      0.502,
+      0.503,
+      0.504,
+      0.505,
+      0.506,
+      0.507,
+      0.508,
+      0.509,
+      0.51,
+      0.511,
+      0.512,
+      0.513,
+      0.514,
+      0.515,
+      0.516,
+      0.517,
+      0.518,
+      0.519,
+      0.52,
+      0.521,
+      0.522,
+      0.523,
+      0.524,
+      0.525,
+      0.526,
+      0.527,
+      0.528,
+      0.529,
+      0.53,
+      0.531,
+      0.532,
+      0.533,
+      0.534,
+      0.535,
+      0.536,
+      0.537,
+      0.538,
+      0.539,
+      0.54,
+      0.541,
+      0.542,
+      0.543,
+      0.544,
+      0.545,
+      0.546,
+      0.547,
+      0.548,
+      0.549,
+      0.55,
+      0.551,
+      0.552,
+      0.553,
+      0.554,
+      0.555,
+      0.556,
+      0.557,
+      0.558,
+      0.559,
+      0.56,
+      0.561,
+      0.562,
+      0.563,
+      0.564,
+      0.565,
+      0.566,
+      0.567,
+      0.568,
+      0.569,
+      0.57,
+      0.571,
+      0.572,
+      0.573,
+      0.574,
+      0.575,
+      0.576,
+      0.577,
+      0.578,
+      0.579,
+      0.58,
+      0.581,
+      0.582,
+      0.583,
+      0.584,
+      0.585,
+      0.586,
+      0.587,
+      0.588,
+      0.589,
+      0.59,
+      0.591,
+      0.592,
+      0.593,
+      0.594,
+      0.595,
+      0.596,
+      0.597,
+      0.598,
+      0.599,
+      0.6,
+      0.601,
+      0.602,
+      0.603,
+      0.604,
+      0.605,
+      0.606,
+      0.607,
+      0.608,
+      0.609,
+      0.61,
+      0.611,
+      0.612,
+      0.613,
+      0.614,
+      0.615,
+      0.616,
+      0.617,
+      0.618,
+      0.619,
+      0.62,
+      0.621,
+      0.622,
+      0.623,
+      0.624,
+      0.625,
+      0.626,
+      0.627,
+      0.628,
+      0.629,
+      0.63,
+      0.631,
+      0.632,
+      0.633,
+      0.634,
+      0.635,
+      0.636,
+      0.637,
+      0.638,
+      0.639,
+      0.64,
+      0.641,
+      0.642,
+      0.643,
+      0.644,
+      0.645,
+      0.646,
+      0.647,
+      0.648,
+      0.649,
+      0.65,
+      0.651,
+      0.652,
+      0.653,
+      0.654,
+      0.655,
+      0.656,
+      0.657,
+      0.658,
+      0.659,
+      0.66,
+      0.661,
+      0.662,
+      0.663,
+      0.664,
+      0.665,
+      0.666,
+      0.667,
+      0.668,
+      0.669,
+      0.67,
+      0.671,
+      0.672,
+      0.673,
+      0.674,
+      0.675,
+      0.676,
+      0.677,
+      0.678,
+      0.679,
+      0.68,
+      0.681,
+      0.682,
+      0.683,
+      0.684,
+      0.685,
+      0.686,
+      0.687,
+      0.688,
+      0.689,
+      0.69,
+      0.691,
+      0.692,
+      0.693,
+      0.694,
+      0.695,
+      0.696,
+      0.697,
+      0.698,
+      0.699,
+      0.7,
+      0.701,
+      0.702,
+      0.703,
+      0.704,
+      0.705,
+      0.706,
+      0.707,
+      0.708,
+      0.709,
+      0.71,
+      0.711,
+      0.712,
+      0.713,
+      0.714,
+      0.715,
+      0.716,
+      0.717,
+      0.718,
+      0.719,
+      0.72,
+      0.721,
+      0.722,
+      0.723,
+      0.724,
+      0.725,
+      0.726,
+      0.727,
+      0.728,
+      0.729,
+      0.73,
+      0.731,
+      0.732,
+      0.733,
+      0.734,
+      0.735,
+      0.736,
+      0.737,
+      0.738,
+      0.739,
+      0.74,
+      0.741,
+      0.742,
+      0.743,
+      0.744,
+      0.745,
+      0.746,
+      0.747,
+      0.748,
+      0.749,
+      0.75,
+      0.751,
+      0.752,
+      0.753,
+      0.754,
+      0.755,
+      0.756,
+      0.757,
+      0.758,
+      0.759,
+      0.76,
+      0.761,
+      0.762,
+      0.763,
+      0.764,
+      0.765,
+      0.766,
+      0.767,
+      0.768,
+      0.769,
+      0.77,
+      0.771,
+      0.772,
+      0.773,
+      0.774,
+      0.775,
+      0.776,
+      0.777,
+      0.778,
+      0.779,
+      0.78,
+      0.781,
+      0.782,
+      0.783,
+      0.784,
+      0.785,
+      0.786,
+      0.787,
+      0.788,
+      0.789,
+      0.79,
+      0.791,
+      0.792,
+      0.793,
+      0.794,
+      0.795,
+      0.796,
+      0.797,
+      0.798,
+      0.799,
+      0.8,
+      0.801,
+      0.802,
+      0.803,
+      0.804,
+      0.805,
+      0.806,
+      0.807,
+      0.808,
+      0.809,
+      0.81,
+      0.811,
+      0.812,
+      0.813,
+      0.814,
+      0.815,
+      0.816,
+      0.817,
+      0.818,
+      0.819,
+      0.82,
+      0.821,
+      0.822,
+      0.823,
+      0.824,
+      0.825,
+      0.826,
+      0.827,
+      0.828,
+      0.829,
+      0.83,
+      0.831,
+      0.832,
+      0.833,
+      0.834,
+      0.835,
+      0.836,
+      0.837,
+      0.838,
+      0.839,
+      0.84,
+      0.841,
+      0.842,
+      0.843,
+      0.844,
+      0.845,
+      0.846,
+      0.847,
+      0.848,
+      0.849,
+      0.85,
+      0.851,
+      0.852,
+      0.853,
+      0.854,
+      0.855,
+      0.856,
+      0.857,
+      0.858,
+      0.859,
+      0.86,
+      0.861,
+      0.862,
+      0.863,
+      0.864,
+      0.865,
+      0.866,
+      0.867,
+      0.868,
+      0.869,
+      0.87,
+      0.871,
+      0.872,
+      0.873,
+      0.874,
+      0.875,
+      0.876,
+      0.877,
+      0.878,
+      0.879,
+      0.88,
+      0.881,
+      0.882,
+      0.883,
+      0.884,
+      0.885,
+      0.886,
+      0.887,
+      0.888,
+      0.889,
+      0.89,
+      0.891,
+      0.892,
+      0.893,
+      0.894,
+      0.895,
+      0.896,
+      0.897,
+      0.898,
+      0.899,
+      0.9,
+      0.901,
+      0.902,
+      0.903,
+      0.904,
+      0.905,
+      0.906,
+      0.907,
+      0.908,
+      0.909,
+      0.91,
+      0.911,
+      0.912,
+      0.913,
+      0.914,
+      0.915,
+      0.916,
+      0.917,
+      0.9179999999999999,
+      0.919,
+      0.92,
+      0.921,
+      0.922,
+      0.923,
+      0.924,
+      0.925,
+      0.926,
+      0.927,
+      0.928,
+      0.929,
+      0.93,
+      0.931,
+      0.932,
+      0.933,
+      0.934,
+      0.935,
+      0.936,
+      0.937,
+      0.938,
+      0.939,
+      0.94,
+      0.941,
+      0.942,
+      0.943,
+      0.944,
+      0.945,
+      0.946,
+      0.947,
+      0.948,
+      0.949,
+      0.95,
+      0.951,
+      0.952,
+      0.953,
+      0.954,
+      0.955,
+      0.956,
+      0.957,
+      0.958,
+      0.959,
+      0.96,
+      0.961,
+      0.962,
+      0.963,
+      0.964,
+      0.965,
+      0.966,
+      0.967,
+      0.968,
+      0.969,
+      0.97,
+      0.971,
+      0.972,
+      0.973,
+      0.974,
+      0.975,
+      0.976,
+      0.977,
+      0.978,
+      0.979,
+      0.98,
+      0.981,
+      0.982,
+      0.983,
+      0.984,
+      0.985,
+      0.986,
+      0.987,
+      0.988,
+      0.989,
+      0.99
+    ]
+  },
+  "root_archives": {
+    "training": {
+      "path": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/training/qa/training.root",
+      "canvases": 8
+    },
+    "working_point_failed": {
+      "path": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/failures/working_point-b5a5d662282dd03024f67c3f740cb456b17086538901b12469434bf8c484d484/qa/working_point.root",
+      "canvases": 5
+    }
+  },
+  "stage_current": {
+    "raw_qa": true,
+    "prepared": true,
+    "training": true,
+    "working_point": false,
+    "scored": false,
+    "nominal": false,
+    "systematics": false,
+    "mc_qa": false,
+    "report": false
+  },
+  "checks": [
+    {
+      "name": "expected_failure_at_pol0",
+      "passed": true
+    },
+    {
+      "name": "all_701_scan_points_saved",
+      "passed": true
+    },
+    {
+      "name": "zero_valid_pol0_points",
+      "passed": true
+    },
+    {
+      "name": "valid_fits_only_above_default_pol0_range",
+      "passed": true
+    },
+    {
+      "name": "failed_scan_has_no_nominal_threshold",
+      "passed": true
+    },
+    {
+      "name": "previous_success_preserved",
+      "passed": true
+    },
+    {
+      "name": "permanent_error_path",
+      "passed": true
+    },
+    {
+      "name": "no_staging_directory",
+      "passed": true
+    },
+    {
+      "name": "hipe_grid_701_n_by_2",
+      "passed": true
+    },
+    {
+      "name": "hipe_provider_and_actual_implementation",
+      "passed": true
+    },
+    {
+      "name": "both_heldout_classes",
+      "passed": true
+    },
+    {
+      "name": "training_qa/training.root",
+      "passed": true
+    },
+    {
+      "name": "training_qa/feature_distributions.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_qa/correlations_signal.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_qa/correlations_background.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_qa/bdt_train_test.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_qa/bdt_test_score.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_qa/roc_train_test.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_qa/efficiency_vs_score.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_qa/feature_importance.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_native_root_readable",
+      "passed": true
+    },
+    {
+      "name": "training_metadata/training",
+      "passed": true
+    },
+    {
+      "name": "training_correlations/signal",
+      "passed": true
+    },
+    {
+      "name": "training_correlations/background",
+      "passed": true
+    },
+    {
+      "name": "training_roc/train",
+      "passed": true
+    },
+    {
+      "name": "training_roc/test",
+      "passed": true
+    },
+    {
+      "name": "training_all_canvases",
+      "passed": true
+    },
+    {
+      "name": "training_canvas_roundtrip",
+      "passed": true
+    },
+    {
+      "name": "working_point_failed_native_root_readable",
+      "passed": true
+    },
+    {
+      "name": "working_point_failed_metadata/summary",
+      "passed": true
+    },
+    {
+      "name": "working_point_failed_scan/yield_pol0",
+      "passed": true
+    },
+    {
+      "name": "working_point_failed_scan/valid",
+      "passed": true
+    },
+    {
+      "name": "working_point_failed_mass_scan/point_0000/data",
+      "passed": true
+    },
+    {
+      "name": "working_point_failed_mass_scan/point_0700/data",
+      "passed": true
+    },
+    {
+      "name": "working_point_failed_all_canvases",
+      "passed": true
+    },
+    {
+      "name": "working_point_failed_canvas_roundtrip",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0000",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0001",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0002",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0003",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0004",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0005",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0006",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0007",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0008",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0009",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0010",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0011",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0012",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0013",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0014",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0015",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0016",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0017",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0018",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0019",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0020",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0021",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0022",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0023",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0024",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0025",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0026",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0027",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0028",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0029",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0030",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0031",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0032",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0033",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0034",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0035",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0036",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0037",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0038",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0039",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0040",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0041",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0042",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0043",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0044",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0045",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0046",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0047",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0048",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0049",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0050",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0051",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0052",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0053",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0054",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0055",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0056",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0057",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0058",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0059",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0060",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0061",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0062",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0063",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0064",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0065",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0066",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0067",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0068",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0069",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0070",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0071",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0072",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0073",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0074",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0075",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0076",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0077",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0078",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0079",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0080",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0081",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0082",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0083",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0084",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0085",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0086",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0087",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0088",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0089",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0090",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0091",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0092",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0093",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0094",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0095",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0096",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0097",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0098",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0099",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0100",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0101",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0102",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0103",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0104",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0105",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0106",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0107",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0108",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0109",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0110",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0111",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0112",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0113",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0114",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0115",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0116",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0117",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0118",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0119",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0120",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0121",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0122",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0123",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0124",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0125",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0126",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0127",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0128",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0129",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0130",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0131",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0132",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0133",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0134",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0135",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0136",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0137",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0138",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0139",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0140",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0141",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0142",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0143",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0144",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0145",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0146",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0147",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0148",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0149",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0150",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0151",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0152",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0153",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0154",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0155",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0156",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0157",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0158",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0159",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0160",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0161",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0162",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0163",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0164",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0165",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0166",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0167",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0168",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0169",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0170",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0171",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0172",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0173",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0174",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0175",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0176",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0177",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0178",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0179",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0180",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0181",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0182",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0183",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0184",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0185",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0186",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0187",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0188",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0189",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0190",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0191",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0192",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0193",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0194",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0195",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0196",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0197",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0198",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0199",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0200",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0201",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0202",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0203",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0204",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0205",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0206",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0207",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0208",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0209",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0210",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0211",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0212",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0213",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0214",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0215",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0216",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0217",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0218",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0219",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0220",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0221",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0222",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0223",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0224",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0225",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0226",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0227",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0228",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0229",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0230",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0231",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0232",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0233",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0234",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0235",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0236",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0237",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0238",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0239",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0240",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0241",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0242",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0243",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0244",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0245",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0246",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0247",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0248",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0249",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0250",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0251",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0252",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0253",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0254",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0255",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0256",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0257",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0258",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0259",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0260",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0261",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0262",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0263",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0264",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0265",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0266",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0267",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0268",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0269",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0270",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0271",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0272",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0273",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0274",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0275",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0276",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0277",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0278",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0279",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0280",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0281",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0282",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0283",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0284",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0285",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0286",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0287",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0288",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0289",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0290",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0291",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0292",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0293",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0294",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0295",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0296",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0297",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0298",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0299",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0300",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0301",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0302",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0303",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0304",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0305",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0306",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0307",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0308",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0309",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0310",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0311",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0312",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0313",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0314",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0315",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0316",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0317",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0318",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0319",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0320",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0321",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0322",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0323",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0324",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0325",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0326",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0327",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0328",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0329",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0330",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0331",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0332",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0333",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0334",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0335",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0336",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0337",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0338",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0339",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0340",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0341",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0342",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0343",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0344",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0345",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0346",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0347",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0348",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0349",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0350",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0351",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0352",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0353",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0354",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0355",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0356",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0357",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0358",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0359",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0360",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0361",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0362",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0363",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0364",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0365",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0366",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0367",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0368",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0369",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0370",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0371",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0372",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0373",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0374",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0375",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0376",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0377",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0378",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0379",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0380",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0381",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0382",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0383",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0384",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0385",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0386",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0387",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0388",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0389",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0390",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0391",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0392",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0393",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0394",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0395",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0396",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0397",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0398",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0399",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0400",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0401",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0402",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0403",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0404",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0405",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0406",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0407",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0408",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0409",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0410",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0411",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0412",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0413",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0414",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0415",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0416",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0417",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0418",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0419",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0420",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0421",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0422",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0423",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0424",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0425",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0426",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0427",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0428",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0429",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0430",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0431",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0432",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0433",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0434",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0435",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0436",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0437",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0438",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0439",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0440",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0441",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0442",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0443",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0444",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0445",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0446",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0447",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0448",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0449",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0450",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0451",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0452",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0453",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0454",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0455",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0456",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0457",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0458",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0459",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0460",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0461",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0462",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0463",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0464",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0465",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0466",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0467",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0468",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0469",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0470",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0471",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0472",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0473",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0474",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0475",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0476",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0477",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0478",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0479",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0480",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0481",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0482",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0483",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0484",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0485",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0486",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0487",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0488",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0489",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0490",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0491",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0492",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0493",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0494",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0495",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0496",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0497",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0498",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0499",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0500",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0501",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0502",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0503",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0504",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0505",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0506",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0507",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0508",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0509",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0510",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0511",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0512",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0513",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0514",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0515",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0516",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0517",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0518",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0519",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0520",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0521",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0522",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0523",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0524",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0525",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0526",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0527",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0528",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0529",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0530",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0531",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0532",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0533",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0534",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0535",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0536",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0537",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0538",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0539",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0540",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0541",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0542",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0543",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0544",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0545",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0546",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0547",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0548",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0549",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0550",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0551",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0552",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0553",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0554",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0555",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0556",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0557",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0558",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0559",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0560",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0561",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0562",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0563",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0564",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0565",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0566",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0567",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0568",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0569",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0570",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0571",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0572",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0573",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0574",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0575",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0576",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0577",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0578",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0579",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0580",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0581",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0582",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0583",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0584",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0585",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0586",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0587",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0588",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0589",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0590",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0591",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0592",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0593",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0594",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0595",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0596",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0597",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0598",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0599",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0600",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0601",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0602",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0603",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0604",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0605",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0606",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0607",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0608",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0609",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0610",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0611",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0612",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0613",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0614",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0615",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0616",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0617",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0618",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0619",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0620",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0621",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0622",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0623",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0624",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0625",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0626",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0627",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0628",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0629",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0630",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0631",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0632",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0633",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0634",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0635",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0636",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0637",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0638",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0639",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0640",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0641",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0642",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0643",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0644",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0645",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0646",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0647",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0648",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0649",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0650",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0651",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0652",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0653",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0654",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0655",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0656",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0657",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0658",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0659",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0660",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0661",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0662",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0663",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0664",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0665",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0666",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0667",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0668",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0669",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0670",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0671",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0672",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0673",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0674",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0675",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0676",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0677",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0678",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0679",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0680",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0681",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0682",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0683",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0684",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0685",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0686",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0687",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0688",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0689",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0690",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0691",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0692",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0693",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0694",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0695",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0696",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0697",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0698",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0699",
+      "passed": true
+    },
+    {
+      "name": "scan_mass_point_0700",
+      "passed": true
+    },
+    {
+      "name": "failed_expected_significance_is_empty",
+      "passed": true
+    },
+    {
+      "name": "stage_output_pdf_only",
+      "passed": true
+    },
+    {
+      "name": "training_artifacts_current_after_cleanup",
+      "passed": true
+    }
+  ],
+  "checks_passed": 740,
+  "checks_total": 740
+}

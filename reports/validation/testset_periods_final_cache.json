@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "exit_code": 0,
+  "source_fingerprint": "b4fe22b16eaec9931a7cbc693c348c551c5d0247d164ea4374884362a01d8a84",
+  "manifests_checked": 36,
+  "changed_manifests": [],
+  "reused_child_stages": 27,
+  "reused_parent_stages": 9,
+  "log": "reports/validation/testset_periods_final_resume.log",
+  "meaning": "Final-layout parent/child manifests preserve SHA256 and nanosecond mtime during a complete cached rerun."
+}

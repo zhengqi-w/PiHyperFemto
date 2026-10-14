@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "comparison": {
+    "best_scan_point": true,
+    "mc_signal_fit": true,
+    "scan_points": true,
+    "threshold": true,
+    "yield_pol0": true
+  },
+  "scope": "Full scan points, pol0, MC tail calibration, threshold and best point before/after curve rendering"
+}

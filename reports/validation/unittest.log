@@ -1,0 +1,115 @@
+test_default_config_is_valid (test_config.ConfigurationTests) ... ok
+test_duplicate_features_rejected (test_config.ConfigurationTests) ... ok
+test_duplicate_variation_names_rejected (test_config.ConfigurationTests) ... ok
+test_fixed_purity_requires_physical_value (test_config.ConfigurationTests) ... ok
+test_input_role_typo_rejected (test_config.ConfigurationTests) ... ok
+test_invalid_histogram_edges_rejected (test_config.ConfigurationTests) ... ok
+test_mass_pair_truth_and_identity_features_rejected (test_config.ConfigurationTests) ... ok
+test_nested_merge_does_not_mutate_inputs (test_config.ConfigurationTests) ... ok
+test_no_automatic_primary_fraction_correction (test_config.ConfigurationTests) ... ok
+test_nonfinite_cut_rejected (test_config.ConfigurationTests) ... ok
+test_nonfinite_or_nonphysical_scalar_options_rejected (test_config.ConfigurationTests) ... ok
+test_normalization_must_follow_bin_edges (test_config.ConfigurationTests) ... ok
+test_overlapping_centrality_rejected (test_config.ConfigurationTests) ... ok
+test_paths_are_relative_to_config_file (test_config.ConfigurationTests) ... ok
+test_signal_sideband_overlap_rejected (test_config.ConfigurationTests) ... ok
+test_unknown_options_raise (test_config.ConfigurationTests) ... ok
+test_variations_cannot_change_preparation_support (test_config.ConfigurationTests) ... ok
+test_fractions_use_only_the_data_signal_mass_window (test_mc_qa.MonteCarloQATests) ... /Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.neon'. Detail: [errno 1] Operation not permitted
+ok
+test_gen_kinematics_supply_kstar_mc_when_branch_is_absent (test_mc_qa.MonteCarloQATests) ... ok
+test_mc_fraction_denominators_and_me_collision_truth (test_mc_qa.MonteCarloQATests) ... ok
+test_missing_truth_is_explicit_not_a_zero_fraction (test_mc_qa.MonteCarloQATests) ... ok
+test_wilson_intervals_have_nonzero_uncertainty_at_boundaries (test_mc_qa.MonteCarloQATests) ... ok
+test_derive_ct_pointing_and_configurable_he_momentum (test_physics.PhysicsTests) ... ok
+test_four_vector_mass_shell (test_physics.PhysicsTests) ... ok
+test_its_cluster_nibbles_exclude_empty_layers (test_physics.PhysicsTests) ... ok
+test_kstar_is_cm_momentum_and_lorentz_invariant (test_physics.PhysicsTests) ... ok
+test_spacelike_particle_does_not_produce_a_physical_kstar (test_physics.PhysicsTests) ... ok
+test_zero_momentum_geometry_is_invalid_not_fabricated (test_physics.PhysicsTests) ... ok
+test_cli_end_to_end_eight_groups_and_verified_resume (test_pipeline.PipelineTests) ... ok
+test_output_lock_prevents_competing_writers (test_pipeline.PipelineTests) ... ok
+test_auxiliary_analysis_directories_are_persisted (test_root_output.RootOutputTests) ... ok
+test_final_covariances_and_errors_match_numerical_exports (test_root_output.RootOutputTests) ... ok
+test_invalid_bins_persist_nan_and_graphs_exclude_them (test_root_output.RootOutputTests) ... Info in <TCanvas::Print>: png file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/invalid-report/bdt_validation.png has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/invalid-report/bdt_validation.pdf has been created
+Info in <TCanvas::Print>: png file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/invalid-report/correlations_cent0.png has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/invalid-report/correlations_cent0.pdf has been created
+Info in <TCanvas::Print>: png file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/invalid-report/pair_spectra_cent0.png has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/invalid-report/pair_spectra_cent0.pdf has been created
+Info in <TCanvas::Print>: png file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/invalid-report/correlations_cent1.png has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/invalid-report/correlations_cent1.pdf has been created
+Info in <TCanvas::Print>: png file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/invalid-report/pair_spectra_cent1.png has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/invalid-report/pair_spectra_cent1.pdf has been created
+Info in <TCanvas::Print>: png file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/invalid-report/mass_purity.png has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/invalid-report/mass_purity.pdf has been created
+Info in <TCanvas::Print>: png file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/invalid-report/mixing_qa.png has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/invalid-report/mixing_qa.pdf has been created
+ok
+test_metadata_is_json_and_canvases_contain_primitives (test_root_output.RootOutputTests) ... ok
+test_nominal_histograms_preserve_values_errors_edges_and_validity (test_root_output.RootOutputTests) ... ok
+test_nonempty_mc_fractions_resolution_and_canvas_round_trip (test_root_output.RootOutputTests) ... Info in <TCanvas::Print>: png file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-report/bdt_validation.png has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-report/bdt_validation.pdf has been created
+Info in <TCanvas::Print>: png file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-report/correlations_cent0.png has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-report/correlations_cent0.pdf has been created
+Info in <TCanvas::Print>: png file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-report/pair_spectra_cent0.png has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-report/pair_spectra_cent0.pdf has been created
+Info in <TCanvas::Print>: png file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-report/correlations_cent1.png has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-report/correlations_cent1.pdf has been created
+Info in <TCanvas::Print>: png file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-report/pair_spectra_cent1.png has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-report/pair_spectra_cent1.pdf has been created
+Info in <TCanvas::Print>: png file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-report/mass_purity.png has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-report/mass_purity.pdf has been created
+Info in <TCanvas::Print>: png file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-report/mixing_qa.png has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-report/mixing_qa.pdf has been created
+Info in <TCanvas::Print>: png file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-report/mc_primary_cent0.png has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-report/mc_primary_cent0.pdf has been created
+Info in <TCanvas::Print>: png file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-report/mc_primary_cent1.png has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-report/mc_primary_cent1.pdf has been created
+Info in <TCanvas::Print>: png file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmpfdx8imq4/mc-redrawn.png has been created
+ok
+test_serialized_canvas_is_redrawable_in_a_fresh_root_process (test_root_output.RootOutputTests) ... ok
+test_statistical_covariances_round_trip (test_root_output.RootOutputTests) ... ok
+test_weighted_histogram_sumw2_and_malformed_variance (test_root_output.RootOutputTests) ... ok
+test_ambiguous_aliases_rejected (test_schema_selection.SchemaAndSelectionTests) ... ok
+test_centrality_boundaries_are_half_open (test_schema_selection.SchemaAndSelectionTests) ... ok
+test_close_pair_unavailable_bits_are_not_rejection_bits (test_schema_selection.SchemaAndSelectionTests) ... ok
+test_compact_schema_derives_all_four_channels_without_ids (test_schema_selection.SchemaAndSelectionTests) ... ok
+test_current_and_extended_aliases (test_schema_selection.SchemaAndSelectionTests) ... ok
+test_invalid_hadron_charge_is_not_assigned_a_channel (test_schema_selection.SchemaAndSelectionTests) ... ok
+test_nan_mixing_depth_raises_instead_of_silently_losing_pairs (test_schema_selection.SchemaAndSelectionTests) ... ok
+test_nonfinite_values_fail_cuts (test_schema_selection.SchemaAndSelectionTests) ... ok
+test_requested_missing_cut_raises (test_schema_selection.SchemaAndSelectionTests) ... ok
+test_weight_default_is_unit_and_inverse_depth_only_affects_me (test_schema_selection.SchemaAndSelectionTests) ... ok
+test_constant_se_me_ratio_closes_to_unity (test_statistics.CorrelationTests) ... ok
+test_covariance_matches_independent_finite_difference_jacobian (test_statistics.CorrelationTests) ... ok
+test_empty_bins_do_not_become_zero_error_measurements (test_statistics.CorrelationTests) ... ok
+test_empty_normalization_is_unavailable (test_statistics.CorrelationTests) ... ok
+test_histograms_use_hyper_centrality_and_se_mass_only (test_statistics.CorrelationTests) ... ok
+test_single_normalization_bin_has_zero_self_variance (test_statistics.CorrelationTests) ... ok
+test_exact_unit_purity_does_not_require_a_background_estimate (test_statistics.PurityTests) ... ok
+test_mass_fit_refuses_truncated_sidebands (test_statistics.PurityTests) ... ok
+test_missing_sidebands_make_correction_unavailable (test_statistics.PurityTests) ... ok
+test_subtraction_and_shared_purity_covariance (test_statistics.PurityTests) ... ok
+test_synthetic_mass_fit_recovers_injected_purity (test_statistics.PurityTests) ... ok
+test_envelope_uses_alternative_maxima_and_quadrature_across_sources (test_statistics.SystematicsTests) ... ok
+test_missing_variation_coverage_is_not_zero_systematic (test_statistics.SystematicsTests) ... ok
+test_rms_is_mean_outer_product_about_nominal (test_statistics.SystematicsTests) ... ok
+test_rms_missing_joint_coverage_does_not_invent_zero_covariance (test_statistics.SystematicsTests) ... ok
+test_json_is_strict_and_nonfinite_values_are_null (test_training_io.InputOutputTests) ... ok
+test_optional_missing_input_has_no_fabricated_data (test_training_io.InputOutputTests) ... ok
+test_root_chunking_canonical_names_and_provenance (test_training_io.InputOutputTests) ... ok
+test_application_ignores_pair_multiplicity_and_pair_pion_variables (test_training_io.TrainingTests) ... ok
+test_background_sampling_only_uses_configured_sidebands (test_training_io.TrainingTests) ... ok
+test_insufficient_vertex_groups_rejected (test_training_io.TrainingTests) ... ok
+test_nonfinite_features_do_not_receive_finite_scores (test_training_io.TrainingTests) ... ok
+test_training_groups_do_not_cross_validation_split (test_training_io.TrainingTests) ... ok
+test_vertex_grouping_repeats_are_preserved (test_training_io.TrainingTests) ... ok
+
+----------------------------------------------------------------------
+Ran 73 tests in 15.422s
+
+OK

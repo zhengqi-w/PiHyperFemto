@@ -1,0 +1,42 @@
+test_changing_one_period_seed_reuses_the_other_periods (test_multi_period_pipeline.MultiPeriodPipelineTests) ... ok
+test_every_period_has_its_own_model_working_point_and_scores (test_multi_period_pipeline.MultiPeriodPipelineTests) ... ok
+test_missing_mc_remains_explicit_without_substituting_training_mc (test_multi_period_pipeline.MultiPeriodPipelineTests) ... ok
+test_one_failed_period_variation_cannot_become_a_partial_merged_result (test_multi_period_pipeline.MultiPeriodPipelineTests) ... Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/variation__normalization_alt__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/variation__normalization_alt__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/variation__bdt_alt__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/variation__bdt_alt__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/systematic__source__normalization__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/systematic__source__normalization__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/systematic__source__bdt__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/systematic__source__bdt__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/systematic__total__cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/systematic__total__cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/systematics_qa.pdf has been created
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: Current canvas added to pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/systematics_qa.pdf
+Info in <TCanvas::Print>: pdf file /var/folders/ry/4nng74r54cd7dscqvhm4zyd80000gn/T/tmp5rdtq87n/qa/systematics_qa.pdf has been closed
+ok
+test_overlapping_femto_requires_explicit_synthetic_repetition (test_multi_period_pipeline.MultiPeriodPipelineTests) ... ok
+test_pair_histograms_and_mass_statistics_sum_before_normalization (test_multi_period_pipeline.MultiPeriodPipelineTests) ... ok
+test_parent_indexes_do_not_invent_a_global_model_or_score_dataset (test_multi_period_pipeline.MultiPeriodPipelineTests) ... ok
+test_raw_qa_and_mixing_counts_sum_without_scaling_edges (test_multi_period_pipeline.MultiPeriodPipelineTests) ... ok
+test_report_links_and_root_objects_preserve_period_and_model_context (test_multi_period_pipeline.MultiPeriodPipelineTests) ... ok
+test_systematic_variations_merge_each_period_before_the_cf (test_multi_period_pipeline.MultiPeriodPipelineTests) ... ok
+test_tampered_child_histograms_invalidate_parent_and_are_repaired (test_multi_period_pipeline.MultiPeriodPipelineTests) ... ok
+test_train_and_apply_commands_only_produce_period_scoped_rows (test_multi_period_pipeline.MultiPeriodPipelineTests) ... ok
+test_verified_resume_preserves_all_manifest_mtimes (test_multi_period_pipeline.MultiPeriodPipelineTests) ... ok
+test_delimiter_in_period_cannot_collide_with_period_plus_model (test_multi_period_pipeline.PeriodContextNamespaceTests) ... ok
+test_global_and_length_marker_words_remain_unique_namespaces (test_multi_period_pipeline.PeriodContextNamespaceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 100.257s
+
+OK

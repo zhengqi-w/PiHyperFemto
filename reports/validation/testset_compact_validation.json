@@ -1,0 +1,4607 @@
+{
+  "status": "passed",
+  "meaning": "Software and artifact validation; not a final physics measurement.",
+  "output": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset",
+  "checks_passed": 389,
+  "checks_total": 389,
+  "checks": [
+    {
+      "name": "manifest_raw_qa",
+      "passed": true,
+      "detail": "Configuration, source, environment and artifact SHA256 must match."
+    },
+    {
+      "name": "manifest_prepared",
+      "passed": true,
+      "detail": "Configuration, source, environment and artifact SHA256 must match."
+    },
+    {
+      "name": "manifest_training",
+      "passed": true,
+      "detail": "Configuration, source, environment and artifact SHA256 must match."
+    },
+    {
+      "name": "manifest_working_point",
+      "passed": true,
+      "detail": "Configuration, source, environment and artifact SHA256 must match."
+    },
+    {
+      "name": "manifest_scored",
+      "passed": true,
+      "detail": "Configuration, source, environment and artifact SHA256 must match."
+    },
+    {
+      "name": "manifest_nominal",
+      "passed": true,
+      "detail": "Configuration, source, environment and artifact SHA256 must match."
+    },
+    {
+      "name": "manifest_systematics",
+      "passed": true,
+      "detail": "Configuration, source, environment and artifact SHA256 must match."
+    },
+    {
+      "name": "manifest_mc_qa",
+      "passed": true,
+      "detail": "Configuration, source, environment and artifact SHA256 must match."
+    },
+    {
+      "name": "manifest_report",
+      "passed": true,
+      "detail": "Configuration, source, environment and artifact SHA256 must match."
+    },
+    {
+      "name": "dependency_lineage_raw_qa",
+      "passed": true,
+      "detail": "Recorded dependency signatures and artifact checksums match current upstream manifests."
+    },
+    {
+      "name": "dependency_lineage_prepared",
+      "passed": true,
+      "detail": "Recorded dependency signatures and artifact checksums match current upstream manifests."
+    },
+    {
+      "name": "dependency_lineage_training",
+      "passed": true,
+      "detail": "Recorded dependency signatures and artifact checksums match current upstream manifests."
+    },
+    {
+      "name": "dependency_lineage_working_point",
+      "passed": true,
+      "detail": "Recorded dependency signatures and artifact checksums match current upstream manifests."
+    },
+    {
+      "name": "dependency_lineage_scored",
+      "passed": true,
+      "detail": "Recorded dependency signatures and artifact checksums match current upstream manifests."
+    },
+    {
+      "name": "dependency_lineage_nominal",
+      "passed": true,
+      "detail": "Recorded dependency signatures and artifact checksums match current upstream manifests."
+    },
+    {
+      "name": "dependency_lineage_systematics",
+      "passed": true,
+      "detail": "Recorded dependency signatures and artifact checksums match current upstream manifests."
+    },
+    {
+      "name": "dependency_lineage_mc_qa",
+      "passed": true,
+      "detail": "Recorded dependency signatures and artifact checksums match current upstream manifests."
+    },
+    {
+      "name": "dependency_lineage_report",
+      "passed": true,
+      "detail": "Recorded dependency signatures and artifact checksums match current upstream manifests."
+    },
+    {
+      "name": "centrality_channel_coverage",
+      "passed": true,
+      "detail": "Expected 8 centrality/charge groups."
+    },
+    {
+      "name": "separate_training_candidates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scores_cover_raw_pair_input",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_prepared_parquet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_training_parquet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "held_out_score_archive_matches_split",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "score_efficiency_array_matches_training",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scored_storage_schema_matches_files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scored_parquet_row_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scored_scores_inside_saved_envelope",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal_inside_saved_envelope",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_png_output",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_invalid_pair_scores",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_group_holdout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_bdt_metrics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ct_excluded_from_training",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_from_hyper_fit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_applied_to_femto",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all_variations_executed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "configured_variation_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_has_all_groups",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0_raw_coverage",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "name": "cent_0_10__ch_0_selected_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0_signal_se_me",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0_invalid_bins_are_null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0_covariance_shape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0_covariance_symmetric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0_covariance_positive_semidefinite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0_normalization",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0_no_fabricated_correction",
+      "passed": true,
+      "detail": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "name": "cent_0_10__ch_1_raw_coverage",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "name": "cent_0_10__ch_1_selected_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_1_signal_se_me",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_1_invalid_bins_are_null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_1_covariance_shape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_1_covariance_symmetric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_1_covariance_positive_semidefinite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_1_normalization",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_1_no_fabricated_correction",
+      "passed": true,
+      "detail": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "name": "cent_0_10__ch_2_raw_coverage",
+      "passed": true,
+      "detail": "partial_empty_bins"
+    },
+    {
+      "name": "cent_0_10__ch_2_selected_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_2_signal_se_me",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_2_invalid_bins_are_null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_2_covariance_shape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_2_covariance_symmetric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_2_covariance_positive_semidefinite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_2_normalization",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_2_no_fabricated_correction",
+      "passed": true,
+      "detail": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "name": "cent_0_10__ch_3_raw_coverage",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "name": "cent_0_10__ch_3_selected_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_3_signal_se_me",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_3_invalid_bins_are_null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_3_covariance_shape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_3_covariance_symmetric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_3_covariance_positive_semidefinite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_3_normalization",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_3_no_fabricated_correction",
+      "passed": true,
+      "detail": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "name": "cent_10_50__ch_0_raw_coverage",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "name": "cent_10_50__ch_0_selected_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_0_signal_se_me",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_0_invalid_bins_are_null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_0_covariance_shape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_0_covariance_symmetric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_0_covariance_positive_semidefinite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_0_normalization",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_0_no_fabricated_correction",
+      "passed": true,
+      "detail": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "name": "cent_10_50__ch_1_raw_coverage",
+      "passed": true,
+      "detail": "partial_empty_bins"
+    },
+    {
+      "name": "cent_10_50__ch_1_selected_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_1_signal_se_me",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_1_invalid_bins_are_null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_1_covariance_shape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_1_covariance_symmetric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_1_covariance_positive_semidefinite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_1_normalization",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_1_no_fabricated_correction",
+      "passed": true,
+      "detail": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "name": "cent_10_50__ch_2_raw_coverage",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "name": "cent_10_50__ch_2_selected_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_2_signal_se_me",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_2_invalid_bins_are_null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_2_covariance_shape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_2_covariance_symmetric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_2_covariance_positive_semidefinite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_2_normalization",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_2_no_fabricated_correction",
+      "passed": true,
+      "detail": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "name": "cent_10_50__ch_3_raw_coverage",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "name": "cent_10_50__ch_3_selected_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_3_signal_se_me",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_3_invalid_bins_are_null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_3_covariance_shape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_3_covariance_symmetric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_3_covariance_positive_semidefinite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_3_normalization",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_3_no_fabricated_correction",
+      "passed": true,
+      "detail": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "name": "final_table_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "total_errors_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "final_covariance_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0__raw_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0__corrected_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_1__raw_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_1__corrected_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_2__raw_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_2__corrected_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_3__raw_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_3__corrected_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_0__raw_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_0__corrected_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_1__raw_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_1__corrected_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_2__raw_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_2__corrected_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_3__raw_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_3__corrected_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_file_readable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_metadata/schema",
+      "passed": true,
+      "detail": "TObjString"
+    },
+    {
+      "name": "root_metadata_schema",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_metadata/config",
+      "passed": true,
+      "detail": "TObjString"
+    },
+    {
+      "name": "root_metadata_config",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_metadata/training",
+      "passed": true,
+      "detail": "TObjString"
+    },
+    {
+      "name": "root_metadata_training",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_metadata/systematics",
+      "passed": true,
+      "detail": "TObjString"
+    },
+    {
+      "name": "root_metadata_systematics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_metadata/provenance",
+      "passed": true,
+      "detail": "TObjString"
+    },
+    {
+      "name": "root_metadata_provenance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_0/cf_raw_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_0/valid_raw",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_0/g_cf_raw_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_0/cov_raw_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/raw_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/raw_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/raw_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/raw_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/raw_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_0/cov_raw_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_0_raw_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_0/cov_raw_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_0_raw_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_0/cf_corrected_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_0/valid_corrected",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_0/g_cf_corrected_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_0/cov_corrected_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/corrected_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/corrected_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/corrected_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/corrected_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/corrected_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_0/cov_corrected_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_0_corrected_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_0/cov_corrected_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_0_corrected_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_1/cf_raw_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_1/valid_raw",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_1/g_cf_raw_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_1/cov_raw_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/raw_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/raw_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/raw_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/raw_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/raw_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_1/cov_raw_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_1_raw_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_1/cov_raw_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_1_raw_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_1/cf_corrected_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_1/valid_corrected",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_1/g_cf_corrected_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_1/cov_corrected_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/corrected_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/corrected_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/corrected_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/corrected_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/corrected_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_1/cov_corrected_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_1_corrected_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_1/cov_corrected_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_1_corrected_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_2/cf_raw_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_2/valid_raw",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_2/g_cf_raw_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_2/cov_raw_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/raw_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/raw_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/raw_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/raw_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/raw_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_2/cov_raw_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_2_raw_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_2/cov_raw_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_2_raw_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_2/cf_corrected_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_2/valid_corrected",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_2/g_cf_corrected_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_2/cov_corrected_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/corrected_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/corrected_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/corrected_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/corrected_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/corrected_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_2/cov_corrected_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_2_corrected_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_2/cov_corrected_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_2_corrected_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_3/cf_raw_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_3/valid_raw",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_3/g_cf_raw_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_3/cov_raw_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/raw_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/raw_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/raw_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/raw_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/raw_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_3/cov_raw_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_3_raw_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_3/cov_raw_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_3_raw_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_3/cf_corrected_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_3/valid_corrected",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_3/g_cf_corrected_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_3/cov_corrected_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/corrected_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/corrected_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/corrected_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/corrected_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/corrected_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_3/cov_corrected_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_3_corrected_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_3/cov_corrected_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_3_corrected_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_0/cf_raw_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_0/valid_raw",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_0/g_cf_raw_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_0/cov_raw_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/raw_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/raw_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/raw_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/raw_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/raw_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_0/cov_raw_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_0_raw_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_0/cov_raw_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_0_raw_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_0/cf_corrected_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_0/valid_corrected",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_0/g_cf_corrected_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_0/cov_corrected_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/corrected_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/corrected_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/corrected_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/corrected_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/corrected_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_0/cov_corrected_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_0_corrected_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_0/cov_corrected_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_0_corrected_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_1/cf_raw_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_1/valid_raw",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_1/g_cf_raw_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_1/cov_raw_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/raw_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/raw_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/raw_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/raw_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/raw_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_1/cov_raw_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_1_raw_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_1/cov_raw_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_1_raw_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_1/cf_corrected_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_1/valid_corrected",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_1/g_cf_corrected_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_1/cov_corrected_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/corrected_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/corrected_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/corrected_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/corrected_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/corrected_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_1/cov_corrected_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_1_corrected_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_1/cov_corrected_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_1_corrected_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_2/cf_raw_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_2/valid_raw",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_2/g_cf_raw_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_2/cov_raw_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/raw_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/raw_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/raw_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/raw_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/raw_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_2/cov_raw_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_2_raw_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_2/cov_raw_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_2_raw_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_2/cf_corrected_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_2/valid_corrected",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_2/g_cf_corrected_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_2/cov_corrected_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/corrected_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/corrected_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/corrected_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/corrected_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/corrected_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_2/cov_corrected_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_2_corrected_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_2/cov_corrected_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_2_corrected_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_3/cf_raw_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_3/valid_raw",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_3/g_cf_raw_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_3/cov_raw_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/raw_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/raw_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/raw_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/raw_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/raw_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_3/cov_raw_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_3_raw_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_3/cov_raw_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_3_raw_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_3/cf_corrected_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_3/valid_corrected",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_3/g_cf_corrected_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_3/cov_corrected_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/corrected_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/corrected_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/corrected_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/corrected_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/corrected_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_3/cov_corrected_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_3_corrected_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_3/cov_corrected_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_3_corrected_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_canvases/correlations_cent0",
+      "passed": true,
+      "detail": "TCanvas"
+    },
+    {
+      "name": "root_canvas_correlations_cent0_raw_graph_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_0_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_0_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_1_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_1_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_2_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_2_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_3_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_3_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_canvases/correlations_cent1",
+      "passed": true,
+      "detail": "TCanvas"
+    },
+    {
+      "name": "root_canvas_correlations_cent1_raw_graph_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_0_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_0_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_1_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_1_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_2_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_2_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_3_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_3_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_canvases",
+      "passed": true,
+      "detail": "TDirectory"
+    },
+    {
+      "name": "root_persisted_canvases",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_working_point/significance_vs_score",
+      "passed": true,
+      "detail": "TGraph"
+    },
+    {
+      "name": "root_working_point_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_working_point/best_mass_data",
+      "passed": true,
+      "detail": "TH1D"
+    },
+    {
+      "name": "root_object_working_point/best_mass_fit",
+      "passed": true,
+      "detail": "TH1D"
+    },
+    {
+      "name": "root_working_point_mass_fit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_canvases/working_point",
+      "passed": true,
+      "detail": "TCanvas"
+    },
+    {
+      "name": "root_working_point_canvas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_primitives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_roundtrip_pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "missing_mc_is_explicit",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "prepared": {
+    "femto": {
+      "raw_rows": 15645511,
+      "after_role_filter": null,
+      "retained_rows": null,
+      "nonfinite_kinematics": null,
+      "chunks": 0,
+      "persisted": false,
+      "mode": "direct_root_stream",
+      "status": "available",
+      "filter_counters": "evaluated by consuming training, WP and scored stages",
+      "source_identity": {
+        "kind": "streamed_root",
+        "role": "femto",
+        "inventory": {
+          "status": "available",
+          "files": [
+            {
+              "path": "/Users/zhengqingwang/alice/data/derived/PiH3lFemto/TestSet/Femto/AO2D.root",
+              "bytes": 407199957,
+              "mtime_ns": 1790514525585365278,
+              "trees": [
+                {
+                  "path": "DF_2439133450118912/O2pihypfemto",
+                  "rows": 1187488,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2439279459779808/O2pihypfemto",
+                  "rows": 678941,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2439279461487200/O2pihypfemto",
+                  "rows": 678472,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2439279473819424/O2pihypfemto",
+                  "rows": 757302,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2439279480892896/O2pihypfemto",
+                  "rows": 1071128,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2439279491299584/O2pihypfemto",
+                  "rows": 718731,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2439279503396896/O2pihypfemto",
+                  "rows": 757929,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2439279519907264/O2pihypfemto",
+                  "rows": 1015807,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440447869412224/O2pihypfemto",
+                  "rows": 736006,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440447871421056/O2pihypfemto",
+                  "rows": 747704,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440447884947680/O2pihypfemto",
+                  "rows": 659918,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440447907847072/O2pihypfemto",
+                  "rows": 665450,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440447916145120/O2pihypfemto",
+                  "rows": 892378,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440447935252320/O2pihypfemto",
+                  "rows": 950444,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440447943884800/O2pihypfemto",
+                  "rows": 885406,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440447955831136/O2pihypfemto",
+                  "rows": 1043113,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440516412233760/O2pihypfemto",
+                  "rows": 696094,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440516413054432/O2pihypfemto",
+                  "rows": 750952,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440516425166016/O2pihypfemto",
+                  "rows": 752248,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "physics": {
+          "mass_he3": 2.80839160743,
+          "mass_pi": 0.13957039,
+          "mass_h3l": 2.99131,
+          "he3_momentum_scale": 1.0,
+          "pair_mass": "nominal"
+        },
+        "domain": {
+          "finite": [
+            "mass_h3l",
+            "pt_h3l",
+            "ct",
+            "cos_pa",
+            "kstar"
+          ],
+          "centrality_bins": [
+            [
+              0,
+              10
+            ],
+            [
+              10,
+              50
+            ]
+          ],
+          "mass_range": [
+            2.96,
+            3.025
+          ],
+          "kstar_range": [
+            0.0,
+            0.6
+          ]
+        },
+        "signal_truth_filter": false,
+        "chunk_rows": 100000
+      }
+    },
+    "background": {
+      "raw_rows": 10088,
+      "after_role_filter": null,
+      "retained_rows": null,
+      "nonfinite_kinematics": null,
+      "chunks": 0,
+      "persisted": false,
+      "mode": "direct_root_stream",
+      "status": "available",
+      "filter_counters": "evaluated by consuming training, WP and scored stages",
+      "source_identity": {
+        "kind": "streamed_root",
+        "role": "background",
+        "inventory": {
+          "status": "available",
+          "files": [
+            {
+              "path": "/Users/zhengqingwang/alice/data/derived/PiH3lFemto/TestSet/Hyper/AO2D.root",
+              "bytes": 871086,
+              "mtime_ns": 1790514735125218692,
+              "trees": [
+                {
+                  "path": "DF_2439163578737952/O2hypcands",
+                  "rows": 10088,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "physics": {
+          "mass_he3": 2.80839160743,
+          "mass_pi": 0.13957039,
+          "mass_h3l": 2.99131,
+          "he3_momentum_scale": 1.0,
+          "pair_mass": "nominal"
+        },
+        "domain": {
+          "finite": [
+            "mass_h3l",
+            "pt_h3l",
+            "ct",
+            "cos_pa"
+          ]
+        },
+        "signal_truth_filter": false,
+        "chunk_rows": 100000
+      }
+    },
+    "signal": {
+      "raw_rows": 13183618,
+      "after_role_filter": null,
+      "retained_rows": null,
+      "nonfinite_kinematics": null,
+      "chunks": 0,
+      "persisted": false,
+      "mode": "direct_root_stream",
+      "status": "available",
+      "filter_counters": "evaluated by consuming training, WP and scored stages",
+      "source_identity": {
+        "kind": "streamed_root",
+        "role": "signal",
+        "inventory": {
+          "status": "available",
+          "files": [
+            {
+              "path": "/Users/zhengqingwang/alice/data/derived/PiH3lFemto/TestSet/MCHyper/AO2D.root",
+              "bytes": 417929366,
+              "mtime_ns": 1790514945986233158,
+              "trees": [
+                {
+                  "path": "DF_2439219330126920/O2mchypcands",
+                  "rows": 1110140,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2439223690548288/O2mchypcands",
+                  "rows": 677980,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2439399768659744/O2mchypcands",
+                  "rows": 975151,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2439829424199456/O2mchypcands",
+                  "rows": 649559,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2440044130599576/O2mchypcands",
+                  "rows": 582149,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2440168761326632/O2mchypcands",
+                  "rows": 632626,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2440443466436424/O2mchypcands",
+                  "rows": 812343,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2440920131726632/O2mchypcands",
+                  "rows": 810582,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2441298092091720/O2mchypcands",
+                  "rows": 574757,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2441298343069152/O2mchypcands",
+                  "rows": 669950,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2441483036388712/O2mchypcands",
+                  "rows": 862496,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2441796363337032/O2mchypcands",
+                  "rows": 602867,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2441856711503912/O2mchypcands",
+                  "rows": 884500,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2441980988955816/O2mchypcands",
+                  "rows": 1105435,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2442191676246792/O2mchypcands",
+                  "rows": 992846,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2442389011430120/O2mchypcands",
+                  "rows": 656212,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2442453435460056/O2mchypcands",
+                  "rows": 584025,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "physics": {
+          "mass_he3": 2.80839160743,
+          "mass_pi": 0.13957039,
+          "mass_h3l": 2.99131,
+          "he3_momentum_scale": 1.0,
+          "pair_mass": "nominal"
+        },
+        "domain": {
+          "finite": [
+            "mass_h3l",
+            "pt_h3l",
+            "ct",
+            "cos_pa"
+          ]
+        },
+        "signal_truth_filter": true,
+        "chunk_rows": 100000
+      }
+    },
+    "mc_femto": {
+      "raw_rows": 0,
+      "after_role_filter": null,
+      "retained_rows": null,
+      "nonfinite_kinematics": null,
+      "chunks": 0,
+      "persisted": false,
+      "mode": "direct_root_stream",
+      "status": "missing_optional",
+      "filter_counters": "evaluated by consuming training, WP and scored stages",
+      "source_identity": {
+        "kind": "streamed_root",
+        "role": "mc_femto",
+        "inventory": {
+          "status": "missing_optional",
+          "files": []
+        },
+        "physics": {
+          "mass_he3": 2.80839160743,
+          "mass_pi": 0.13957039,
+          "mass_h3l": 2.99131,
+          "he3_momentum_scale": 1.0,
+          "pair_mass": "nominal"
+        },
+        "domain": {
+          "finite": [
+            "mass_h3l",
+            "pt_h3l",
+            "ct",
+            "cos_pa",
+            "kstar"
+          ],
+          "centrality_bins": [
+            [
+              0,
+              10
+            ],
+            [
+              10,
+              50
+            ]
+          ],
+          "mass_range": [
+            2.96,
+            3.025
+          ],
+          "kstar_range": [
+            0.0,
+            0.6
+          ]
+        },
+        "signal_truth_filter": false,
+        "chunk_rows": 100000
+      }
+    }
+  },
+  "scored": {
+    "femto": {
+      "rows": 7328643,
+      "retained_rows": 1996515,
+      "invalid_scores": 0,
+      "dropped_below_storage": 5332128,
+      "out_of_scope_rows": 0,
+      "raw_rows": 15645511,
+      "after_role_filter": 15645511,
+      "nonfinite_kinematics": 0
+    },
+    "mc_femto": {
+      "rows": 0,
+      "retained_rows": 0,
+      "invalid_scores": 0,
+      "dropped_below_storage": 0,
+      "out_of_scope_rows": 0
+    }
+  },
+  "scored_storage": {
+    "schema_version": 1,
+    "layout": "flat",
+    "models": [
+      {
+        "id": "global",
+        "pt_range": null
+      }
+    ],
+    "minimum_threshold": 0.10621458949154691,
+    "score_comparison": ">= (inclusive, retaining ties)",
+    "storage": {
+      "enabled": true,
+      "reserve_signal_efficiency": 0.99
+    },
+    "storage_envelope": {
+      "enabled": true,
+      "reserve_signal_efficiency": 0.99,
+      "reserve_threshold": 0.10621458949154691,
+      "threshold": 0.10621458949154691,
+      "actual_mc_signal_efficiency": 0.99,
+      "included_thresholds": [
+        {
+          "source": "reserve_signal_efficiency",
+          "threshold": 0.10621458949154691
+        },
+        {
+          "source": "nominal",
+          "threshold": 0.5631555066013298
+        },
+        {
+          "source": "bdt_loose",
+          "threshold": 0.2736774640804515
+        },
+        {
+          "source": "bdt_tight",
+          "threshold": 0.6368767901532429
+        }
+      ],
+      "selection": "finite in-scope score >= storage_threshold, inclusive at ties",
+      "decision": "minimum of reserve, nominal and all declared WP/absolute variations; automatically expands beyond requested reserve when required"
+    },
+    "columns": [
+      "ChargeChannel",
+      "HypCentFT0C",
+      "HypTrackOccupancy",
+      "IsClosePairRejected",
+      "IsMixed",
+      "MixingDepth",
+      "NSigmaHe",
+      "PairPiTrackDcaXY",
+      "PairPiTrackEta",
+      "PairPiTrackPt",
+      "PairPiTrackTpcNSigmaPi",
+      "ZPrimVtx",
+      "bdt_score",
+      "cos_pa",
+      "ct",
+      "kstar",
+      "mass_h3l",
+      "pt_h3l"
+    ],
+    "requested_columns": [
+      "mass_h3l",
+      "kstar",
+      "pt_h3l"
+    ],
+    "automatic_columns": "pair classification, score/model routing, all nominal and declared systematic cuts, and available MC truth QA",
+    "counts": {
+      "rows": 7328643,
+      "retained_rows": 1996515,
+      "invalid_scores": 0,
+      "dropped_below_storage": 5332128,
+      "out_of_scope_rows": 0,
+      "raw_rows": 15645511,
+      "after_role_filter": 15645511,
+      "nonfinite_kinematics": 0
+    },
+    "domain": {
+      "centrality_bins": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          50
+        ]
+      ],
+      "mass_range": [
+        2.96,
+        3.025
+      ],
+      "kstar_range": [
+        0.0,
+        0.6
+      ]
+    },
+    "limitations": [
+      "Thresholds below minimum_threshold require re-scoring the original ROOT input.",
+      "Storage pruning changes the cutflow input denominator, not accepted nominal/systematic rows.",
+      "Counts for invalid_scores and out_of_scope_rows may overlap."
+    ]
+  },
+  "training": {
+    "auc_validation": 0.9907573241061131,
+    "threshold": 0.9480396882388271,
+    "validation_signal_efficiency": 0.8,
+    "validation_background_efficiency": 0.006920415224913495,
+    "split": {
+      "1": {
+        "train_rows": 75000,
+        "validation_rows": 25000,
+        "train_groups": 67662,
+        "validation_groups": 22554,
+        "group_overlap": 0
+      },
+      "0": {
+        "train_rows": 2561,
+        "validation_rows": 867,
+        "train_groups": 2433,
+        "validation_groups": 812,
+        "group_overlap": 0
+      }
+    }
+  },
+  "groups": [
+    {
+      "bin": "cent_0_10__ch_0",
+      "signal_se": 3275,
+      "signal_me": 31625,
+      "raw_valid_bins": 30,
+      "corrected_valid_bins": 0,
+      "purity_status": "insufficient_mass_sidebands",
+      "corrected_status": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "bin": "cent_0_10__ch_1",
+      "signal_se": 3246,
+      "signal_me": 32046,
+      "raw_valid_bins": 30,
+      "corrected_valid_bins": 0,
+      "purity_status": "insufficient_mass_sidebands",
+      "corrected_status": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "bin": "cent_0_10__ch_2",
+      "signal_se": 2286,
+      "signal_me": 21665,
+      "raw_valid_bins": 29,
+      "corrected_valid_bins": 0,
+      "purity_status": "insufficient_mass_sidebands",
+      "corrected_status": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "bin": "cent_0_10__ch_3",
+      "signal_se": 2202,
+      "signal_me": 21400,
+      "raw_valid_bins": 30,
+      "corrected_valid_bins": 0,
+      "purity_status": "insufficient_mass_sidebands",
+      "corrected_status": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "bin": "cent_10_50__ch_0",
+      "signal_se": 1638,
+      "signal_me": 16027,
+      "raw_valid_bins": 30,
+      "corrected_valid_bins": 0,
+      "purity_status": "insufficient_mass_sidebands",
+      "corrected_status": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "bin": "cent_10_50__ch_1",
+      "signal_se": 1628,
+      "signal_me": 15735,
+      "raw_valid_bins": 29,
+      "corrected_valid_bins": 0,
+      "purity_status": "insufficient_mass_sidebands",
+      "corrected_status": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "bin": "cent_10_50__ch_2",
+      "signal_se": 1807,
+      "signal_me": 18949,
+      "raw_valid_bins": 30,
+      "corrected_valid_bins": 0,
+      "purity_status": "insufficient_mass_sidebands",
+      "corrected_status": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "bin": "cent_10_50__ch_3",
+      "signal_se": 1828,
+      "signal_me": 18819,
+      "raw_valid_bins": 30,
+      "corrected_valid_bins": 0,
+      "purity_status": "insufficient_mass_sidebands",
+      "corrected_status": "purity_insufficient_mass_sidebands"
+    }
+  ],
+  "provenance": {
+    "source_fingerprint": "faad465f1c1234c48c361ca79475e5ab266ebec81f03ff56ddd9c7c53c70471d",
+    "environment": {
+      "python": "3.10.16",
+      "platform": "macOS-14.7.6-arm64-arm-64bit",
+      "pih3l": "0.1.0",
+      "numpy": "1.26.4",
+      "pandas": "2.2.3",
+      "scipy": "1.14.1",
+      "scikit-learn": "1.6.0",
+      "uproot": "5.5.1",
+      "pyarrow": "18.1.0",
+      "joblib": "1.4.2",
+      "ROOT": "6.38.04",
+      "optional_training": {
+        "xgboost": "1.7.6",
+        "optuna": "4.1.0"
+      }
+    },
+    "pipeline_signature": "8d47a24965f84988a53964cc0d26f97bb054ad2a0455c75667bb2d4bdfb7f8b2",
+    "stage_seconds": {
+      "raw_qa": 13.233940839767456,
+      "prepared": 0.005396127700805664,
+      "training": 8.507152795791626,
+      "working_point": 0.21925806999206543,
+      "scored": 27.247745990753174,
+      "nominal": 0.5370330810546875,
+      "systematics": 3.5250141620635986,
+      "mc_qa": 0.005283832550048828,
+      "report": 3.255648136138916
+    },
+    "total_stage_seconds": 56.53647303581238,
+    "stage_artifact_counts": {
+      "raw_qa": 6,
+      "prepared": 2,
+      "training": 6,
+      "working_point": 3,
+      "scored": 161,
+      "nominal": 5,
+      "systematics": 63,
+      "mc_qa": 1,
+      "report": 14
+    }
+  },
+  "systematic_variations": [
+    {
+      "name": "bdt_loose",
+      "group": "bdt",
+      "status": "completed",
+      "histogram_source": "5ea0fe95b5f6d34b24671fa5ce084f8a2fa48001f269dee3d3a50791ce5e9090"
+    },
+    {
+      "name": "bdt_tight",
+      "group": "bdt",
+      "status": "completed",
+      "histogram_source": "b99501ecf19486da10d71b8447a8fcb1ea87673538fb0041b7e7474e4f6d8902"
+    },
+    {
+      "name": "norm_low",
+      "group": "normalization",
+      "status": "completed",
+      "histogram_source": "nominal"
+    },
+    {
+      "name": "norm_high",
+      "group": "normalization",
+      "status": "completed",
+      "histogram_source": "nominal"
+    },
+    {
+      "name": "cospa_tight",
+      "group": "topology",
+      "status": "completed",
+      "histogram_source": "c034dfc055210fea40616c6e1e95705211d9e84fbb3b05e864c311a8d007449d"
+    },
+    {
+      "name": "pion_pid_tight",
+      "group": "pion_pid",
+      "status": "completed",
+      "histogram_source": "c2bba93bb138df71853f3b8bb655522596112fc2ce68c47285086218dca09428"
+    },
+    {
+      "name": "occupancy_low",
+      "group": "occupancy",
+      "status": "completed",
+      "histogram_source": "450c336b1326c217220aff27e8b3a164040b8cab428c8887c0275dfd81824c41"
+    },
+    {
+      "name": "mass_narrow",
+      "group": "mass_window",
+      "status": "completed",
+      "histogram_source": "a57f9282a06569f59d9a25ca6353fdbdd5d36d693f7d2f16192f41e27eac5ef8"
+    },
+    {
+      "name": "mass_background_constant",
+      "group": "mass_model",
+      "status": "completed",
+      "histogram_source": "nominal"
+    },
+    {
+      "name": "sideband_shift",
+      "group": "sideband",
+      "status": "completed",
+      "histogram_source": "93ca524fd86bee93586c8546be537a6921285da98ce6470b87feaedde29ddd7a"
+    },
+    {
+      "name": "pion_dca_tight",
+      "group": "pion_dca",
+      "status": "completed",
+      "histogram_source": "eaf0cd0800c1221547a5f5de966584fca267f0311c4d3a1c587cd2f48815133f"
+    },
+    {
+      "name": "close_pair_strict",
+      "group": "close_pair",
+      "status": "completed",
+      "histogram_source": "a98502738f15e867895f261839839c5e56605c66ea1e890924e535e8e82de616"
+    }
+  ],
+  "mc_status": "skipped_missing_mc_femto",
+  "root_archive": {
+    "path": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/report/analysis.root",
+    "root_version": "6.38.04",
+    "canvases": 11,
+    "correlation_canvas_graphs": {
+      "correlations_cent0": {
+        "cent_0_10__ch_0": 30,
+        "cent_0_10__ch_1": 30,
+        "cent_0_10__ch_2": 29,
+        "cent_0_10__ch_3": 30
+      },
+      "correlations_cent1": {
+        "cent_10_50__ch_0": 30,
+        "cent_10_50__ch_1": 29,
+        "cent_10_50__ch_2": 30,
+        "cent_10_50__ch_3": 30
+      }
+    },
+    "object_count": 4452,
+    "objects_by_class": {
+      "TObjString": 132,
+      "TH1D": 2386,
+      "TH2D": 1368,
+      "TGraphErrors": 552,
+      "TGraph": 3,
+      "TCanvas": 11
+    },
+    "reader": "native PyROOT TFile"
+  },
+  "limitations": [
+    "Pair rows are statistically correlated through reused candidates, tracks and events.",
+    "Pair-Poisson uncertainties and pair-weighted mass fits are approximations.",
+    "A missing sideband or purity fit produces unavailable corrected values.",
+    "An empty MCFemto input cannot validate primary fractions or MC closure."
+  ]
+}

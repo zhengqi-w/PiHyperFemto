@@ -1,0 +1,40 @@
+{
+  "final_validation": "passed",
+  "checks_passed": 478,
+  "checks_total": 478,
+  "working_point_numerical_contract_exactly_equal": true,
+  "group_counts_and_coverage_exactly_equal": true,
+  "scored_counts_exactly_equal": true,
+  "independent_pol0_exactly_equal": true,
+  "final_wp": {
+    "mass_range": [
+      2.96,
+      3.04
+    ],
+    "mass_bins": 50,
+    "signal_model": "dscb",
+    "background_model": "pol1",
+    "scan_points": 701,
+    "parameterized_fits": 595,
+    "valid_fits": 592,
+    "representative_component_bins_checked": 1785,
+    "sigma_integral_windows_checked": 1785,
+    "independent_pol0": {
+      "c0": 2319.89292072406,
+      "c0_error": 2.695288336868539,
+      "chi2": 4810.630950992619,
+      "points": 448
+    },
+    "independent_best_efficiency": 0.961,
+    "independent_best_threshold": 0.5227796301211376,
+    "independent_best_significance_3sigma": 44.377096279884334,
+    "nominal_threshold": 0.5227796301211376
+  },
+  "source_fingerprint": "9ac2d8d3c8073be569f00c3b6f5e0ac4fc60ba0aa19ae067b5f7e8541f214ad0",
+  "pipeline_signature": "4c4d2487a6e0675637f530da58743c864c8fdfea8dd21d61bb70b36ba501524c",
+  "all_stage_manifests_and_dependency_lineages_current": true,
+  "four_report_canvas_clones_exactly_equal_to_stage_canvases": true,
+  "root_objects": 4457,
+  "root_canvases": 13,
+  "comparison_scope": "All numerical fields retained by the independent validation report; full prior scan_fits.json/covariance byte snapshots are not available."
+}

@@ -1,0 +1,214 @@
+schema_version: 1
+output: ../outputs/testset
+seed: 73129
+synthetic_repetition: false
+inputs:
+  femto:
+    root: /Users/zhengqingwang/alice/data/derived/PiH3lFemto/TestSet/Femto
+    patterns: ["AO2D*.root"]
+    required: true
+  background:
+    root: /Users/zhengqingwang/alice/data/derived/PiH3lFemto/TestSet/Hyper
+    patterns: ["AO2D*.root"]
+    required: true
+  signal:
+    root: /Users/zhengqingwang/alice/data/derived/PiH3lFemto/TestSet/MCHyper
+    patterns: ["AO2D*.root"]
+    required: true
+  mc_femto:
+    root: null  # This TestSet explicitly has no reconstructed-pair MC input.
+    patterns: ["AO2D*.root"]
+    required: false
+io:
+  chunk_rows: 100000
+  root_projection: true
+  persist_prepared: false
+  cache_model_scores: false
+  scored_partition_by_pt: true
+  scored_columns: [mass_h3l, kstar, pt_h3l]
+  scored_optional_columns: [HypTrackOccupancy, PairCentFT0C, MixingDepth, IsClosePairRejected]
+raw_qa:
+  mass_range: [2.94, 3.06]
+  mass_bins: 120
+
+# Complete 0–10 and 10–50 analyses, even if some corrected bins are unavailable.
+analysis:
+  centrality_bins: [[0, 10], [10, 50]]
+  normalization: [0.3, 0.5]
+  signal_window: [2.985, 2.997]
+  sidebands: [[2.96, 2.975], [3.007, 3.025]]
+  mass_range: [2.96, 3.025]
+  close_pair_reject_bits: 3
+  mixing_weight: unit
+  candidate_cuts:
+    cos_pa: {min: 0.99}
+    ct: {min: 0, max: 40}
+    NSigmaHe: {abs_max: 5}
+  pair_cuts:
+    PairPiTrackEta: {abs_max: 0.8}
+    PairPiTrackPt: {min: 0.15, max: 5}
+    PairPiTrackTpcNSigmaPi: {abs_max: 3}
+  event_cuts:
+    ZPrimVtx: {abs_max: 10}
+
+training:
+  # HIPE4ML ModelHandler with the spectrum XGBoost reference parameters.
+  # Optuna remains opt-in; no real-data validation is run by this configuration change.
+  class_weight: balanced
+  model_params:
+    objective: binary:logistic
+    booster: gbtree
+    max_depth: 6
+    gamma: 2.0
+    learning_rate: 0.05
+    n_estimators: 800
+    min_child_weight: 3.0
+    subsample: 0.7
+    colsample_bytree: 0.73
+    colsample_bylevel: 1.0
+    colsample_bynode: 1.0
+    tree_method: hist
+    max_bin: 256
+    n_jobs: 4
+    eval_metric: auc
+    reg_alpha: 0.0
+    reg_lambda: 1.0
+    verbosity: 0
+  pt_range: null
+  pt_bins: []
+  retrain_bins: []
+  candidate_cuts: {}
+  # Learn variable ranges from an independent MC group sample, then cut both classes.
+  # The frozen ranges also define the WP/Femto model domain; no shape reweighting.
+  mc_range_selection:
+    enabled: true
+    features: null  # All BDT inputs; never invariant mass, ct or truth labels.
+    quantiles: [0.001, 0.999]
+    margin_fraction: 0.05
+    reference_fraction: 0.1
+    min_reference_rows: 50
+  features: [DcaV0Daug, DcaHe, DcaPi, NSigmaHe, cos_pa]
+  signal_mass_window: [2.95, 3.02]  # MC strictly inside; data strictly outside.
+  max_per_class: 100000
+  min_per_class: 30
+  validation_fraction: 0.25
+  target_signal_efficiency: 0.8
+  qa_shap_max_per_class: 1000  # Bounded held-out sample for SHAP QA.
+  # Spectrum-compatible dense score-efficiency grid; no training centrality split.
+  efficiency_min: 0.29
+  efficiency_max: 0.99
+  npoints_for_effi: 701
+  qa_bins: 100
+  use_optuna: false
+  optuna:
+    metric: auc
+    direction: maximize
+    n_trials: 20
+    timeout: 300
+    cv_folds: 3
+    n_jobs: 1
+    n_startup_trials: 5
+    pruner: median
+    n_warmup_steps: 1
+    # Empty uses the XGBoost reference space; custom spaces replace the default space.
+    search_space: {}
+
+working_point:
+  objective: pol0_expected_significance
+  yield_eff_range: [0.5, 0.95]
+  min_pol0_points: 3
+  max_fit_chi2_ndf: 10.0
+  save_score_fit_frames: false
+  # null scans the dense score-efficiency array exported by training.
+  signal_efficiencies: null
+  centrality_bins: null  # no centrality selection or split of Hyper candidates
+  candidate_cuts:
+    cos_pa: {min: 0.99}
+    ct: {min: 0, max: 40}
+    NSigmaHe: {abs_max: 5}
+  event_cuts:
+    ZPrimVtx: {abs_max: 10}
+  mass_range: [2.96, 3.04]
+  signal_window: [2.985, 2.997]
+  sidebands: [[2.96, 2.98], [3.005, 3.04]]
+  mass_fit:
+    signal_model: dscb
+    background: pol1  # Only pol1 or pol2 (RooChebychev).
+    mass_bins: 50  # Spectrum data histogram: 2.96-3.04 GeV/c^2.
+    mc_mass_bins: 80
+    min_mass_entries: 80
+    mean_bounds: [2.985, 3.005]
+    sigma_bounds: [0.0014, 0.0020]
+    calibrate_mc_tails: true
+    sideband_prefit: true
+    alpha_bounds: [0.7, 5.0]
+    n_bounds: [0.9, 15.0]
+    tail_defaults: {alpha_left: 1.5, n_left: 2.0, alpha_right: 1.5, n_right: 2.0}
+  period_text: ALICE Run 3 PbPb
+  additional_text: "PbPb #sqrt{#it{s_{NN}}} = 5.36 TeV"
+  storage:
+    enabled: true
+    reserve_signal_efficiency: 0.99
+
+purity:
+  method: fit
+  background: linear
+
+# Demonstration ensemble; final physics choices require control-sample validation.
+systematics:
+  method: envelope
+  variations:
+    - name: bdt_loose
+      group: bdt
+      wp_efficiency_delta: 0.02
+      overrides: {}
+    - name: bdt_tight
+      group: bdt
+      wp_efficiency_delta: -0.02
+      overrides: {}
+    - name: norm_low
+      group: normalization
+      overrides: {analysis: {normalization: [0.26, 0.46]}}
+    - name: norm_high
+      group: normalization
+      overrides: {analysis: {normalization: [0.34, 0.54]}}
+    # Pair pion cuts; alternatives within each source, independent named sources.
+    - name: pion_ptmin_020
+      group: pion_pt_min
+      overrides: {analysis: {pair_cuts: {PairPiTrackPt: {min: 0.20}}}}
+    - name: pion_ptmin_025
+      group: pion_pt_min
+      overrides: {analysis: {pair_cuts: {PairPiTrackPt: {min: 0.25}}}}
+    - name: pion_ptmax_200
+      group: pion_pt_max
+      overrides: {analysis: {pair_cuts: {PairPiTrackPt: {max: 2.0}}}}
+    - name: pion_ptmax_225
+      group: pion_pt_max
+      overrides: {analysis: {pair_cuts: {PairPiTrackPt: {max: 2.25}}}}
+    - name: pion_tpcrows_100
+      group: pion_tpc_rows
+      overrides: {analysis: {pair_cuts: {PairPiTrackTpcNClsCrossedRows: {min: 100}}}}
+    - name: pion_tpcrows_110
+      group: pion_tpc_rows
+      overrides: {analysis: {pair_cuts: {PairPiTrackTpcNClsCrossedRows: {min: 110}}}}
+    - name: pion_pid_tight
+      group: pion_pid
+      overrides: {analysis: {pair_cuts: {PairPiTrackTpcNSigmaPi: {abs_max: 2.5}}}}
+    - name: occupancy_low
+      group: occupancy
+      overrides: {analysis: {event_cuts: {HypTrackOccupancy: {max: 20000}}}}
+    - name: mass_narrow
+      group: mass_window
+      overrides: {analysis: {signal_window: [2.987, 2.995]}}
+    - name: mass_background_constant
+      group: mass_model
+      overrides: {purity: {background: constant}}
+    - name: sideband_shift
+      group: sideband
+      overrides: {analysis: {sidebands: [[2.965, 2.98], [3.005, 3.02]]}}
+    - name: pion_dca_tight
+      group: pion_dca
+      overrides: {analysis: {pair_cuts: {PairPiTrackDcaXY: {abs_max: 0.05}}}}
+    - name: close_pair_strict
+      group: close_pair
+      overrides: {analysis: {close_pair_reject_bits: 15}}

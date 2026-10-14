@@ -1,0 +1,31 @@
+name: Analysis contracts
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -el {0}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          miniforge-version: latest
+          environment-file: environment.yml
+          activate-environment: pih3l-femto
+          channels: conda-forge
+          channel-priority: strict
+          auto-activate-base: false
+      # Use the same pinned environment as Farm; exercise the installed package.
+      - name: Install package and verify declared dependencies
+        run: |
+          python -m pip install --no-deps --no-build-isolation .
+          python -m pip check
+          cd "${RUNNER_TEMP}"
+          pih3l --help
+          python -c 'import importlib.metadata as m; import pih3l; import ROOT; print(m.version("pih3l-femto")); print(pih3l.__file__); print(ROOT.gROOT.GetVersion())'
+      - name: Run software and ROOT contracts
+        run: python -m unittest discover -s tests -v
+        env:
+          OMP_NUM_THREADS: "1"
+          OPENBLAS_NUM_THREADS: "1"

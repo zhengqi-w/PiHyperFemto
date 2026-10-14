@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "tests": 211,
+  "duration_seconds": 87.311,
+  "source_fingerprint": "9ac2d8d3c8073be569f00c3b6f5e0ac4fc60ba0aa19ae067b5f7e8541f214ad0",
+  "python": "/opt/anaconda3/envs/MLenv/bin/python",
+  "format_check": "Black: all 66 Python files passed",
+  "static_check": "Flake8 F,E9 passed",
+  "scope": "Software/synthetic regressions; current complete TestSet artifact checks recorded separately",
+  "working_point_fit": "RooFit extended integrated-bin DSCB + RooChebychev pol1/pol2; fixed MC tails and default fixed sideband coefficients",
+  "working_point_selection": "Single ROOT pol0 of fitted 3sigma raw signal/requested efficiency; maximize efficiency*c0/sqrt(c0+B3)",
+  "covariance": "Physical-coordinate fitted covariance; local diagonal errors distinct from RooRealVar.getError bounded transformation",
+  "checks": [
+    "Global and two-pT full synthetic workflow/report",
+    "Native pol1/pol2 DSCB and MC tail fit/fallback",
+    "Independent finite-domain integrals including n=1 and n<1",
+    "Continuous polynomial positivity",
+    "Failed-fit missing parameters retain invalid scans without crashing",
+    "Physical covariance and bounded RooFit reported errors",
+    "3sigma normalization/argmax/explicit override",
+    "Dense HIPE4ML ModelHandler score mapping and QA",
+    "Exact four current WP ROOT canvas copies and PDF persistence",
+    "Streaming, compact scores, scope and cache/dependency lineage",
+    "All earlier statistical/selection/systematic/MC/ROOT checks"
+  ],
+  "real_testset_checks": "reports/validation/testset_dscb_validation.json",
+  "log": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/reports/validation/dscb_wp_software_checks.log",
+  "visual_review": {
+    "temporary_raster_previews_outside_outputs": true,
+    "directory": "/tmp/pih3l-dscb-pdf-review",
+    "status": "passed",
+    "reviewed_pdfs": 11,
+    "findings": "All seven stage WP and four synchronized report PDFs rendered and inspected; visible axes, single-panel DSCB mass plot, readable legend/fit-quality annotations; significance annotations clear of curves."
+  },
+  "physics_limits": {
+    "pol0_chi2_ndf": 10.762037921683708,
+    "mc_dscb_chi2_ndf": 33.96324714928028,
+    "meaning": "Software acceptance does not establish goodness of fit or a final physical working point"
+  },
+  "real_testset_artifact_status": "passed",
+  "real_testset_artifact_checks": 478
+}

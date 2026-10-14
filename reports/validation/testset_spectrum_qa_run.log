@@ -1,0 +1,42 @@
+2026-10-12 00:31:52,514 INFO Start stage: raw_qa
+2026-10-12 00:31:52,559 INFO Raw QA: femto chunk 0
+2026-10-12 00:31:53,486 INFO Raw QA: femto chunk 10
+2026-10-12 00:31:54,269 INFO Raw QA: femto chunk 20
+2026-10-12 00:31:55,098 INFO Raw QA: femto chunk 30
+2026-10-12 00:31:55,845 INFO Raw QA: femto chunk 40
+2026-10-12 00:31:56,619 INFO Raw QA: femto chunk 50
+2026-10-12 00:31:57,340 INFO Raw QA: femto chunk 60
+2026-10-12 00:31:58,112 INFO Raw QA: femto chunk 70
+2026-10-12 00:31:58,807 INFO Raw QA: femto chunk 80
+2026-10-12 00:31:59,620 INFO Raw QA: femto chunk 90
+2026-10-12 00:32:00,436 INFO Raw QA: femto chunk 100
+2026-10-12 00:32:01,267 INFO Raw QA: femto chunk 110
+2026-10-12 00:32:02,065 INFO Raw QA: femto chunk 120
+2026-10-12 00:32:02,867 INFO Raw QA: femto chunk 130
+2026-10-12 00:32:03,703 INFO Raw QA: femto chunk 140
+2026-10-12 00:32:04,557 INFO Raw QA: femto chunk 150
+2026-10-12 00:32:05,322 INFO Raw QA: femto chunk 160
+2026-10-12 00:32:05,595 INFO Raw QA: background chunk 0
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.raw_qa-4525106786664519bd6f20d4d705a170.tmp/raw_kstar_cent0.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.raw_qa-4525106786664519bd6f20d4d705a170.tmp/raw_kstar_cent1.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.raw_qa-4525106786664519bd6f20d4d705a170.tmp/raw_hyper_mass.pdf has been created
+2026-10-12 00:32:05,911 INFO Finished raw_qa in 13.4 s
+2026-10-12 00:32:05,913 INFO Start stage: prepared
+2026-10-12 00:32:05,921 INFO Finished prepared in 0.0 s
+2026-10-12 00:32:05,979 INFO Start stage: training
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.training-b64bba4148064a5fac8eeeb1d986cd6d.tmp/qa/feature_distributions.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.training-b64bba4148064a5fac8eeeb1d986cd6d.tmp/qa/correlations_signal.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.training-b64bba4148064a5fac8eeeb1d986cd6d.tmp/qa/correlations_background.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.training-b64bba4148064a5fac8eeeb1d986cd6d.tmp/qa/bdt_train_test.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.training-b64bba4148064a5fac8eeeb1d986cd6d.tmp/qa/bdt_test_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.training-b64bba4148064a5fac8eeeb1d986cd6d.tmp/qa/roc_train_test.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.training-b64bba4148064a5fac8eeeb1d986cd6d.tmp/qa/efficiency_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.training-b64bba4148064a5fac8eeeb1d986cd6d.tmp/qa/feature_importance.pdf has been created
+2026-10-12 00:32:14,325 INFO Finished training in 8.3 s
+2026-10-12 00:32:14,330 INFO Start stage: working_point
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-8d54e31fb0174ab89bdf3b77aca0ad31.tmp/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-8d54e31fb0174ab89bdf3b77aca0ad31.tmp/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-8d54e31fb0174ab89bdf3b77aca0ad31.tmp/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-8d54e31fb0174ab89bdf3b77aca0ad31.tmp/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-8d54e31fb0174ab89bdf3b77aca0ad31.tmp/qa/fit_stability.pdf has been created
+2026-10-12 00:32:15,832 ERROR WP pol0 yield fit failed: insufficient_points; valid distinct cuts in yield_eff_range=0, required=3. Full scan diagnostics saved to /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/failures/working_point-d6faae43da54bd570df89b641ac24b18a45f22091e3fe28600b2b4bd1d4f4217

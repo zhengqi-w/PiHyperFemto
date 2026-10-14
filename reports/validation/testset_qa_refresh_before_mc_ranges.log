@@ -1,0 +1,21 @@
+2026-10-12 11:55:07,567 INFO Start stage: prepared
+2026-10-12 11:55:07,576 INFO Finished prepared in 0.0 s
+2026-10-12 11:55:08,655 INFO Start stage: training
+2026-10-12 11:55:20,968 INFO Finished training in 12.3 s
+2026-10-12 11:55:20,973 INFO Start stage: working_point
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-a4302830e62b41fbbc31171df513100f.tmp/qa/significance_vs_score.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-a4302830e62b41fbbc31171df513100f.tmp/qa/significance_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-a4302830e62b41fbbc31171df513100f.tmp/qa/raw_yield_over_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-a4302830e62b41fbbc31171df513100f.tmp/qa/raw_signal_yield.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-a4302830e62b41fbbc31171df513100f.tmp/qa/mean_sigma_vs_efficiency.pdf has been created
+Info in <TCanvas::Print>: pdf file /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/.working_point-a4302830e62b41fbbc31171df513100f.tmp/qa/fit_stability.pdf has been created
+2026-10-12 11:55:32,989 ERROR WP pol0 yield fit failed: insufficient_points; valid distinct cuts in yield_eff_range=0, required=3. Full scan diagnostics saved to /Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/failures/working_point-9a65a614e574328d8f4e3f66a19844e41bad7884a470ec417a27fde15701251e
+==============================
+Training xgboost model for classification
+Number of detected classes: 2
+Training the model: ...
+Training the model: Done!
+Testing the model: ...
+ROC_AUC_score: 0.993184
+Testing the model: Done!
+==============================

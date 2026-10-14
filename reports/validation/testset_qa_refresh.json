@@ -1,0 +1,4119 @@
+{
+  "status": "passed",
+  "scope": "Real TestSet training/WP QA artifact and numerical-contract audit; no physics validation or downstream rerun",
+  "source_fingerprint": "d5fbb7eafba052ad75d3cc640845705dc9716f4813ee5bc858af6b627e7ace3e",
+  "config": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/configs/testset.yaml",
+  "checks_passed": 880,
+  "checks_total": 880,
+  "training": {
+    "directory": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/training",
+    "stage_signature": "83bb5cbeea838dac85712b1ddd0c6d18b8f49aafd25d99bc23c4fa440e7eb822",
+    "backend": "hipe4ml.model_handler.ModelHandler[xgboost.XGBClassifier]",
+    "auc_train": 0.994990156434118,
+    "auc_validation": 0.9913708052999468,
+    "split": {
+      "1": {
+        "train_rows": 67216,
+        "validation_rows": 22424,
+        "train_groups": 60678,
+        "validation_groups": 20226,
+        "group_overlap": 0
+      },
+      "0": {
+        "train_rows": 75046,
+        "validation_rows": 24954,
+        "train_groups": 71400,
+        "validation_groups": 23801,
+        "group_overlap": 0
+      }
+    },
+    "pdfs": 9,
+    "root_file": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/training/qa/training.root",
+    "score_efficiency_points": 701
+  },
+  "working_point": {
+    "status": "ok",
+    "directory": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/working_point",
+    "stage_signature": "723b1220c99911de51c6c9c5c967df152cfa2f2e96a575f037080e709bfbc7fc",
+    "threshold": 0.16523253525304007,
+    "nominal_mc_signal_efficiency": 0.9850160542276133,
+    "scan_points": 701,
+    "valid_mass_fits": 157,
+    "valid_efficiency_segments": [
+      [
+        0.367,
+        0.402,
+        36
+      ],
+      [
+        0.404,
+        0.516,
+        113
+      ],
+      [
+        0.521,
+        0.521,
+        1
+      ],
+      [
+        0.542,
+        0.544,
+        3
+      ],
+      [
+        0.985,
+        0.988,
+        4
+      ]
+    ],
+    "yield_pol0": {
+      "status": "ok",
+      "fit_range": [
+        0.5,
+        0.95
+      ],
+      "points": 21,
+      "distinct_thresholds": 21,
+      "minimum_points": 3,
+      "c0": 2073.338886278804,
+      "c0_error": 13.991944913597004,
+      "chi2": 0.4454033588840719,
+      "ndof": 20,
+      "chi2_ndf": 0.022270167944203594,
+      "method": "ROOT TGraphErrors weighted TF1 pol0 fit",
+      "reference_difference": "preserves every valid efficiency point; avoids TH1 bin collisions overwriting scan points",
+      "efficiency_coordinate": "requested MC signal efficiency",
+      "uncertainty": "marginal mass-fit errors; covariance between nested WP samples unavailable",
+      "root_fit_status": 0
+    },
+    "spectrum_qa_pol0": {
+      "status": "ok",
+      "fit_range": [
+        0.5,
+        0.95
+      ],
+      "points": 21,
+      "distinct_thresholds": 21,
+      "minimum_points": 3,
+      "c0": 2068.019335023584,
+      "c0_error": 13.957335364031318,
+      "chi2": 0.44721741933982695,
+      "ndof": 20,
+      "chi2_ndf": 0.022360870966991346,
+      "method": "ROOT TGraphErrors weighted TF1 pol0 fit",
+      "reference_difference": "preserves every valid efficiency point; avoids TH1 bin collisions overwriting scan points",
+      "efficiency_coordinate": "requested MC signal efficiency",
+      "uncertainty": "marginal mass-fit errors; covariance between nested WP samples unavailable",
+      "root_fit_status": 0
+    },
+    "pdfs": 7,
+    "new_best_fit_available": true
+  },
+  "mc_range_selection": {
+    "enabled": true,
+    "features": [
+      "DcaV0Daug",
+      "DcaHe",
+      "DcaPi",
+      "NSigmaHe",
+      "cos_pa",
+      "decay_radius",
+      "NTPCCrossedRowsHe",
+      "NTPCCrossedRowsPi"
+    ],
+    "ranges": {
+      "DcaV0Daug": [
+        -0.021090446232995934,
+        0.44316832997679634
+      ],
+      "DcaHe": [
+        -1.3433448479413967,
+        1.227804255747757
+      ],
+      "DcaPi": [
+        -16.55757007322311,
+        18.84489102087018
+      ],
+      "NSigmaHe": [
+        -1.7835262472152702,
+        2.4211689970016295
+      ],
+      "cos_pa": [
+        -0.5815531945818999,
+        1.0753112876815227
+      ],
+      "decay_radius": [
+        -3.385189043019881,
+        82.15941899490277
+      ],
+      "NTPCCrossedRowsHe": [
+        98.45,
+        154.55
+      ],
+      "NTPCCrossedRowsPi": [
+        57.4853,
+        156.5007
+      ]
+    },
+    "quantiles": [
+      0.001,
+      0.999
+    ],
+    "quantile_method": "numpy.quantile(method='linear')",
+    "reference_quantile_values": {
+      "DcaV0Daug": [
+        1.222541290371737e-05,
+        0.4220656583308967
+      ],
+      "DcaHe": [
+        -1.2264744341373444,
+        1.1109338419437047
+      ],
+      "DcaPi": [
+        -14.948367296218871,
+        17.235688243865937
+      ],
+      "NSigmaHe": [
+        -1.592403736114502,
+        2.230046485900861
+      ],
+      "cos_pa": [
+        -0.5062411726608352,
+        0.9999992657604582
+      ],
+      "decay_radius": [
+        0.503202231431149,
+        78.27102772045174
+      ],
+      "NTPCCrossedRowsHe": [
+        101.0,
+        152.0
+      ],
+      "NTPCCrossedRowsPi": [
+        61.986000000000004,
+        152.0
+      ]
+    },
+    "margin_fraction": 0.05,
+    "bounds": "inclusive at both ends; rows removed, surviving values unchanged",
+    "skipped_features": {},
+    "scope": "training, working_point, Femto/MCFemto inference",
+    "efficiency_scope": "conditional on the same frozen MC feature ranges applied to all domains",
+    "shape_policy": "range selection only; no distribution matching, reweighting or Winsorization",
+    "reference": {
+      "source": "bounded selected finite-feature reconstructed MC signal sample",
+      "sample_rows": 100000,
+      "rows": 9987,
+      "groups": 9022,
+      "requested_group_fraction": 0.1,
+      "random_state": 73236,
+      "group_hash_sha256": "47ae579ffe2230f2420b8d430c6fab7fcd12e6f12ec78e7a0efa50f6a83132db",
+      "group_definition": "source file/tree and PV surrogate; not a producer collision ID",
+      "overlap_with_training_pool": 0,
+      "used_for_model_or_efficiency_mapping": false
+    },
+    "signal_counts": {
+      "sampled_before_reference": 100000,
+      "reference_removed": 9987,
+      "after_reference": 90013,
+      "after_mc_range": 89640,
+      "per_variable_mc_range": {
+        "DcaV0Daug": {
+          "input_rows": 90013,
+          "retained_rows": 89921,
+          "rejected_rows": 92,
+          "independent_rejected_rows": 92
+        },
+        "DcaHe": {
+          "input_rows": 89921,
+          "retained_rows": 89819,
+          "rejected_rows": 102,
+          "independent_rejected_rows": 104
+        },
+        "DcaPi": {
+          "input_rows": 89819,
+          "retained_rows": 89769,
+          "rejected_rows": 50,
+          "independent_rejected_rows": 78
+        },
+        "NSigmaHe": {
+          "input_rows": 89769,
+          "retained_rows": 89664,
+          "rejected_rows": 105,
+          "independent_rejected_rows": 106
+        },
+        "cos_pa": {
+          "input_rows": 89664,
+          "retained_rows": 89661,
+          "rejected_rows": 3,
+          "independent_rejected_rows": 3
+        },
+        "decay_radius": {
+          "input_rows": 89661,
+          "retained_rows": 89640,
+          "rejected_rows": 21,
+          "independent_rejected_rows": 30
+        },
+        "NTPCCrossedRowsHe": {
+          "input_rows": 89640,
+          "retained_rows": 89640,
+          "rejected_rows": 0,
+          "independent_rejected_rows": 0
+        },
+        "NTPCCrossedRowsPi": {
+          "input_rows": 89640,
+          "retained_rows": 89640,
+          "rejected_rows": 0,
+          "independent_rejected_rows": 0
+        }
+      }
+    },
+    "limitations": [
+      "Finite reference quantiles do not guarantee a full-population coverage fraction.",
+      "A rectangular feature range does not enforce a joint-density or shape match.",
+      "The MC-derived preselection acceptance needs independent MC for a final physical efficiency."
+    ]
+  },
+  "input_cutflow": {
+    "signal": {
+      "role": "signal",
+      "source_kind": "batch_source",
+      "source_counts_available": true,
+      "raw_source_rows": 13183618,
+      "after_source_role_filter": 590085,
+      "after_source_finite_kinematics": 590085,
+      "source_nonfinite_kinematics": 0,
+      "input_rows": 590085,
+      "after_candidate_cuts": 590085,
+      "after_pt_range": 590085,
+      "after_role_mass_selection": 590085,
+      "after_finite_features": 590085,
+      "after_mc_range": 89640,
+      "per_variable_mc_range": {
+        "DcaV0Daug": {
+          "input_rows": 90013,
+          "retained_rows": 89921,
+          "rejected_rows": 92,
+          "independent_rejected_rows": 92
+        },
+        "DcaHe": {
+          "input_rows": 89921,
+          "retained_rows": 89819,
+          "rejected_rows": 102,
+          "independent_rejected_rows": 104
+        },
+        "DcaPi": {
+          "input_rows": 89819,
+          "retained_rows": 89769,
+          "rejected_rows": 50,
+          "independent_rejected_rows": 78
+        },
+        "NSigmaHe": {
+          "input_rows": 89769,
+          "retained_rows": 89664,
+          "rejected_rows": 105,
+          "independent_rejected_rows": 106
+        },
+        "cos_pa": {
+          "input_rows": 89664,
+          "retained_rows": 89661,
+          "rejected_rows": 3,
+          "independent_rejected_rows": 3
+        },
+        "decay_radius": {
+          "input_rows": 89661,
+          "retained_rows": 89640,
+          "rejected_rows": 21,
+          "independent_rejected_rows": 30
+        },
+        "NTPCCrossedRowsHe": {
+          "input_rows": 89640,
+          "retained_rows": 89640,
+          "rejected_rows": 0,
+          "independent_rejected_rows": 0
+        },
+        "NTPCCrossedRowsPi": {
+          "input_rows": 89640,
+          "retained_rows": 89640,
+          "rejected_rows": 0,
+          "independent_rejected_rows": 0
+        }
+      },
+      "mc_range_stage": "after_reservoir_and_reference_group_removal",
+      "sampled_rows": 89640,
+      "reservoir_limit": 100000,
+      "upstream_count_scope": "native ROOT truth/kinematic filters precede sampler; unknown for prepared tables",
+      "priority_sampling": "uniform per-row random priorities; retain max_per_class smallest priorities",
+      "sampled_before_mc_reference": 100000,
+      "mc_reference_rows": 9987,
+      "after_mc_reference": 90013,
+      "mc_reference_audit": {
+        "enabled": true,
+        "features": [
+          "DcaV0Daug",
+          "DcaHe",
+          "DcaPi",
+          "NSigmaHe",
+          "cos_pa",
+          "decay_radius",
+          "NTPCCrossedRowsHe",
+          "NTPCCrossedRowsPi"
+        ],
+        "ranges": {
+          "DcaV0Daug": [
+            -0.021090446232995934,
+            0.44316832997679634
+          ],
+          "DcaHe": [
+            -1.3433448479413967,
+            1.227804255747757
+          ],
+          "DcaPi": [
+            -16.55757007322311,
+            18.84489102087018
+          ],
+          "NSigmaHe": [
+            -1.7835262472152702,
+            2.4211689970016295
+          ],
+          "cos_pa": [
+            -0.5815531945818999,
+            1.0753112876815227
+          ],
+          "decay_radius": [
+            -3.385189043019881,
+            82.15941899490277
+          ],
+          "NTPCCrossedRowsHe": [
+            98.45,
+            154.55
+          ],
+          "NTPCCrossedRowsPi": [
+            57.4853,
+            156.5007
+          ]
+        },
+        "quantiles": [
+          0.001,
+          0.999
+        ],
+        "quantile_method": "numpy.quantile(method='linear')",
+        "reference_quantile_values": {
+          "DcaV0Daug": [
+            1.222541290371737e-05,
+            0.4220656583308967
+          ],
+          "DcaHe": [
+            -1.2264744341373444,
+            1.1109338419437047
+          ],
+          "DcaPi": [
+            -14.948367296218871,
+            17.235688243865937
+          ],
+          "NSigmaHe": [
+            -1.592403736114502,
+            2.230046485900861
+          ],
+          "cos_pa": [
+            -0.5062411726608352,
+            0.9999992657604582
+          ],
+          "decay_radius": [
+            0.503202231431149,
+            78.27102772045174
+          ],
+          "NTPCCrossedRowsHe": [
+            101.0,
+            152.0
+          ],
+          "NTPCCrossedRowsPi": [
+            61.986000000000004,
+            152.0
+          ]
+        },
+        "margin_fraction": 0.05,
+        "bounds": "inclusive at both ends; rows removed, surviving values unchanged",
+        "skipped_features": {},
+        "scope": "training, working_point, Femto/MCFemto inference",
+        "efficiency_scope": "conditional on the same frozen MC feature ranges applied to all domains",
+        "shape_policy": "range selection only; no distribution matching, reweighting or Winsorization",
+        "reference": {
+          "source": "bounded selected finite-feature reconstructed MC signal sample",
+          "sample_rows": 100000,
+          "rows": 9987,
+          "groups": 9022,
+          "requested_group_fraction": 0.1,
+          "random_state": 73236,
+          "group_hash_sha256": "47ae579ffe2230f2420b8d430c6fab7fcd12e6f12ec78e7a0efa50f6a83132db",
+          "group_definition": "source file/tree and PV surrogate; not a producer collision ID",
+          "overlap_with_training_pool": 0,
+          "used_for_model_or_efficiency_mapping": false
+        },
+        "signal_counts": {
+          "sampled_before_reference": 100000,
+          "reference_removed": 9987,
+          "after_reference": 90013,
+          "after_mc_range": 89640,
+          "per_variable_mc_range": {
+            "DcaV0Daug": {
+              "input_rows": 90013,
+              "retained_rows": 89921,
+              "rejected_rows": 92,
+              "independent_rejected_rows": 92
+            },
+            "DcaHe": {
+              "input_rows": 89921,
+              "retained_rows": 89819,
+              "rejected_rows": 102,
+              "independent_rejected_rows": 104
+            },
+            "DcaPi": {
+              "input_rows": 89819,
+              "retained_rows": 89769,
+              "rejected_rows": 50,
+              "independent_rejected_rows": 78
+            },
+            "NSigmaHe": {
+              "input_rows": 89769,
+              "retained_rows": 89664,
+              "rejected_rows": 105,
+              "independent_rejected_rows": 106
+            },
+            "cos_pa": {
+              "input_rows": 89664,
+              "retained_rows": 89661,
+              "rejected_rows": 3,
+              "independent_rejected_rows": 3
+            },
+            "decay_radius": {
+              "input_rows": 89661,
+              "retained_rows": 89640,
+              "rejected_rows": 21,
+              "independent_rejected_rows": 30
+            },
+            "NTPCCrossedRowsHe": {
+              "input_rows": 89640,
+              "retained_rows": 89640,
+              "rejected_rows": 0,
+              "independent_rejected_rows": 0
+            },
+            "NTPCCrossedRowsPi": {
+              "input_rows": 89640,
+              "retained_rows": 89640,
+              "rejected_rows": 0,
+              "independent_rejected_rows": 0
+            }
+          }
+        },
+        "limitations": [
+          "Finite reference quantiles do not guarantee a full-population coverage fraction.",
+          "A rectangular feature range does not enforce a joint-density or shape match.",
+          "The MC-derived preselection acceptance needs independent MC for a final physical efficiency."
+        ]
+      }
+    },
+    "background": {
+      "role": "background",
+      "source_kind": "batch_source",
+      "source_counts_available": true,
+      "raw_source_rows": 476331,
+      "after_source_role_filter": 476331,
+      "after_source_finite_kinematics": 476331,
+      "source_nonfinite_kinematics": 0,
+      "input_rows": 476331,
+      "after_candidate_cuts": 476331,
+      "after_pt_range": 476331,
+      "after_role_mass_selection": 161934,
+      "after_finite_features": 161934,
+      "after_mc_range": 123327,
+      "per_variable_mc_range": {
+        "DcaV0Daug": {
+          "input_rows": 161934,
+          "retained_rows": 155131,
+          "rejected_rows": 6803,
+          "independent_rejected_rows": 6803
+        },
+        "DcaHe": {
+          "input_rows": 155131,
+          "retained_rows": 154668,
+          "rejected_rows": 463,
+          "independent_rejected_rows": 1116
+        },
+        "DcaPi": {
+          "input_rows": 154668,
+          "retained_rows": 154636,
+          "rejected_rows": 32,
+          "independent_rejected_rows": 134
+        },
+        "NSigmaHe": {
+          "input_rows": 154636,
+          "retained_rows": 124188,
+          "rejected_rows": 30448,
+          "independent_rejected_rows": 31556
+        },
+        "cos_pa": {
+          "input_rows": 124188,
+          "retained_rows": 124150,
+          "rejected_rows": 38,
+          "independent_rejected_rows": 45
+        },
+        "decay_radius": {
+          "input_rows": 124150,
+          "retained_rows": 123327,
+          "rejected_rows": 823,
+          "independent_rejected_rows": 1435
+        },
+        "NTPCCrossedRowsHe": {
+          "input_rows": 123327,
+          "retained_rows": 123327,
+          "rejected_rows": 0,
+          "independent_rejected_rows": 0
+        },
+        "NTPCCrossedRowsPi": {
+          "input_rows": 123327,
+          "retained_rows": 123327,
+          "rejected_rows": 0,
+          "independent_rejected_rows": 0
+        }
+      },
+      "mc_range_stage": "after_finite_features_before_reservoir",
+      "sampled_rows": 100000,
+      "reservoir_limit": 100000,
+      "upstream_count_scope": "native ROOT truth/kinematic filters precede sampler; unknown for prepared tables",
+      "priority_sampling": "uniform per-row random priorities; retain max_per_class smallest priorities"
+    }
+  },
+  "observed_input_qa": {
+    "untrimmed_NSigmaHe_max_observed_before_change": 456547744.0,
+    "post_selection_NSigmaHe_range": [
+      -1.7831199169158936,
+      2.4206807613372803
+    ],
+    "action": "Frozen MC-derived preselection applied to both classes, WP and inference; no hardcoded physical PID cut or shape reweighting"
+  },
+  "downstream": "scored, nominal, systematics, MC and report not rerun; previous outputs are historical",
+  "log": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/reports/validation/testset_qa_refresh.log",
+  "checks": [
+    {
+      "name": "training_is_current",
+      "passed": true
+    },
+    {
+      "name": "training_model_is_hipe4ml_xgboost",
+      "passed": true
+    },
+    {
+      "name": "training_class_labels",
+      "passed": true
+    },
+    {
+      "name": "training_probability_score",
+      "passed": true
+    },
+    {
+      "name": "training_no_ct_feature",
+      "passed": true
+    },
+    {
+      "name": "training_checksum_metrics.json",
+      "passed": true
+    },
+    {
+      "name": "training_checksum_model_handler.pkl",
+      "passed": true
+    },
+    {
+      "name": "training_checksum_model_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "training_checksum_qa/bdt_output.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_checksum_qa/bdt_test_score.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_checksum_qa/correlations_background.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_checksum_qa/correlations_signal.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_checksum_qa/efficiency_vs_score.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_checksum_qa/feature_distributions.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_checksum_qa/feature_importance.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_checksum_qa/feature_importance_shap.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_checksum_qa/index.json",
+      "passed": true
+    },
+    {
+      "name": "training_checksum_qa/roc_train_test.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_checksum_qa/training.root",
+      "passed": true
+    },
+    {
+      "name": "training_checksum_registry.json",
+      "passed": true
+    },
+    {
+      "name": "training_checksum_score_efficiency_array.txt",
+      "passed": true
+    },
+    {
+      "name": "training_checksum_validation_scores.npz",
+      "passed": true
+    },
+    {
+      "name": "training_artifact_qa/training.root",
+      "passed": true
+    },
+    {
+      "name": "training_artifact_qa/index.json",
+      "passed": true
+    },
+    {
+      "name": "training_artifact_qa/feature_distributions.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_pdf_feature_distributions",
+      "passed": true
+    },
+    {
+      "name": "training_artifact_qa/correlations_signal.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_pdf_correlations_signal",
+      "passed": true
+    },
+    {
+      "name": "training_artifact_qa/correlations_background.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_pdf_correlations_background",
+      "passed": true
+    },
+    {
+      "name": "training_artifact_qa/bdt_output.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_pdf_bdt_output",
+      "passed": true
+    },
+    {
+      "name": "training_artifact_qa/bdt_test_score.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_pdf_bdt_test_score",
+      "passed": true
+    },
+    {
+      "name": "training_artifact_qa/roc_train_test.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_pdf_roc_train_test",
+      "passed": true
+    },
+    {
+      "name": "training_artifact_qa/efficiency_vs_score.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_pdf_efficiency_vs_score",
+      "passed": true
+    },
+    {
+      "name": "training_artifact_qa/feature_importance.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_pdf_feature_importance",
+      "passed": true
+    },
+    {
+      "name": "training_artifact_qa/feature_importance_shap.pdf",
+      "passed": true
+    },
+    {
+      "name": "training_pdf_feature_importance_shap",
+      "passed": true
+    },
+    {
+      "name": "training_nine_pdfs",
+      "passed": true
+    },
+    {
+      "name": "training_no_legacy_model",
+      "passed": true
+    },
+    {
+      "name": "training_no_legacy_bdt_pdf",
+      "passed": true
+    },
+    {
+      "name": "score_efficiency_701",
+      "passed": true
+    },
+    {
+      "name": "score_efficiency_grid_dense",
+      "passed": true
+    },
+    {
+      "name": "score_efficiency_actual_replayed",
+      "passed": true
+    },
+    {
+      "name": "training_root_readable",
+      "passed": true
+    },
+    {
+      "name": "training_no_ml_canvas",
+      "passed": true
+    },
+    {
+      "name": "training_index_root_matches_json",
+      "passed": true
+    },
+    {
+      "name": "training_api_feature_distributions",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_features/DcaV0Daug/signal",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_features/DcaV0Daug/background",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_features/DcaHe/signal",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_features/DcaHe/background",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_features/DcaPi/signal",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_features/DcaPi/background",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_features/NSigmaHe/signal",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_features/NSigmaHe/background",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_features/cos_pa/signal",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_features/cos_pa/background",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_features/decay_radius/signal",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_features/decay_radius/background",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_features/NTPCCrossedRowsHe/signal",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_features/NTPCCrossedRowsHe/background",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_features/NTPCCrossedRowsPi/signal",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_features/NTPCCrossedRowsPi/background",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_features/mass_h3l/signal",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_features/mass_h3l/background",
+      "passed": true
+    },
+    {
+      "name": "training_api_correlations",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_correlations/features",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_correlations/signal",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_correlations/background",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_correlations/signal_valid",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_correlations/background_valid",
+      "passed": true
+    },
+    {
+      "name": "training_api_bdt_output",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_scores/train_signal",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_scores/train_signal_density",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_scores/train_background",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_scores/train_background_density",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_scores/test_signal",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_scores/test_signal_density",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_scores/test_background",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_scores/test_background_density",
+      "passed": true
+    },
+    {
+      "name": "training_api_bdt_test_score",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_scores/test_signal",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_scores/test_background",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_scores/test_all",
+      "passed": true
+    },
+    {
+      "name": "training_api_roc_train_test",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_roc/train",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_roc/test",
+      "passed": true
+    },
+    {
+      "name": "training_api_efficiency_vs_score",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_efficiency/efficiency",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_efficiency/actual_efficiency",
+      "passed": true
+    },
+    {
+      "name": "training_api_feature_importance",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_importance/features",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_importance/basis",
+      "passed": true
+    },
+    {
+      "name": "training_root_object_importance/gain",
+      "passed": true
+    },
+    {
+      "name": "training_score_counts_train_background",
+      "passed": true
+    },
+    {
+      "name": "training_score_counts_train_signal",
+      "passed": true
+    },
+    {
+      "name": "training_score_counts_test_background",
+      "passed": true
+    },
+    {
+      "name": "training_score_counts_test_signal",
+      "passed": true
+    },
+    {
+      "name": "wp_signature_current",
+      "passed": true
+    },
+    {
+      "name": "wp_status_ok",
+      "passed": true
+    },
+    {
+      "name": "wp_pol0_success",
+      "passed": true
+    },
+    {
+      "name": "wp_best_fit_available",
+      "passed": true
+    },
+    {
+      "name": "wp_is_current",
+      "passed": true
+    },
+    {
+      "name": "wp_checksum_best_fit.json",
+      "passed": true
+    },
+    {
+      "name": "wp_checksum_qa/best_fit.pdf",
+      "passed": true
+    },
+    {
+      "name": "wp_checksum_qa/fit_stability.pdf",
+      "passed": true
+    },
+    {
+      "name": "wp_checksum_qa/index.json",
+      "passed": true
+    },
+    {
+      "name": "wp_checksum_qa/mean_sigma_vs_efficiency.pdf",
+      "passed": true
+    },
+    {
+      "name": "wp_checksum_qa/raw_signal_yield.pdf",
+      "passed": true
+    },
+    {
+      "name": "wp_checksum_qa/s3overeff_vs_eff.pdf",
+      "passed": true
+    },
+    {
+      "name": "wp_checksum_qa/sig_vs_eff.pdf",
+      "passed": true
+    },
+    {
+      "name": "wp_checksum_qa/sig_vs_score.pdf",
+      "passed": true
+    },
+    {
+      "name": "wp_checksum_qa/working_point.root",
+      "passed": true
+    },
+    {
+      "name": "wp_checksum_scan.csv",
+      "passed": true
+    },
+    {
+      "name": "wp_checksum_scan_fits.json",
+      "passed": true
+    },
+    {
+      "name": "wp_checksum_summary.json",
+      "passed": true
+    },
+    {
+      "name": "mc_range_selection_enabled",
+      "passed": true
+    },
+    {
+      "name": "mc_calibration_independent",
+      "passed": true
+    },
+    {
+      "name": "mc_range_wp_matches_training",
+      "passed": true
+    },
+    {
+      "name": "mc_range_index_matches_training",
+      "passed": true
+    },
+    {
+      "name": "cutflow_index_matches_training",
+      "passed": true
+    },
+    {
+      "name": "background_cutflow_ordered",
+      "passed": true
+    },
+    {
+      "name": "qa_inputs_inside_frozen_range_DcaV0Daug",
+      "passed": true
+    },
+    {
+      "name": "qa_inputs_inside_frozen_range_DcaHe",
+      "passed": true
+    },
+    {
+      "name": "qa_inputs_inside_frozen_range_DcaPi",
+      "passed": true
+    },
+    {
+      "name": "qa_inputs_inside_frozen_range_NSigmaHe",
+      "passed": true
+    },
+    {
+      "name": "qa_inputs_inside_frozen_range_cos_pa",
+      "passed": true
+    },
+    {
+      "name": "qa_inputs_inside_frozen_range_decay_radius",
+      "passed": true
+    },
+    {
+      "name": "qa_inputs_inside_frozen_range_NTPCCrossedRowsHe",
+      "passed": true
+    },
+    {
+      "name": "qa_inputs_inside_frozen_range_NTPCCrossedRowsPi",
+      "passed": true
+    },
+    {
+      "name": "wp_grid_701",
+      "passed": true
+    },
+    {
+      "name": "wp_requested_grid_matches_training",
+      "passed": true
+    },
+    {
+      "name": "wp_qa_artifact_working_point.root",
+      "passed": true
+    },
+    {
+      "name": "wp_qa_artifact_sig_vs_score.pdf",
+      "passed": true
+    },
+    {
+      "name": "wp_pdf_sig_vs_score",
+      "passed": true
+    },
+    {
+      "name": "wp_qa_artifact_sig_vs_eff.pdf",
+      "passed": true
+    },
+    {
+      "name": "wp_pdf_sig_vs_eff",
+      "passed": true
+    },
+    {
+      "name": "wp_qa_artifact_s3overeff_vs_eff.pdf",
+      "passed": true
+    },
+    {
+      "name": "wp_pdf_s3overeff_vs_eff",
+      "passed": true
+    },
+    {
+      "name": "wp_qa_artifact_raw_signal_yield.pdf",
+      "passed": true
+    },
+    {
+      "name": "wp_pdf_raw_signal_yield",
+      "passed": true
+    },
+    {
+      "name": "wp_qa_artifact_mean_sigma_vs_efficiency.pdf",
+      "passed": true
+    },
+    {
+      "name": "wp_pdf_mean_sigma_vs_efficiency",
+      "passed": true
+    },
+    {
+      "name": "wp_qa_artifact_fit_stability.pdf",
+      "passed": true
+    },
+    {
+      "name": "wp_pdf_fit_stability",
+      "passed": true
+    },
+    {
+      "name": "wp_qa_artifact_best_fit.pdf",
+      "passed": true
+    },
+    {
+      "name": "wp_pdf_best_fit",
+      "passed": true
+    },
+    {
+      "name": "wp_qa_artifact_index.json",
+      "passed": true
+    },
+    {
+      "name": "wp_seven_pdfs",
+      "passed": true
+    },
+    {
+      "name": "wp_no_individual_pdf_unless_enabled",
+      "passed": true
+    },
+    {
+      "name": "wp_root_readable",
+      "passed": true
+    },
+    {
+      "name": "wp_qa_index_root_matches_json",
+      "passed": true
+    },
+    {
+      "name": "wp_window_curve_score_2sigma",
+      "passed": true
+    },
+    {
+      "name": "wp_window_curve_score_3sigma",
+      "passed": true
+    },
+    {
+      "name": "wp_window_curve_score_4sigma",
+      "passed": true
+    },
+    {
+      "name": "wp_window_envelope_score",
+      "passed": true
+    },
+    {
+      "name": "wp_actual_nominal_star_score",
+      "passed": true
+    },
+    {
+      "name": "wp_window_curve_efficiency_2sigma",
+      "passed": true
+    },
+    {
+      "name": "wp_window_curve_efficiency_3sigma",
+      "passed": true
+    },
+    {
+      "name": "wp_window_curve_efficiency_4sigma",
+      "passed": true
+    },
+    {
+      "name": "wp_window_envelope_efficiency",
+      "passed": true
+    },
+    {
+      "name": "wp_actual_nominal_star_efficiency",
+      "passed": true
+    },
+    {
+      "name": "wp_spectrum_pol0_tf1",
+      "passed": true
+    },
+    {
+      "name": "wp_dynamic_raw_graph_valid_count",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_0",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_1",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_2",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_3",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_4",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_5",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_6",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_7",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_8",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_9",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_10",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_11",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_12",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_13",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_14",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_15",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_16",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_17",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_18",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_19",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_20",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_21",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_22",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_23",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_24",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_25",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_26",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_27",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_28",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_29",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_30",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_31",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_32",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_33",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_34",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_35",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_36",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_37",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_38",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_39",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_40",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_41",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_42",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_43",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_44",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_45",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_46",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_47",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_48",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_49",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_50",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_51",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_52",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_53",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_54",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_55",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_56",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_57",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_58",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_59",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_60",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_61",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_62",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_63",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_64",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_65",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_66",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_67",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_68",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_69",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_70",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_71",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_72",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_73",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_74",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_75",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_76",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_77",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_78",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_79",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_80",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_81",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_82",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_83",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_84",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_85",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_86",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_87",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_88",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_89",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_90",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_91",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_92",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_93",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_94",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_95",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_96",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_97",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_98",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_99",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_100",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_101",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_102",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_103",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_104",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_105",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_106",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_107",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_108",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_109",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_110",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_111",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_112",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_113",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_114",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_115",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_116",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_117",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_118",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_119",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_120",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_121",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_122",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_123",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_124",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_125",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_126",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_127",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_128",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_129",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_130",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_131",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_132",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_133",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_134",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_135",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_136",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_137",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_138",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_139",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_140",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_141",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_142",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_143",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_144",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_145",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_146",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_147",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_148",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_149",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_150",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_151",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_152",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_153",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_154",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_155",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_156",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_157",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_158",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_159",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_160",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_161",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_162",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_163",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_164",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_165",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_166",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_167",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_168",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_169",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_170",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_171",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_172",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_173",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_174",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_175",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_176",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_177",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_178",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_179",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_180",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_181",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_182",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_183",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_184",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_185",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_186",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_187",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_188",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_189",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_190",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_191",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_192",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_193",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_194",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_195",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_196",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_197",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_198",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_199",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_200",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_201",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_202",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_203",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_204",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_205",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_206",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_207",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_208",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_209",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_210",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_211",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_212",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_213",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_214",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_215",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_216",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_217",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_218",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_219",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_220",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_221",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_222",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_223",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_224",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_225",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_226",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_227",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_228",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_229",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_230",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_231",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_232",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_233",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_234",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_235",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_236",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_237",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_238",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_239",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_240",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_241",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_242",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_243",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_244",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_245",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_246",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_247",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_248",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_249",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_250",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_251",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_252",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_253",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_254",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_255",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_256",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_257",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_258",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_259",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_260",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_261",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_262",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_263",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_264",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_265",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_266",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_267",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_268",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_269",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_270",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_271",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_272",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_273",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_274",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_275",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_276",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_277",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_278",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_279",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_280",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_281",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_282",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_283",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_284",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_285",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_286",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_287",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_288",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_289",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_290",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_291",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_292",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_293",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_294",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_295",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_296",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_297",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_298",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_299",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_300",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_301",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_302",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_303",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_304",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_305",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_306",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_307",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_308",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_309",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_310",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_311",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_312",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_313",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_314",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_315",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_316",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_317",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_318",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_319",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_320",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_321",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_322",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_323",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_324",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_325",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_326",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_327",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_328",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_329",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_330",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_331",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_332",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_333",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_334",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_335",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_336",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_337",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_338",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_339",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_340",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_341",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_342",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_343",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_344",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_345",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_346",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_347",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_348",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_349",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_350",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_351",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_352",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_353",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_354",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_355",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_356",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_357",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_358",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_359",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_360",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_361",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_362",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_363",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_364",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_365",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_366",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_367",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_368",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_369",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_370",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_371",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_372",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_373",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_374",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_375",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_376",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_377",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_378",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_379",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_380",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_381",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_382",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_383",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_384",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_385",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_386",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_387",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_388",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_389",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_390",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_391",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_392",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_393",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_394",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_395",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_396",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_397",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_398",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_399",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_400",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_401",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_402",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_403",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_404",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_405",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_406",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_407",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_408",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_409",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_410",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_411",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_412",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_413",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_414",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_415",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_416",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_417",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_418",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_419",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_420",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_421",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_422",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_423",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_424",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_425",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_426",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_427",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_428",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_429",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_430",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_431",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_432",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_433",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_434",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_435",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_436",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_437",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_438",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_439",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_440",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_441",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_442",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_443",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_444",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_445",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_446",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_447",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_448",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_449",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_450",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_451",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_452",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_453",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_454",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_455",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_456",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_457",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_458",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_459",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_460",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_461",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_462",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_463",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_464",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_465",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_466",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_467",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_468",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_469",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_470",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_471",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_472",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_473",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_474",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_475",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_476",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_477",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_478",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_479",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_480",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_481",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_482",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_483",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_484",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_485",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_486",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_487",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_488",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_489",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_490",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_491",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_492",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_493",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_494",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_495",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_496",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_497",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_498",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_499",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_500",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_501",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_502",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_503",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_504",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_505",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_506",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_507",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_508",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_509",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_510",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_511",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_512",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_513",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_514",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_515",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_516",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_517",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_518",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_519",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_520",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_521",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_522",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_523",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_524",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_525",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_526",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_527",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_528",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_529",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_530",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_531",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_532",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_533",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_534",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_535",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_536",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_537",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_538",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_539",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_540",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_541",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_542",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_543",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_544",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_545",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_546",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_547",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_548",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_549",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_550",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_551",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_552",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_553",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_554",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_555",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_556",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_557",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_558",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_559",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_560",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_561",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_562",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_563",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_564",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_565",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_566",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_567",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_568",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_569",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_570",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_571",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_572",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_573",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_574",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_575",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_576",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_577",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_578",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_579",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_580",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_581",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_582",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_583",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_584",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_585",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_586",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_587",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_588",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_589",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_590",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_591",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_592",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_593",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_594",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_595",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_596",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_597",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_598",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_599",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_600",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_601",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_602",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_603",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_604",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_605",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_606",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_607",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_608",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_609",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_610",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_611",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_612",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_613",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_614",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_615",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_616",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_617",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_618",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_619",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_620",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_621",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_622",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_623",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_624",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_625",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_626",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_627",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_628",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_629",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_630",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_631",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_632",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_633",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_634",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_635",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_636",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_637",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_638",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_639",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_640",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_641",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_642",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_643",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_644",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_645",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_646",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_647",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_648",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_649",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_650",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_651",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_652",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_653",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_654",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_655",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_656",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_657",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_658",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_659",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_660",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_661",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_662",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_663",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_664",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_665",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_666",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_667",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_668",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_669",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_670",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_671",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_672",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_673",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_674",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_675",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_676",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_677",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_678",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_679",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_680",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_681",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_682",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_683",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_684",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_685",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_686",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_687",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_688",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_689",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_690",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_691",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_692",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_693",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_694",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_695",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_696",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_697",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_698",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_699",
+      "passed": true
+    },
+    {
+      "name": "wp_scan_fit_700",
+      "passed": true
+    },
+    {
+      "name": "wp_canvas_significance_vs_score",
+      "passed": true
+    },
+    {
+      "name": "wp_canvas_significance_vs_efficiency",
+      "passed": true
+    },
+    {
+      "name": "wp_canvas_raw_yield_over_efficiency",
+      "passed": true
+    },
+    {
+      "name": "wp_canvas_mean_sigma_vs_efficiency",
+      "passed": true
+    },
+    {
+      "name": "wp_canvas_raw_signal_yield",
+      "passed": true
+    },
+    {
+      "name": "wp_canvas_fit_stability",
+      "passed": true
+    },
+    {
+      "name": "wp_best_fit_canvas",
+      "passed": true
+    },
+    {
+      "name": "wp_best_components_and_pull",
+      "passed": true
+    },
+    {
+      "name": "qa_no_png",
+      "passed": true
+    },
+    {
+      "name": "prepared_no_parquet",
+      "passed": true
+    }
+  ]
+}

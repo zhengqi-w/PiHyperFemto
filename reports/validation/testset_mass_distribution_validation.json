@@ -1,0 +1,5502 @@
+{
+  "status": "passed",
+  "meaning": "Software and artifact validation; not a final physics measurement.",
+  "output": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset",
+  "checks_passed": 502,
+  "checks_total": 502,
+  "checks": [
+    {
+      "name": "manifest_raw_qa",
+      "passed": true,
+      "detail": "Configuration, source, environment and artifact SHA256 must match."
+    },
+    {
+      "name": "manifest_prepared",
+      "passed": true,
+      "detail": "Configuration, source, environment and artifact SHA256 must match."
+    },
+    {
+      "name": "manifest_training",
+      "passed": true,
+      "detail": "Configuration, source, environment and artifact SHA256 must match."
+    },
+    {
+      "name": "manifest_working_point",
+      "passed": true,
+      "detail": "Configuration, source, environment and artifact SHA256 must match."
+    },
+    {
+      "name": "manifest_scored",
+      "passed": true,
+      "detail": "Configuration, source, environment and artifact SHA256 must match."
+    },
+    {
+      "name": "manifest_nominal",
+      "passed": true,
+      "detail": "Configuration, source, environment and artifact SHA256 must match."
+    },
+    {
+      "name": "manifest_systematics",
+      "passed": true,
+      "detail": "Configuration, source, environment and artifact SHA256 must match."
+    },
+    {
+      "name": "manifest_mc_qa",
+      "passed": true,
+      "detail": "Configuration, source, environment and artifact SHA256 must match."
+    },
+    {
+      "name": "manifest_report",
+      "passed": true,
+      "detail": "Configuration, source, environment and artifact SHA256 must match."
+    },
+    {
+      "name": "dependency_lineage_raw_qa",
+      "passed": true,
+      "detail": "Recorded dependency signatures and artifact checksums match current upstream manifests."
+    },
+    {
+      "name": "dependency_lineage_prepared",
+      "passed": true,
+      "detail": "Recorded dependency signatures and artifact checksums match current upstream manifests."
+    },
+    {
+      "name": "dependency_lineage_training",
+      "passed": true,
+      "detail": "Recorded dependency signatures and artifact checksums match current upstream manifests."
+    },
+    {
+      "name": "dependency_lineage_working_point",
+      "passed": true,
+      "detail": "Recorded dependency signatures and artifact checksums match current upstream manifests."
+    },
+    {
+      "name": "dependency_lineage_scored",
+      "passed": true,
+      "detail": "Recorded dependency signatures and artifact checksums match current upstream manifests."
+    },
+    {
+      "name": "dependency_lineage_nominal",
+      "passed": true,
+      "detail": "Recorded dependency signatures and artifact checksums match current upstream manifests."
+    },
+    {
+      "name": "dependency_lineage_systematics",
+      "passed": true,
+      "detail": "Recorded dependency signatures and artifact checksums match current upstream manifests."
+    },
+    {
+      "name": "dependency_lineage_mc_qa",
+      "passed": true,
+      "detail": "Recorded dependency signatures and artifact checksums match current upstream manifests."
+    },
+    {
+      "name": "dependency_lineage_report",
+      "passed": true,
+      "detail": "Recorded dependency signatures and artifact checksums match current upstream manifests."
+    },
+    {
+      "name": "training_is_current_hipe4ml_xgboost_artifact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_raw_margin_metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "validation_npz_raw_margin_domain_and_precision",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "actual_model_features_match_all_training_qa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mass_is_distribution_qa_only_and_excluded_from_model_and_correlations",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_strict_disjoint_mass_selection_metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_signal_mass_cutflow_and_split_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_background_mass_cutflow_and_split_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mc_feature_support_uses_only_declared_model_inputs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "held_out_background_histogram_exact_raw_margin_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "held_out_signal_histogram_exact_raw_margin_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "held_out_all_histogram_exact_raw_margin_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "efficiency_mapping_uses_inclusive_raw_margin_scores",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "loaded_handler_matches_native_xgboost_margin_and_probability_closure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "centrality_channel_coverage",
+      "passed": true,
+      "detail": "Expected 8 centrality/charge groups."
+    },
+    {
+      "name": "separate_training_candidates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scores_cover_raw_pair_input",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_prepared_parquet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_training_parquet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "held_out_score_archive_matches_split",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "score_efficiency_array_matches_training",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scored_storage_raw_margin_domain",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scored_storage_schema_matches_files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scored_parquet_row_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scored_scores_inside_saved_envelope",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal_inside_saved_envelope",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_png_output",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_invalid_in_scope_pair_scores_and_complete_row_accounting",
+      "passed": true,
+      "detail": "Scope exclusions have NaN scores. In-scope rows must all be finite and partition into retained / below-storage counts."
+    },
+    {
+      "name": "training_group_holdout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_bdt_metrics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ct_excluded_from_training",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_from_hyper_fit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "score_efficiency_provider_hipe4ml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_positive_root_pol0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_uses_spectrum_pol0_objective",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_retains_all_scan_fits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "wp_mc_tail_calibration_histogram_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "wp_calibrated_or_explicit_default_tails_frozen_in_data_fits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "wp_mass_histogram_respects_resolved_configuration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "wp_spectrum_mass_histogram_2p96_3p04_50_bins",
+      "passed": true,
+      "detail": "TestSet spectrum WP contract: 2.96\u20133.04 GeV/c\u00b2, 50 uniform bins."
+    },
+    {
+      "name": "wp_fit_coverage_nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "wp_dscb_chebyshev_model",
+      "passed": true,
+      "detail": "Failed scan indices: []"
+    },
+    {
+      "name": "wp_physical_parameters",
+      "passed": true,
+      "detail": "Failed scan indices: []"
+    },
+    {
+      "name": "wp_covariance_shape_and_units",
+      "passed": true,
+      "detail": "Failed scan indices: []"
+    },
+    {
+      "name": "wp_valid_fit_covariance",
+      "passed": true,
+      "detail": "Failed scan indices: []"
+    },
+    {
+      "name": "wp_component_normalization",
+      "passed": true,
+      "detail": "Failed scan indices: []"
+    },
+    {
+      "name": "wp_independent_component_bins",
+      "passed": true,
+      "detail": "Failed scan indices: []"
+    },
+    {
+      "name": "wp_independent_sigma_integrals",
+      "passed": true,
+      "detail": "Failed scan indices: []"
+    },
+    {
+      "name": "wp_nominal_aliases_are_3sigma",
+      "passed": true,
+      "detail": "Failed scan indices: []"
+    },
+    {
+      "name": "wp_pol0_independently_uses_s3_over_efficiency",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "wp_all_windows_share_s3_pol0_and_correct_objective",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "wp_best_is_displayed_3sigma_curve_argmax",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "wp_displayed_maximum_matches_selected_optimum",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "wp_nominal_threshold_is_optimum_or_explicit_override",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_training",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_index",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_feature_distributions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_pdf_feature_distributions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_correlations_signal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_pdf_correlations_signal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_correlations_background",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_pdf_correlations_background",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_bdt_output",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_pdf_bdt_output",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_bdt_test_score",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_pdf_bdt_test_score",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_roc_train_test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_pdf_roc_train_test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_efficiency_vs_score",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_pdf_efficiency_vs_score",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_feature_importance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_pdf_feature_importance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_feature_importance_shap",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_pdf_feature_importance_shap",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_root_readable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_root_correlations/signal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_root_correlations/background",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_root_roc/train",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_root_roc/test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_root_importance/gain",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_root_metadata/qa_index",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_root_distributions_include_mass_qa_correlations_only_model_features",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_root_correlation_dimensions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_root_margin_histogram_train_signal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_root_margin_histogram_train_background",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_root_margin_histogram_test_signal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_root_margin_histogram_test_background",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_root_margin_histogram_test_all",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_qa_root_readable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_qa_root_scan/yield_pol0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_qa_root_scan/valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_qa_root_mass_scan/point_0000/data",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_qa_root_canvases/significance_vs_score",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_qa_root_canvases/raw_yield_over_efficiency",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_qa_root_canvases/best_mass_fit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_qa_root_canvases/mean_sigma_vs_efficiency",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_qa_root_scan/significance_vs_score/significance_3sigma",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_qa_root_scan/significance_vs_score/window_envelope",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_qa_root_scan/spectrum_yield_pol0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_qa_root_metadata/qa_index",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "wp_mass_canvas_single_panel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "wp_mass_canvas_no_residual_or_pull",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "wp_mass_fit_functions_are_continuous_curves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "wp_mass_canvas_legend_significance_chi2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "wp_mass_archive_has_no_pull_or_residual_objects",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "wp_all_root_mass_histograms_match_numerical_fits",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "wp_all_root_fit_parameters_covariance_match_json",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "wp_persisted_curve_matches_all_valid_3sigma_scan_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "wp_mc_tail_calibration_json_and_root_match",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "wp_mc_tail_calibration_root_counts_sumw2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_qa_canvas_roundtrip",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_qa_index",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_qa_pdf_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_links_identical_stage_owned_qa_artifacts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_training_raw_margin_histogram_signal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_training_raw_margin_histogram_background",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_working_point_is_exact_stage_canvas_clone",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_working_point_synchronized_pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_working_point_efficiency_is_exact_stage_canvas_clone",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_working_point_efficiency_synchronized_pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_working_point_yield_is_exact_stage_canvas_clone",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_working_point_yield_synchronized_pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_working_point_mass_fit_is_exact_stage_canvas_clone",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_working_point_mass_fit_synchronized_pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_wp_metadata_is_current_stage_summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_qa_links_resolve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_reuses_stage_qa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stage_qa_no_png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all_qa_figures_are_pdf_only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "training_qa_score_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "working_point_applied_to_femto",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all_variations_executed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "configured_variation_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_has_all_groups",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0_raw_coverage",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "name": "cent_0_10__ch_0_selected_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0_signal_se_me",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0_invalid_bins_are_null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0_covariance_shape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0_covariance_symmetric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0_covariance_positive_semidefinite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0_normalization",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0_no_fabricated_correction",
+      "passed": true,
+      "detail": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "name": "cent_0_10__ch_1_raw_coverage",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "name": "cent_0_10__ch_1_selected_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_1_signal_se_me",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_1_invalid_bins_are_null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_1_covariance_shape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_1_covariance_symmetric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_1_covariance_positive_semidefinite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_1_normalization",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_1_no_fabricated_correction",
+      "passed": true,
+      "detail": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "name": "cent_0_10__ch_2_raw_coverage",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "name": "cent_0_10__ch_2_selected_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_2_signal_se_me",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_2_invalid_bins_are_null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_2_covariance_shape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_2_covariance_symmetric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_2_covariance_positive_semidefinite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_2_normalization",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_2_no_fabricated_correction",
+      "passed": true,
+      "detail": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "name": "cent_0_10__ch_3_raw_coverage",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "name": "cent_0_10__ch_3_selected_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_3_signal_se_me",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_3_invalid_bins_are_null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_3_covariance_shape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_3_covariance_symmetric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_3_covariance_positive_semidefinite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_3_normalization",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_3_no_fabricated_correction",
+      "passed": true,
+      "detail": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "name": "cent_10_50__ch_0_raw_coverage",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "name": "cent_10_50__ch_0_selected_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_0_signal_se_me",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_0_invalid_bins_are_null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_0_covariance_shape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_0_covariance_symmetric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_0_covariance_positive_semidefinite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_0_normalization",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_0_no_fabricated_correction",
+      "passed": true,
+      "detail": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "name": "cent_10_50__ch_1_raw_coverage",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "name": "cent_10_50__ch_1_selected_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_1_signal_se_me",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_1_invalid_bins_are_null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_1_covariance_shape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_1_covariance_symmetric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_1_covariance_positive_semidefinite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_1_normalization",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_1_no_fabricated_correction",
+      "passed": true,
+      "detail": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "name": "cent_10_50__ch_2_raw_coverage",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "name": "cent_10_50__ch_2_selected_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_2_signal_se_me",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_2_invalid_bins_are_null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_2_covariance_shape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_2_covariance_symmetric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_2_covariance_positive_semidefinite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_2_normalization",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_2_no_fabricated_correction",
+      "passed": true,
+      "detail": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "name": "cent_10_50__ch_3_raw_coverage",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "name": "cent_10_50__ch_3_selected_accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_3_signal_se_me",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_3_invalid_bins_are_null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_3_covariance_shape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_3_covariance_symmetric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_3_covariance_positive_semidefinite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_3_normalization",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_3_no_fabricated_correction",
+      "passed": true,
+      "detail": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "name": "final_table_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "total_errors_quadrature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "final_covariance_coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0__raw_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_0__corrected_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_1__raw_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_1__corrected_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_2__raw_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_2__corrected_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_3__raw_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_0_10__ch_3__corrected_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_0__raw_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_0__corrected_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_1__raw_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_1__corrected_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_2__raw_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_2__corrected_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_3__raw_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cent_10_50__ch_3__corrected_total_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_file_readable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_metadata/schema",
+      "passed": true,
+      "detail": "TObjString"
+    },
+    {
+      "name": "root_metadata_schema",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_metadata/config",
+      "passed": true,
+      "detail": "TObjString"
+    },
+    {
+      "name": "root_metadata_config",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_metadata/training",
+      "passed": true,
+      "detail": "TObjString"
+    },
+    {
+      "name": "root_metadata_training",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_metadata/systematics",
+      "passed": true,
+      "detail": "TObjString"
+    },
+    {
+      "name": "root_metadata_systematics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_metadata/provenance",
+      "passed": true,
+      "detail": "TObjString"
+    },
+    {
+      "name": "root_metadata_provenance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_0/cf_raw_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_0/valid_raw",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_0/g_cf_raw_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_0/cov_raw_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/raw_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/raw_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/raw_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/raw_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/raw_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_0/cov_raw_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_0_raw_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_0/cov_raw_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_0_raw_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_0/cf_corrected_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_0/valid_corrected",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_0/g_cf_corrected_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_0/cov_corrected_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/corrected_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/corrected_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/corrected_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/corrected_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_0/corrected_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_0/cov_corrected_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_0_corrected_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_0/cov_corrected_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_0_corrected_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_1/cf_raw_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_1/valid_raw",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_1/g_cf_raw_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_1/cov_raw_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/raw_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/raw_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/raw_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/raw_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/raw_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_1/cov_raw_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_1_raw_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_1/cov_raw_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_1_raw_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_1/cf_corrected_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_1/valid_corrected",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_1/g_cf_corrected_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_1/cov_corrected_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/corrected_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/corrected_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/corrected_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/corrected_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_1/corrected_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_1/cov_corrected_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_1_corrected_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_1/cov_corrected_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_1_corrected_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_2/cf_raw_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_2/valid_raw",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_2/g_cf_raw_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_2/cov_raw_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/raw_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/raw_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/raw_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/raw_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/raw_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_2/cov_raw_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_2_raw_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_2/cov_raw_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_2_raw_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_2/cf_corrected_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_2/valid_corrected",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_2/g_cf_corrected_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_2/cov_corrected_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/corrected_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/corrected_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/corrected_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/corrected_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_2/corrected_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_2/cov_corrected_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_2_corrected_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_2/cov_corrected_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_2_corrected_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_3/cf_raw_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_3/valid_raw",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_3/g_cf_raw_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_3/cov_raw_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/raw_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/raw_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/raw_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/raw_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/raw_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_3/cov_raw_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_3_raw_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_3/cov_raw_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_3_raw_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_3/cf_corrected_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_3/valid_corrected",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_3/g_cf_corrected_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_0_10__ch_3/cov_corrected_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/corrected_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/corrected_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/corrected_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/corrected_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_0_10__ch_3/corrected_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_3/cov_corrected_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_3_corrected_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_0_10__ch_3/cov_corrected_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_0_10__ch_3_corrected_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_0/cf_raw_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_0/valid_raw",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_0/g_cf_raw_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_0/cov_raw_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/raw_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/raw_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/raw_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/raw_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/raw_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_0/cov_raw_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_0_raw_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_0/cov_raw_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_0_raw_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_0/cf_corrected_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_0/valid_corrected",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_0/g_cf_corrected_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_0/cov_corrected_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/corrected_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/corrected_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/corrected_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/corrected_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_0/corrected_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_0/cov_corrected_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_0_corrected_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_0/cov_corrected_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_0_corrected_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_1/cf_raw_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_1/valid_raw",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_1/g_cf_raw_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_1/cov_raw_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/raw_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/raw_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/raw_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/raw_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/raw_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_1/cov_raw_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_1_raw_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_1/cov_raw_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_1_raw_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_1/cf_corrected_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_1/valid_corrected",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_1/g_cf_corrected_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_1/cov_corrected_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/corrected_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/corrected_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/corrected_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/corrected_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_1/corrected_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_1/cov_corrected_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_1_corrected_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_1/cov_corrected_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_1_corrected_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_2/cf_raw_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_2/valid_raw",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_2/g_cf_raw_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_2/cov_raw_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/raw_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/raw_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/raw_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/raw_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/raw_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_2/cov_raw_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_2_raw_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_2/cov_raw_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_2_raw_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_2/cf_corrected_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_2/valid_corrected",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_2/g_cf_corrected_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_2/cov_corrected_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/corrected_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/corrected_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/corrected_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/corrected_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_2/corrected_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_2/cov_corrected_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_2_corrected_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_2/cov_corrected_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_2_corrected_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_3/cf_raw_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_3/valid_raw",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_3/g_cf_raw_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_3/cov_raw_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/raw_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/raw_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/raw_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/raw_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/raw_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_3/cov_raw_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_3_raw_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_3/cov_raw_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_3_raw_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_3/cf_corrected_stat",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_3/valid_corrected",
+      "passed": true,
+      "detail": "TH1"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_3/g_cf_corrected_stat",
+      "passed": true,
+      "detail": "TGraphErrors"
+    },
+    {
+      "name": "root_object_nominal/cent_10_50__ch_3/cov_corrected_stat",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/corrected_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/corrected_stat_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/corrected_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/corrected_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "nominal/cent_10_50__ch_3/corrected_covariance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_3/cov_corrected_syst",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_3_corrected_syst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_final/cent_10_50__ch_3/cov_corrected_total",
+      "passed": true,
+      "detail": "TH2"
+    },
+    {
+      "name": "root_final_cent_10_50__ch_3_corrected_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_canvases/correlations_cent0",
+      "passed": true,
+      "detail": "TCanvas"
+    },
+    {
+      "name": "root_canvas_correlations_cent0_raw_graph_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_0_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_0_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_1_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_1_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_2_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_2_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_3_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_0_10__ch_3_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_canvases/correlations_cent1",
+      "passed": true,
+      "detail": "TCanvas"
+    },
+    {
+      "name": "root_canvas_correlations_cent1_raw_graph_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_0_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_0_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_1_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_1_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_2_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_2_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_3_points",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_graph_cent_10_50__ch_3_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_canvases",
+      "passed": true,
+      "detail": "TDirectory"
+    },
+    {
+      "name": "root_persisted_canvases",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_working_point/significance_vs_score",
+      "passed": true,
+      "detail": "TGraph"
+    },
+    {
+      "name": "root_working_point_graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_working_point/best_mass_data",
+      "passed": true,
+      "detail": "TH1D"
+    },
+    {
+      "name": "root_object_working_point/best_mass_fit",
+      "passed": true,
+      "detail": "TH1D"
+    },
+    {
+      "name": "root_working_point_mass_fit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_object_canvases/working_point",
+      "passed": true,
+      "detail": "TCanvas"
+    },
+    {
+      "name": "root_working_point_canvas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_primitives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_canvas_roundtrip_pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "missing_mc_is_explicit",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "prepared": {
+    "femto": {
+      "raw_rows": 15645511,
+      "after_role_filter": null,
+      "retained_rows": null,
+      "nonfinite_kinematics": null,
+      "chunks": 0,
+      "persisted": false,
+      "mode": "direct_root_stream",
+      "status": "available",
+      "filter_counters": "evaluated by consuming training, WP and scored stages",
+      "source_identity": {
+        "kind": "streamed_root",
+        "role": "femto",
+        "inventory": {
+          "status": "available",
+          "files": [
+            {
+              "path": "/Users/zhengqingwang/alice/data/derived/PiH3lFemto/TestSet/Femto/AO2D.root",
+              "bytes": 407199957,
+              "mtime_ns": 1790514525585365278,
+              "trees": [
+                {
+                  "path": "DF_2439133450118912/O2pihypfemto",
+                  "rows": 1187488,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2439279459779808/O2pihypfemto",
+                  "rows": 678941,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2439279461487200/O2pihypfemto",
+                  "rows": 678472,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2439279473819424/O2pihypfemto",
+                  "rows": 757302,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2439279480892896/O2pihypfemto",
+                  "rows": 1071128,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2439279491299584/O2pihypfemto",
+                  "rows": 718731,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2439279503396896/O2pihypfemto",
+                  "rows": 757929,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2439279519907264/O2pihypfemto",
+                  "rows": 1015807,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440447869412224/O2pihypfemto",
+                  "rows": 736006,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440447871421056/O2pihypfemto",
+                  "rows": 747704,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440447884947680/O2pihypfemto",
+                  "rows": 659918,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440447907847072/O2pihypfemto",
+                  "rows": 665450,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440447916145120/O2pihypfemto",
+                  "rows": 892378,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440447935252320/O2pihypfemto",
+                  "rows": 950444,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440447943884800/O2pihypfemto",
+                  "rows": 885406,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440447955831136/O2pihypfemto",
+                  "rows": 1043113,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440516412233760/O2pihypfemto",
+                  "rows": 696094,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440516413054432/O2pihypfemto",
+                  "rows": 750952,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                },
+                {
+                  "path": "DF_2440516425166016/O2pihypfemto",
+                  "rows": 752248,
+                  "branches": [
+                    "fIsMixed",
+                    "fIsClosePairRejected",
+                    "fMixingDepth",
+                    "fPosZ",
+                    "fCentFT0C",
+                    "fTrackOccupancy",
+                    "fFt0cOccupancy",
+                    "fMultFT0C",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fHypIsMatter",
+                    "fHypPtHe3",
+                    "fHypEtaHe3",
+                    "fHypPhiHe3",
+                    "fHypPtPi",
+                    "fHypEtaPi",
+                    "fHypPhiPi",
+                    "fHypDcaV0Daug",
+                    "fHypDcaHe",
+                    "fHypDcaPi",
+                    "fHypNSigmaHe",
+                    "fHypNTPCCrossedRowsHe",
+                    "fHypNTPCCrossedRowsPi",
+                    "fHypTpcMomHe",
+                    "fHypTpcMomPi",
+                    "fHypTpcSignalHe",
+                    "fHypTpcSignalPi",
+                    "fHypItsClusterSizesHe",
+                    "fHypItsClusterSizesPi",
+                    "fHypXDecVtx",
+                    "fHypYDecVtx",
+                    "fHypZDecVtx",
+                    "fHadPt",
+                    "fHadEta",
+                    "fHadPhi",
+                    "fHadSign",
+                    "fHadDcaXY",
+                    "fHadTpcNClsCrossedRows",
+                    "fHadTpcNClsPID",
+                    "fHadTpcChi2NCl",
+                    "fHadItsClusterSizes",
+                    "fHadItsChi2NCl",
+                    "fHadHasTOF",
+                    "fHadTpcNSigmaPi",
+                    "fHadTofNSigmaPi"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "physics": {
+          "mass_he3": 2.80839160743,
+          "mass_pi": 0.13957039,
+          "mass_h3l": 2.99131,
+          "he3_momentum_scale": 1.0,
+          "pair_mass": "nominal"
+        },
+        "domain": {
+          "finite": [
+            "mass_h3l",
+            "pt_h3l",
+            "ct",
+            "cos_pa",
+            "kstar"
+          ],
+          "centrality_bins": [
+            [
+              0,
+              10
+            ],
+            [
+              10,
+              50
+            ]
+          ],
+          "mass_range": [
+            2.96,
+            3.025
+          ],
+          "kstar_range": [
+            0.0,
+            0.6
+          ]
+        },
+        "signal_truth_filter": false,
+        "chunk_rows": 100000
+      }
+    },
+    "background": {
+      "raw_rows": 476331,
+      "after_role_filter": null,
+      "retained_rows": null,
+      "nonfinite_kinematics": null,
+      "chunks": 0,
+      "persisted": false,
+      "mode": "direct_root_stream",
+      "status": "available",
+      "filter_counters": "evaluated by consuming training, WP and scored stages",
+      "source_identity": {
+        "kind": "streamed_root",
+        "role": "background",
+        "inventory": {
+          "status": "available",
+          "files": [
+            {
+              "path": "/Users/zhengqingwang/alice/data/derived/PiH3lFemto/TestSet/Hyper/AO2D.root",
+              "bytes": 40689270,
+              "mtime_ns": 1791737196128341718,
+              "trees": [
+                {
+                  "path": "DF_2441981174782528/O2hypcands",
+                  "rows": 476331,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "physics": {
+          "mass_he3": 2.80839160743,
+          "mass_pi": 0.13957039,
+          "mass_h3l": 2.99131,
+          "he3_momentum_scale": 1.0,
+          "pair_mass": "nominal"
+        },
+        "domain": {
+          "finite": [
+            "mass_h3l",
+            "pt_h3l",
+            "ct",
+            "cos_pa"
+          ]
+        },
+        "signal_truth_filter": false,
+        "chunk_rows": 100000
+      }
+    },
+    "signal": {
+      "raw_rows": 13183618,
+      "after_role_filter": null,
+      "retained_rows": null,
+      "nonfinite_kinematics": null,
+      "chunks": 0,
+      "persisted": false,
+      "mode": "direct_root_stream",
+      "status": "available",
+      "filter_counters": "evaluated by consuming training, WP and scored stages",
+      "source_identity": {
+        "kind": "streamed_root",
+        "role": "signal",
+        "inventory": {
+          "status": "available",
+          "files": [
+            {
+              "path": "/Users/zhengqingwang/alice/data/derived/PiH3lFemto/TestSet/MCHyper/AO2D.root",
+              "bytes": 417929366,
+              "mtime_ns": 1790514945986233158,
+              "trees": [
+                {
+                  "path": "DF_2439219330126920/O2mchypcands",
+                  "rows": 1110140,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2439223690548288/O2mchypcands",
+                  "rows": 677980,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2439399768659744/O2mchypcands",
+                  "rows": 975151,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2439829424199456/O2mchypcands",
+                  "rows": 649559,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2440044130599576/O2mchypcands",
+                  "rows": 582149,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2440168761326632/O2mchypcands",
+                  "rows": 632626,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2440443466436424/O2mchypcands",
+                  "rows": 812343,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2440920131726632/O2mchypcands",
+                  "rows": 810582,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2441298092091720/O2mchypcands",
+                  "rows": 574757,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2441298343069152/O2mchypcands",
+                  "rows": 669950,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2441483036388712/O2mchypcands",
+                  "rows": 862496,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2441796363337032/O2mchypcands",
+                  "rows": 602867,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2441856711503912/O2mchypcands",
+                  "rows": 884500,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2441980988955816/O2mchypcands",
+                  "rows": 1105435,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2442191676246792/O2mchypcands",
+                  "rows": 992846,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2442389011430120/O2mchypcands",
+                  "rows": 656212,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                },
+                {
+                  "path": "DF_2442453435460056/O2mchypcands",
+                  "rows": 584025,
+                  "branches": [
+                    "fCentralityFT0A",
+                    "fCentralityFT0C",
+                    "fCentralityFT0M",
+                    "fTrackOccupancyInTimeRange",
+                    "fFt0cOccupancyInTimeRange",
+                    "fXPrimVtx",
+                    "fYPrimVtx",
+                    "fZPrimVtx",
+                    "fRunNumber",
+                    "fIsMatter",
+                    "fPtHe3",
+                    "fPhiHe3",
+                    "fEtaHe3",
+                    "fPtPi",
+                    "fPhiPi",
+                    "fEtaPi",
+                    "fXDecVtx",
+                    "fYDecVtx",
+                    "fZDecVtx",
+                    "fDcaV0Daug",
+                    "fDcaHe",
+                    "fDcaPi",
+                    "fNSigmaHe",
+                    "fNTPCclusHe",
+                    "fNTPCclusPi",
+                    "fNTPCpidClusHe",
+                    "fNTPCpidClusPi",
+                    "fNTPCCrossedRowsHe",
+                    "fNTPCCrossedRowsPi",
+                    "fTpcMomHe",
+                    "fTpcMomPi",
+                    "fTpcSignalHe",
+                    "fTpcSignalPi",
+                    "fTpcChi2He",
+                    "fItsChi2He",
+                    "fItsChi2Pi",
+                    "fTofMass",
+                    "fItsClusterSizesHe",
+                    "fItsClusterSizesPi",
+                    "fFlags",
+                    "fTrackedClSize",
+                    "fGenPt",
+                    "fGenPhi",
+                    "fGenEta",
+                    "fGenPtHe3",
+                    "fGenXDecVtx",
+                    "fGenYDecVtx",
+                    "fGenZDecVtx",
+                    "fIsReco",
+                    "fIsFakeHeOnITSLayer",
+                    "fIsSignal",
+                    "fIsRecoMCCollision",
+                    "fIsSurvEvSel",
+                    "fIsTwoBodyDecay",
+                    "fStatusCode"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "physics": {
+          "mass_he3": 2.80839160743,
+          "mass_pi": 0.13957039,
+          "mass_h3l": 2.99131,
+          "he3_momentum_scale": 1.0,
+          "pair_mass": "nominal"
+        },
+        "domain": {
+          "finite": [
+            "mass_h3l",
+            "pt_h3l",
+            "ct",
+            "cos_pa"
+          ]
+        },
+        "signal_truth_filter": true,
+        "chunk_rows": 100000
+      }
+    },
+    "mc_femto": {
+      "raw_rows": 0,
+      "after_role_filter": null,
+      "retained_rows": null,
+      "nonfinite_kinematics": null,
+      "chunks": 0,
+      "persisted": false,
+      "mode": "direct_root_stream",
+      "status": "missing_optional",
+      "filter_counters": "evaluated by consuming training, WP and scored stages",
+      "source_identity": {
+        "kind": "streamed_root",
+        "role": "mc_femto",
+        "inventory": {
+          "status": "missing_optional",
+          "files": []
+        },
+        "physics": {
+          "mass_he3": 2.80839160743,
+          "mass_pi": 0.13957039,
+          "mass_h3l": 2.99131,
+          "he3_momentum_scale": 1.0,
+          "pair_mass": "nominal"
+        },
+        "domain": {
+          "finite": [
+            "mass_h3l",
+            "pt_h3l",
+            "ct",
+            "cos_pa",
+            "kstar"
+          ],
+          "centrality_bins": [
+            [
+              0,
+              10
+            ],
+            [
+              10,
+              50
+            ]
+          ],
+          "mass_range": [
+            2.96,
+            3.025
+          ],
+          "kstar_range": [
+            0.0,
+            0.6
+          ]
+        },
+        "signal_truth_filter": false,
+        "chunk_rows": 100000
+      }
+    }
+  },
+  "scored": {
+    "femto": {
+      "rows": 7328643,
+      "retained_rows": 1623239,
+      "invalid_scores": 1034090,
+      "dropped_below_storage": 4671314,
+      "out_of_scope_rows": 1034090,
+      "raw_rows": 15645511,
+      "after_role_filter": 15645511,
+      "nonfinite_kinematics": 0
+    },
+    "mc_femto": {
+      "rows": 0,
+      "retained_rows": 0,
+      "invalid_scores": 0,
+      "dropped_below_storage": 0,
+      "out_of_scope_rows": 0
+    }
+  },
+  "scored_storage": {
+    "schema_version": 1,
+    "layout": "flat",
+    "models": [
+      {
+        "id": "global",
+        "pt_range": null
+      }
+    ],
+    "minimum_threshold": -2.1332537852195554,
+    "score_domain": "raw_margin",
+    "unbounded_threshold_policy": "null means no score pruning; finite in-scope scores retained",
+    "score_comparison": ">= (inclusive, retaining ties)",
+    "storage": {
+      "enabled": true,
+      "reserve_signal_efficiency": 0.99
+    },
+    "storage_envelope": {
+      "enabled": true,
+      "reserve_signal_efficiency": 0.99,
+      "reserve_threshold": -2.1332537852195554,
+      "threshold": -2.1332537852195554,
+      "actual_mc_signal_efficiency": 0.9899897215891317,
+      "included_thresholds": [
+        {
+          "source": "reserve_signal_efficiency",
+          "threshold": -2.1332537852195554
+        },
+        {
+          "source": "nominal",
+          "threshold": 0.4214570286160236
+        },
+        {
+          "source": "wp_efficiency_delta_-0.02",
+          "threshold": 0.9988191059545586
+        },
+        {
+          "source": "wp_efficiency_delta_+0.02",
+          "threshold": -0.3576843472927552
+        }
+      ],
+      "selection": "finite in-scope margin >= storage_threshold; null means unrestricted finite scores",
+      "decision": "minimum of reserve, nominal and all declared WP/absolute variations; automatically expands beyond requested reserve when required"
+    },
+    "columns": [
+      "ChargeChannel",
+      "HypCentFT0C",
+      "HypTrackOccupancy",
+      "IsClosePairRejected",
+      "IsMixed",
+      "MixingDepth",
+      "NSigmaHe",
+      "PairPiTrackDcaXY",
+      "PairPiTrackEta",
+      "PairPiTrackPt",
+      "PairPiTrackTpcNSigmaPi",
+      "ZPrimVtx",
+      "bdt_score",
+      "cos_pa",
+      "ct",
+      "kstar",
+      "mass_h3l",
+      "pt_h3l"
+    ],
+    "requested_columns": [
+      "mass_h3l",
+      "kstar",
+      "pt_h3l"
+    ],
+    "automatic_columns": "pair classification, score/model routing, all nominal and declared systematic cuts, and available MC truth QA",
+    "counts": {
+      "rows": 7328643,
+      "retained_rows": 1623239,
+      "invalid_scores": 1034090,
+      "dropped_below_storage": 4671314,
+      "out_of_scope_rows": 1034090,
+      "raw_rows": 15645511,
+      "after_role_filter": 15645511,
+      "nonfinite_kinematics": 0
+    },
+    "domain": {
+      "centrality_bins": [
+        [
+          0,
+          10
+        ],
+        [
+          10,
+          50
+        ]
+      ],
+      "mass_range": [
+        2.96,
+        3.025
+      ],
+      "kstar_range": [
+        0.0,
+        0.6
+      ]
+    },
+    "limitations": [
+      "Thresholds below minimum_threshold require re-scoring the original ROOT input.",
+      "Storage pruning changes the cutflow input denominator, not accepted nominal/systematic rows.",
+      "Counts for invalid_scores and out_of_scope_rows may overlap."
+    ]
+  },
+  "training": {
+    "auc_validation": 0.9935944534253403,
+    "backend": "hipe4ml.model_handler.ModelHandler[xgboost.XGBClassifier]",
+    "threshold": 3.3655144571463667,
+    "validation_signal_efficiency": 0.7999284980113509,
+    "validation_background_efficiency": 0.0028765481422293247,
+    "split": {
+      "1": {
+        "train_rows": 67284,
+        "validation_rows": 22377,
+        "train_groups": 60675,
+        "validation_groups": 20225,
+        "group_overlap": 0
+      },
+      "0": {
+        "train_rows": 74970,
+        "validation_rows": 25030,
+        "train_groups": 70887,
+        "validation_groups": 23629,
+        "group_overlap": 0
+      }
+    }
+  },
+  "groups": [
+    {
+      "bin": "cent_0_10__ch_0",
+      "signal_se": 12318,
+      "signal_me": 118978,
+      "raw_valid_bins": 30,
+      "corrected_valid_bins": 0,
+      "purity_status": "insufficient_mass_sidebands",
+      "corrected_status": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "bin": "cent_0_10__ch_1",
+      "signal_se": 12456,
+      "signal_me": 121272,
+      "raw_valid_bins": 30,
+      "corrected_valid_bins": 0,
+      "purity_status": "insufficient_mass_sidebands",
+      "corrected_status": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "bin": "cent_0_10__ch_2",
+      "signal_se": 8933,
+      "signal_me": 86928,
+      "raw_valid_bins": 30,
+      "corrected_valid_bins": 0,
+      "purity_status": "insufficient_mass_sidebands",
+      "corrected_status": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "bin": "cent_0_10__ch_3",
+      "signal_se": 8783,
+      "signal_me": 85467,
+      "raw_valid_bins": 30,
+      "corrected_valid_bins": 0,
+      "purity_status": "insufficient_mass_sidebands",
+      "corrected_status": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "bin": "cent_10_50__ch_0",
+      "signal_se": 10843,
+      "signal_me": 101199,
+      "raw_valid_bins": 30,
+      "corrected_valid_bins": 0,
+      "purity_status": "insufficient_mass_sidebands",
+      "corrected_status": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "bin": "cent_10_50__ch_1",
+      "signal_se": 10725,
+      "signal_me": 101259,
+      "raw_valid_bins": 30,
+      "corrected_valid_bins": 0,
+      "purity_status": "insufficient_mass_sidebands",
+      "corrected_status": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "bin": "cent_10_50__ch_2",
+      "signal_se": 8869,
+      "signal_me": 89654,
+      "raw_valid_bins": 30,
+      "corrected_valid_bins": 0,
+      "purity_status": "insufficient_mass_sidebands",
+      "corrected_status": "purity_insufficient_mass_sidebands"
+    },
+    {
+      "bin": "cent_10_50__ch_3",
+      "signal_se": 9079,
+      "signal_me": 89056,
+      "raw_valid_bins": 30,
+      "corrected_valid_bins": 0,
+      "purity_status": "insufficient_mass_sidebands",
+      "corrected_status": "purity_insufficient_mass_sidebands"
+    }
+  ],
+  "provenance": {
+    "source_fingerprint": "5db364f166def0b84541da8f4e07d188c527a337898cdc18eb4f7d2dc8c4ed89",
+    "environment": {
+      "python": "3.10.16",
+      "platform": "macOS-14.7.6-arm64-arm-64bit",
+      "pih3l": "0.1.0",
+      "numpy": "1.26.4",
+      "pandas": "2.2.3",
+      "scipy": "1.14.1",
+      "scikit-learn": "1.6.0",
+      "uproot": "5.5.1",
+      "pyarrow": "18.1.0",
+      "ROOT": "6.38.04",
+      "optional_training": {
+        "xgboost": "1.7.6",
+        "optuna": "4.1.0",
+        "hipe4ml": "0.0.18",
+        "matplotlib": "3.9.3",
+        "shap": "0.46.0"
+      }
+    },
+    "pipeline_signature": "8c3c99f5d6b8ea3a87f49a71b31b2c07ea2cba0f4d4f0ce6020f7682b838624b",
+    "stage_seconds": {
+      "raw_qa": 12.990602970123291,
+      "prepared": 0.0056459903717041016,
+      "training": 10.287736654281616,
+      "working_point": 23.793768882751465,
+      "scored": 21.6676127910614,
+      "nominal": 0.7397458553314209,
+      "systematics": 5.158467769622803,
+      "mc_qa": 0.01926398277282715,
+      "report": 3.5954360961914062
+    },
+    "total_stage_seconds": 78.25828099250793,
+    "stage_artifact_counts": {
+      "raw_qa": 6,
+      "prepared": 2,
+      "training": 17,
+      "working_point": 17,
+      "scored": 159,
+      "nominal": 5,
+      "systematics": 63,
+      "mc_qa": 1,
+      "report": 16
+    }
+  },
+  "systematic_variations": [
+    {
+      "name": "bdt_loose",
+      "group": "bdt",
+      "status": "completed",
+      "histogram_source": "5015220db2f59f68c8d9e34ff43475c12e1cc616bf844b7f5febc8df0c9d7ec3"
+    },
+    {
+      "name": "bdt_tight",
+      "group": "bdt",
+      "status": "completed",
+      "histogram_source": "b1ebc3a117a7c60f0d762a217d3334850ebf434ab3010e7461d145bfa5efb398"
+    },
+    {
+      "name": "norm_low",
+      "group": "normalization",
+      "status": "completed",
+      "histogram_source": "nominal"
+    },
+    {
+      "name": "norm_high",
+      "group": "normalization",
+      "status": "completed",
+      "histogram_source": "nominal"
+    },
+    {
+      "name": "cospa_tight",
+      "group": "topology",
+      "status": "completed",
+      "histogram_source": "dd42e1ce4feb4afd1374337254fb0f113cf8475b8636568b012048a2e5a148f3"
+    },
+    {
+      "name": "pion_pid_tight",
+      "group": "pion_pid",
+      "status": "completed",
+      "histogram_source": "cd585ca6c6fedbc6825e1761526550e05485c116d0925564c2d4dd6c605577c6"
+    },
+    {
+      "name": "occupancy_low",
+      "group": "occupancy",
+      "status": "completed",
+      "histogram_source": "2a5a6c6628ab29f3c26a9ab21ae95acd5c24477fce39812de10fa414712f066a"
+    },
+    {
+      "name": "mass_narrow",
+      "group": "mass_window",
+      "status": "completed",
+      "histogram_source": "98ac659d0cd61f2316601d72dd5170dbf5a2bc4bb67cf21685a428fbce846f55"
+    },
+    {
+      "name": "mass_background_constant",
+      "group": "mass_model",
+      "status": "completed",
+      "histogram_source": "nominal"
+    },
+    {
+      "name": "sideband_shift",
+      "group": "sideband",
+      "status": "completed",
+      "histogram_source": "2697b8cf942073e81e8463ed44af8d0ed6d0e90ec6b04af9db01985d3a58735d"
+    },
+    {
+      "name": "pion_dca_tight",
+      "group": "pion_dca",
+      "status": "completed",
+      "histogram_source": "9d533ae559e197848fae2ee89cb477fcf35c0b0d11edb221275e2af074912421"
+    },
+    {
+      "name": "close_pair_strict",
+      "group": "close_pair",
+      "status": "completed",
+      "histogram_source": "1a00a150dc37d5415a83a656fbe6a2b6e78c1c7003d9af1ba0f8dd513d4a5a3a"
+    }
+  ],
+  "mc_status": "skipped_missing_mc_femto",
+  "root_archive": {
+    "path": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/report/analysis.root",
+    "root_version": "6.38.04",
+    "canvases": 13,
+    "correlation_canvas_graphs": {
+      "correlations_cent0": {
+        "cent_0_10__ch_0": 30,
+        "cent_0_10__ch_1": 30,
+        "cent_0_10__ch_2": 30,
+        "cent_0_10__ch_3": 30
+      },
+      "correlations_cent1": {
+        "cent_10_50__ch_0": 30,
+        "cent_10_50__ch_1": 30,
+        "cent_10_50__ch_2": 30,
+        "cent_10_50__ch_3": 30
+      }
+    },
+    "object_count": 4463,
+    "objects_by_class": {
+      "TObjString": 137,
+      "TH1D": 2390,
+      "TH2D": 1368,
+      "TGraphErrors": 552,
+      "TGraph": 3,
+      "TCanvas": 13
+    },
+    "reader": "native PyROOT TFile"
+  },
+  "training_contract": {
+    "score_domain": "raw_margin",
+    "features": [
+      "DcaV0Daug",
+      "DcaHe",
+      "DcaPi",
+      "NSigmaHe",
+      "cos_pa"
+    ],
+    "feature_count": 5,
+    "held_out_rows": 47407,
+    "held_out_margin_min": -11.06583309173584,
+    "held_out_margin_max": 10.085933685302734,
+    "held_out_scores_outside_probability_interval": 46233,
+    "signal_mass_window": [
+      2.95,
+      3.02
+    ],
+    "mass_selection": {
+      "signal": {
+        "upstream_truth_flags": [
+          "HypIsReco",
+          "HypIsSignal",
+          "HypIsTwoBodyDecay"
+        ],
+        "truth_policy": "applied by native/previously prepared MC source, not re-evaluated by sampler",
+        "mass_selection": {
+          "window": [
+            2.95,
+            3.02
+          ],
+          "comparison": "low < mass < high"
+        }
+      },
+      "background": {
+        "excluded_mass_window": [
+          2.95,
+          3.02
+        ],
+        "comparison": "mass < low or mass > high; both endpoints excluded"
+      }
+    },
+    "input_cutflow": {
+      "signal": {
+        "role": "signal",
+        "source_kind": "batch_source",
+        "source_counts_available": true,
+        "raw_source_rows": 13183618,
+        "after_source_role_filter": 590085,
+        "after_source_finite_kinematics": 590085,
+        "source_nonfinite_kinematics": 0,
+        "input_rows": 590085,
+        "after_candidate_cuts": 590085,
+        "after_pt_range": 590085,
+        "after_role_mass_selection": 589833,
+        "after_finite_features": 589833,
+        "after_mc_range": 89661,
+        "per_variable_mc_range": {
+          "DcaV0Daug": {
+            "input_rows": 90049,
+            "retained_rows": 89916,
+            "rejected_rows": 133,
+            "independent_rejected_rows": 133
+          },
+          "DcaHe": {
+            "input_rows": 89916,
+            "retained_rows": 89786,
+            "rejected_rows": 130,
+            "independent_rejected_rows": 134
+          },
+          "DcaPi": {
+            "input_rows": 89786,
+            "retained_rows": 89727,
+            "rejected_rows": 59,
+            "independent_rejected_rows": 82
+          },
+          "NSigmaHe": {
+            "input_rows": 89727,
+            "retained_rows": 89661,
+            "rejected_rows": 66,
+            "independent_rejected_rows": 66
+          },
+          "cos_pa": {
+            "input_rows": 89661,
+            "retained_rows": 89661,
+            "rejected_rows": 0,
+            "independent_rejected_rows": 0
+          }
+        },
+        "mc_range_stage": "after_reservoir_and_reference_group_removal",
+        "sampled_rows": 89661,
+        "reservoir_limit": 100000,
+        "upstream_count_scope": "native ROOT truth/kinematic filters precede sampler; unknown for prepared tables",
+        "priority_sampling": "uniform per-row random priorities; retain max_per_class smallest priorities",
+        "sampled_before_mc_reference": 100000,
+        "mc_reference_rows": 9951,
+        "after_mc_reference": 90049,
+        "mc_reference_audit": {
+          "enabled": true,
+          "features": [
+            "DcaV0Daug",
+            "DcaHe",
+            "DcaPi",
+            "NSigmaHe",
+            "cos_pa"
+          ],
+          "ranges": {
+            "DcaV0Daug": [
+              -0.018087124477841356,
+              0.37997406903954306
+            ],
+            "DcaHe": [
+              -1.1993207672238346,
+              1.215197602808464
+            ],
+            "DcaPi": [
+              -17.479688994884487,
+              17.10049764394752
+            ],
+            "NSigmaHe": [
+              -1.9400565412640567,
+              2.4222494807839303
+            ],
+            "cos_pa": [
+              0.9990002502158297,
+              1.0000476034360526
+            ]
+          },
+          "quantiles": [
+            0.001,
+            0.999
+          ],
+          "quantile_method": "numpy.quantile(method='linear')",
+          "reference_quantile_values": {
+            "DcaV0Daug": [
+              6.56613658520655e-06,
+              0.3618803784251165
+            ],
+            "DcaHe": [
+              -1.0895699322223664,
+              1.1054467678069957
+            ],
+            "DcaPi": [
+              -15.907862329483033,
+              15.528670978546064
+            ],
+            "NSigmaHe": [
+              -1.741769903898239,
+              2.223962843418113
+            ],
+            "cos_pa": [
+              0.9990478571803854,
+              0.999999996471497
+            ]
+          },
+          "margin_fraction": 0.05,
+          "bounds": "inclusive at both ends; rows removed, surviving values unchanged",
+          "skipped_features": {},
+          "scope": "training, working_point, Femto/MCFemto inference",
+          "efficiency_scope": "conditional on the same frozen MC feature ranges applied to all domains",
+          "shape_policy": "range selection only; no distribution matching, reweighting or Winsorization",
+          "reference": {
+            "source": "bounded selected finite-feature reconstructed MC signal sample",
+            "sample_rows": 100000,
+            "rows": 9951,
+            "groups": 9025,
+            "requested_group_fraction": 0.1,
+            "random_state": 73236,
+            "group_hash_sha256": "19eb28633552e74960b00e433880ce503b13faec99c3922382213712722103b5",
+            "group_definition": "source file/tree and PV surrogate; not a producer collision ID",
+            "overlap_with_training_pool": 0,
+            "used_for_model_or_efficiency_mapping": false
+          },
+          "signal_counts": {
+            "sampled_before_reference": 100000,
+            "reference_removed": 9951,
+            "after_reference": 90049,
+            "after_mc_range": 89661,
+            "per_variable_mc_range": {
+              "DcaV0Daug": {
+                "input_rows": 90049,
+                "retained_rows": 89916,
+                "rejected_rows": 133,
+                "independent_rejected_rows": 133
+              },
+              "DcaHe": {
+                "input_rows": 89916,
+                "retained_rows": 89786,
+                "rejected_rows": 130,
+                "independent_rejected_rows": 134
+              },
+              "DcaPi": {
+                "input_rows": 89786,
+                "retained_rows": 89727,
+                "rejected_rows": 59,
+                "independent_rejected_rows": 82
+              },
+              "NSigmaHe": {
+                "input_rows": 89727,
+                "retained_rows": 89661,
+                "rejected_rows": 66,
+                "independent_rejected_rows": 66
+              },
+              "cos_pa": {
+                "input_rows": 89661,
+                "retained_rows": 89661,
+                "rejected_rows": 0,
+                "independent_rejected_rows": 0
+              }
+            }
+          },
+          "limitations": [
+            "Finite reference quantiles do not guarantee a full-population coverage fraction.",
+            "A rectangular feature range does not enforce a joint-density or shape match.",
+            "The MC-derived preselection acceptance needs independent MC for a final physical efficiency."
+          ]
+        }
+      },
+      "background": {
+        "role": "background",
+        "source_kind": "batch_source",
+        "source_counts_available": true,
+        "raw_source_rows": 476331,
+        "after_source_role_filter": 476331,
+        "after_source_finite_kinematics": 476331,
+        "source_nonfinite_kinematics": 0,
+        "input_rows": 476331,
+        "after_candidate_cuts": 476331,
+        "after_pt_range": 476331,
+        "after_role_mass_selection": 167749,
+        "after_finite_features": 167749,
+        "after_mc_range": 102117,
+        "per_variable_mc_range": {
+          "DcaV0Daug": {
+            "input_rows": 167749,
+            "retained_rows": 160831,
+            "rejected_rows": 6918,
+            "independent_rejected_rows": 6918
+          },
+          "DcaHe": {
+            "input_rows": 160831,
+            "retained_rows": 160480,
+            "rejected_rows": 351,
+            "independent_rejected_rows": 944
+          },
+          "DcaPi": {
+            "input_rows": 160480,
+            "retained_rows": 160421,
+            "rejected_rows": 59,
+            "independent_rejected_rows": 265
+          },
+          "NSigmaHe": {
+            "input_rows": 160421,
+            "retained_rows": 102152,
+            "rejected_rows": 58269,
+            "independent_rejected_rows": 59774
+          },
+          "cos_pa": {
+            "input_rows": 102152,
+            "retained_rows": 102117,
+            "rejected_rows": 35,
+            "independent_rejected_rows": 45
+          }
+        },
+        "mc_range_stage": "after_finite_features_before_reservoir",
+        "sampled_rows": 100000,
+        "reservoir_limit": 100000,
+        "upstream_count_scope": "native ROOT truth/kinematic filters precede sampler; unknown for prepared tables",
+        "priority_sampling": "uniform per-row random priorities; retain max_per_class smallest priorities"
+      }
+    },
+    "native_model_probe": {
+      "rows": 32,
+      "finite": true,
+      "handler_equals_native_margin": true,
+      "expit_margin_equals_probability": true,
+      "native_margin_min": -7.766432285308838,
+      "native_margin_max": 3.5493104457855225,
+      "handler_native_max_absolute_difference": 0.0
+    }
+  },
+  "working_point_contract": {
+    "mass_range": [
+      2.96,
+      3.04
+    ],
+    "mass_bins": 50,
+    "signal_model": "dscb",
+    "background_model": "pol1",
+    "scan_points": 701,
+    "parameterized_fits": 353,
+    "valid_fits": 353,
+    "representative_component_bins_checked": 1059,
+    "sigma_integral_windows_checked": 1059,
+    "independent_pol0": {
+      "c0": 10210.221587201211,
+      "c0_error": 6.529249337963298,
+      "chi2": 31678.264989543943,
+      "points": 313
+    },
+    "independent_best_efficiency": 0.946,
+    "independent_best_threshold": 0.4214570286160236,
+    "independent_best_significance_3sigma": 90.55939168785942,
+    "nominal_threshold": 0.4214570286160236,
+    "qa": {
+      "mass_canvas": {
+        "data_panels": 1,
+        "has_legend": true,
+        "has_residual_or_pull": false,
+        "has_significance": true,
+        "has_chi2": true,
+        "function_curve_count": 3,
+        "has_drawn_model_histograms": false,
+        "text": " hypertriton dscb mass fit | best wp best_mass_fit_panels  best_mass_fit_panels_1 best_mass_fit_panels_1 tframe pad graphics frame hframe  m(^{3}he+#pi) [gev/c^{2}] counts / (1.6 mev/c^{2}) best_mass_fit__data  m(^{3}he+#pi) [gev/c^{2}] hyper candidates best_mass_fit__curves__total ;m(^{3}he+#pi) [gev/c^{2}];counts per data mass bin best_mass_fit__curves__signal ;m(^{3}he+#pi) [gev/c^{2}];counts per data mass bin best_mass_fit__curves__background ;m(^{3}he+#pi) [gev/c^{2}];counts per data mass bin tpave legend of markers/lines/boxes to represent obj's data dscb + background fit dscb signal background tline a line segment tline a line segment  alice run 3 pbpb  pbpb #sqrt{#it{s_{nn}}} = 5.36 tev  bdt score #geq 0.4215, #epsilon_{bdt} = 0.9460  expected significance = 90.6  s(3#sigma) = 11609.1, b(3#sigma) = 1165.7  #chi^{2}/ndf = 2.22  #mu = 2.99068, #sigma = 0.00170 gev/c^{2}  background: pol1  fit status: ok; cov. quality = 3 hframe_copy  m(^{3}he+#pi) [gev/c^{2}] counts / (1.6 mev/c^{2})"
+      },
+      "identical_stage_qa_links": 18,
+      "stage_canvas_payload_objects": {
+        "working_point": 12,
+        "working_point_efficiency": 12,
+        "working_point_yield": 9,
+        "working_point_mass_fit": 20
+      },
+      "working_point_pdf_count": 7
+    }
+  },
+  "limitations": [
+    "Pair rows are statistically correlated through reused candidates, tracks and events.",
+    "Pair-Poisson uncertainties and pair-weighted mass fits are approximations.",
+    "A missing sideband or purity fit produces unavailable corrected values.",
+    "An empty MCFemto input cannot validate primary fractions or MC closure."
+  ]
+}

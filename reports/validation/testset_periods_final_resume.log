@@ -1,0 +1,64 @@
+2026-10-14 13:12:24,719 INFO Period test_period_1: raw_qa
+2026-10-14 13:12:24,722 INFO Reuse verified stage: raw_qa
+2026-10-14 13:12:24,722 INFO Period test_period_2: raw_qa
+2026-10-14 13:12:24,724 INFO Reuse verified stage: raw_qa
+2026-10-14 13:12:24,724 INFO Period test_period_3: raw_qa
+2026-10-14 13:12:24,726 INFO Reuse verified stage: raw_qa
+2026-10-14 13:12:24,731 INFO Reuse verified aggregate stage: raw_qa
+2026-10-14 13:12:24,731 INFO Period test_period_1: prepared
+2026-10-14 13:12:24,732 INFO Reuse verified stage: prepared
+2026-10-14 13:12:24,733 INFO Period test_period_2: prepared
+2026-10-14 13:12:24,734 INFO Reuse verified stage: prepared
+2026-10-14 13:12:24,734 INFO Period test_period_3: prepared
+2026-10-14 13:12:24,735 INFO Reuse verified stage: prepared
+2026-10-14 13:12:24,739 INFO Reuse verified aggregate stage: prepared
+2026-10-14 13:12:24,740 INFO Period test_period_1: training
+2026-10-14 13:12:25,675 INFO Reuse verified stage: training
+2026-10-14 13:12:25,675 INFO Period test_period_2: training
+2026-10-14 13:12:25,683 INFO Reuse verified stage: training
+2026-10-14 13:12:25,683 INFO Period test_period_3: training
+2026-10-14 13:12:25,688 INFO Reuse verified stage: training
+2026-10-14 13:12:25,710 INFO Reuse verified aggregate stage: training
+2026-10-14 13:12:25,710 INFO Period test_period_1: working_point
+2026-10-14 13:12:25,739 INFO Reuse verified stage: working_point
+2026-10-14 13:12:25,740 INFO Period test_period_2: working_point
+2026-10-14 13:12:25,762 INFO Reuse verified stage: working_point
+2026-10-14 13:12:25,763 INFO Period test_period_3: working_point
+2026-10-14 13:12:25,782 INFO Reuse verified stage: working_point
+2026-10-14 13:12:25,871 INFO Reuse verified aggregate stage: working_point
+2026-10-14 13:12:25,871 INFO Period test_period_1: scored
+2026-10-14 13:12:25,970 INFO Reuse verified stage: scored
+2026-10-14 13:12:25,971 INFO Period test_period_2: scored
+2026-10-14 13:12:26,076 INFO Reuse verified stage: scored
+2026-10-14 13:12:26,076 INFO Period test_period_3: scored
+2026-10-14 13:12:26,180 INFO Reuse verified stage: scored
+2026-10-14 13:12:26,484 INFO Reuse verified aggregate stage: scored
+2026-10-14 13:12:26,484 INFO Period test_period_1: nominal
+2026-10-14 13:12:26,490 INFO Reuse verified stage: nominal
+2026-10-14 13:12:26,490 INFO Period test_period_2: nominal
+2026-10-14 13:12:26,495 INFO Reuse verified stage: nominal
+2026-10-14 13:12:26,495 INFO Period test_period_3: nominal
+2026-10-14 13:12:26,499 INFO Reuse verified stage: nominal
+2026-10-14 13:12:26,765 INFO Reuse verified aggregate stage: nominal
+2026-10-14 13:12:26,767 INFO Period test_period_1: systematics
+2026-10-14 13:12:26,864 INFO Reuse verified stage: systematics
+2026-10-14 13:12:26,865 INFO Period test_period_2: systematics
+2026-10-14 13:12:26,956 INFO Reuse verified stage: systematics
+2026-10-14 13:12:26,957 INFO Period test_period_3: systematics
+2026-10-14 13:12:27,000 INFO Reuse verified stage: systematics
+2026-10-14 13:12:27,376 INFO Reuse verified aggregate stage: systematics
+2026-10-14 13:12:27,376 INFO Period test_period_1: mc_qa
+2026-10-14 13:12:27,379 INFO Reuse verified stage: mc_qa
+2026-10-14 13:12:27,379 INFO Period test_period_2: mc_qa
+2026-10-14 13:12:27,381 INFO Reuse verified stage: mc_qa
+2026-10-14 13:12:27,381 INFO Period test_period_3: mc_qa
+2026-10-14 13:12:27,383 INFO Reuse verified stage: mc_qa
+2026-10-14 13:12:27,641 INFO Reuse verified aggregate stage: mc_qa
+2026-10-14 13:12:27,642 INFO Period test_period_1: report
+2026-10-14 13:12:27,652 INFO Reuse verified stage: report
+2026-10-14 13:12:27,652 INFO Period test_period_2: report
+2026-10-14 13:12:27,663 INFO Reuse verified stage: report
+2026-10-14 13:12:27,663 INFO Period test_period_3: report
+2026-10-14 13:12:27,673 INFO Reuse verified stage: report
+2026-10-14 13:12:28,113 INFO Reuse verified aggregate stage: report
+/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset_periods/report

@@ -1,0 +1,33 @@
+{
+  "removed": [
+    {
+      "path": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/failures/working_point-12148522c338f29daacca6759c55b2362f08bd7c31ab78679e50263440996a2e",
+      "files": 9,
+      "bytes": 5124780,
+      "reason": "superseded intermediate scan diagnostics; final scan retained"
+    },
+    {
+      "path": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/failures/working_point-d6faae43da54bd570df89b641ac24b18a45f22091e3fe28600b2b4bd1d4f4217",
+      "files": 9,
+      "bytes": 5123446,
+      "reason": "superseded intermediate scan diagnostics; final scan retained"
+    },
+    {
+      "path": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/src/pih3l/__pycache__",
+      "files": 34,
+      "bytes": 253121,
+      "reason": "generated Python bytecode cache"
+    },
+    {
+      "path": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/tests/__pycache__",
+      "files": 10,
+      "bytes": 89689,
+      "reason": "generated Python bytecode cache"
+    }
+  ],
+  "files_removed": 62,
+  "bytes_removed": 10591036,
+  "kept_latest_diagnostics": "/Users/zhengqingwang/alice/run3task/PiHypertritonFemeto/outputs/testset/failures/working_point-b5a5d662282dd03024f67c3f740cb456b17086538901b12469434bf8c484d484",
+  "preserved_previous_successful_results": true,
+  "new_workflow_report_pdf_duplication": "removed from source; previous successful report retained intact because new WP is unavailable"
+}
